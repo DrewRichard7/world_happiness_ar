@@ -48,6 +48,8 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# RProects files
+.Rproj
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

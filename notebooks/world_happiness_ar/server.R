@@ -48,7 +48,7 @@ function(input, output, session) {
     }
   })
   
-  
+      
   output$line <- renderPlotly({
     req(plot_data())  # Ensure data is available
     
@@ -56,16 +56,17 @@ function(input, output, session) {
       # Choose the selected X-axis variable
       x_var <- input$x_var
       
-      # Scatter plot with a trendline
-      p <- ggplot(data = plot_data(), aes_string(x = x_var, y = "happiness_score", color = "country")) +
-        geom_point(alpha = 0.7) +  # Scatter points
-        geom_smooth(method = "lm", se = FALSE, linetype = "dashed") +  # Trendline
+      # # Scatter plot with a trendline
+      p <- ggplot(data = plot_data(), aes_string(x = x_var, y = "happiness_score")) +
+        geom_point(alpha = 0.7, color = "#00CC96") +  # Scatter points
+        geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = 'red') +  # Trendline
         labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption', 'Sugar Consumption')}"),
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +
-        theme_minimal()
-      
+        theme_classic()
+
       ggplotly(p, tooltip = c("x", "y"))
+
       
     } else {
       # Handle "change_over_time" view

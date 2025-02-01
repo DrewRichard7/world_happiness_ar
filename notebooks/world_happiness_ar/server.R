@@ -151,7 +151,8 @@ function(input, output, session) {
       # Modify highlight column to use country names instead of TRUE/FALSE
       plot_data_2_mod <- plot_data_2() |> 
         mutate(highlight = ifelse(highlight, country, "Other Countries"),
-               alpha_val = ifelse(highlight == "Other Countries", 0.4, 1))  # Lower opacity for other countries
+               alpha_val = ifelse(highlight == "Other Countries", 0.4, 1),
+               size_val = ifelse(highlight == "Other Countries", 0.5, .75))  # Lower opacity for other countries
       
       # Create color values with the actual country name
       color_values <- c("Other Countries" = "#007fff")
@@ -160,8 +161,8 @@ function(input, output, session) {
       
       # # Scatter plot with a trendline
       p <- ggplot(data = plot_data_2_mod, aes(x = .data[[x_var]], y = happiness_score)) +
-        geom_point(aes(color=highlight, alpha = alpha_val)) +  # Scatter points
-        geom_smooth(method = "lm", formula = y~log(x), se = FALSE, linetype = "dashed", color = '#ff1d58') +  # Trendline
+        geom_point(aes(color=highlight, alpha = alpha_val, size = size_val)) +  # Scatter points
+        geom_smooth(method = "lm", formula = y~x, se = FALSE, linetype = "dashed", color = '#007fff') +  # Trendline
         labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption (kg/person/year)', 'Sugar Consumption (g/person/day)')} for the World"),
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +

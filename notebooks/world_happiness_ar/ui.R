@@ -11,7 +11,7 @@
 # Sidebar layout with input and output definitions ----
 
 page_sidebar(
-  
+  theme = shinytheme("darkly"),
   # App title ----
   title = "World Happiness Exploration",
   

@@ -9,6 +9,7 @@ library(bslib)
 library(plotly)
 library(shinyjs)
 library(ggrepel)
+library(shinythemes)
 
 # DELETE WHEN COMPLETE: 
 # ----

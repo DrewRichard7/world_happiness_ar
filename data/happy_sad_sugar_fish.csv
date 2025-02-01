@@ -1,0 +1,1601 @@
+country,year,happiness_score,pcp_fish_consumption,sugar_per_cap,disorder,pct_new_per_pop
+Australia,2005,73.4,25.3,128.0,depressive or anxiety disorders,0.0158595193063275
+Belgium,2005,72.6,24.4,146.0,depressive or anxiety disorders,0.0119380759041528
+Brazil,2005,66.4,6.04,115.0,depressive or anxiety disorders,0.012405042307614
+Canada,2005,74.2,23.6,147.0,depressive or anxiety disorders,0.0087160503480161
+Czech Republic,2005,64.4,10.0,103.0,depressive or anxiety disorders,0.013115439284187
+Germany,2005,66.2,14.0,140.0,depressive or anxiety disorders,0.012649793573502101
+Denmark,2005,80.2,24.5,139.0,depressive or anxiety disorders,0.012819248322005702
+Egypt,2005,51.7,16.3,74.4,depressive or anxiety disorders,0.0116710497079382
+Spain,2005,71.5,40.8,81.9,depressive or anxiety disorders,0.0144358279667906
+France,2005,70.9,34.2,114.0,depressive or anxiety disorders,0.0138531342219138
+United Kingdom,2005,69.8,20.9,103.0,depressive or anxiety disorders,0.0139792183991117
+Greece,2005,60.1,21.1,93.2,depressive or anxiety disorders,0.021882831807773503
+Hungary,2005,51.9,5.19,98.7,depressive or anxiety disorders,0.0130742629829485
+Iran,2005,53.1,6.66,75.3,depressive or anxiety disorders,0.0167677763072111
+Italy,2005,68.5,25.2,87.4,depressive or anxiety disorders,0.0148044528050454
+Jordan,2005,63.0,5.01,136.0,depressive or anxiety disorders,0.014360146519495501
+Japan,2005,65.2,60.4,78.6,depressive or anxiety disorders,0.007741821775723
+Lebanon,2005,54.9,8.39,103.0,depressive or anxiety disorders,0.017898242803727
+Mexico,2005,65.8,11.1,127.0,depressive or anxiety disorders,0.0088543814289168
+Netherlands,2005,74.6,20.5,128.0,depressive or anxiety disorders,0.012239237299587601
+Pakistan,2005,52.3,1.74,82.4,depressive or anxiety disorders,0.007462050458425001
+Poland,2005,55.9,9.74,119.0,depressive or anxiety disorders,0.007486262229283999
+Romania,2005,50.5,5.09,77.5,depressive or anxiety disorders,0.010683194229964901
+Saudi Arabia,2005,70.8,8.97,88.6,depressive or anxiety disorders,0.013121379753055799
+Sweden,2005,73.8,32.6,115.0,depressive or anxiety disorders,0.015863965219632698
+Turkiye,2005,47.2,7.49,80.3,depressive or anxiety disorders,0.0122648102370257
+Venezuela,2005,71.7,14.3,105.0,depressive or anxiety disorders,0.009394376267383
+United Arab Emirates,2006,67.3,24.0,103.0,depressive or anxiety disorders,0.014920696858325299
+Argentina,2006,63.1,9.06,133.0,depressive or anxiety disorders,0.0078637201490677
+Armenia,2006,42.9,1.44,92.8,depressive or anxiety disorders,0.0104299348438975
+Austria,2006,71.2,13.3,134.0,depressive or anxiety disorders,0.009937825232136401
+Azerbaijan,2006,47.3,1.78,50.5,depressive or anxiety disorders,0.009648036150090699
+Benin,2006,33.3,12.4,9.07,depressive or anxiety disorders,0.0064395305013769
+Burkina Faso,2006,38.0,2.65,17.0,depressive or anxiety disorders,0.006087896758255
+Bangladesh,2006,43.2,15.7,24.6,depressive or anxiety disorders,0.0098802589650922
+Belarus,2006,56.6,16.1,96.4,depressive or anxiety disorders,0.0164293488325931
+Bolivia,2006,53.7,1.68,71.3,depressive or anxiety disorders,0.0092055298486713
+Botswana,2006,47.4,2.45,81.4,depressive or anxiety disorders,0.0081546255493627
+Switzerland,2006,74.7,17.0,164.0,depressive or anxiety disorders,0.0114151727897715
+Chile,2006,60.6,14.9,119.0,depressive or anxiety disorders,0.013454226183482899
+China,2006,45.6,27.6,17.2,depressive or anxiety disorders,0.0099782781635775
+Cameroon,2006,38.5,13.4,23.5,depressive or anxiety disorders,0.006595766543172
+Colombia,2006,60.3,5.96,167.0,depressive or anxiety disorders,0.0071168500556801
+Costa Rica,2006,70.8,8.03,158.0,depressive or anxiety disorders,0.009845575532331199
+Cuba,2006,54.2,6.88,139.0,depressive or anxiety disorders,0.013769547672912798
+Cyprus,2006,62.4,19.9,91.2,depressive or anxiety disorders,0.0105022307548806
+Dominican Republic,2006,50.9,10.3,102.0,depressive or anxiety disorders,0.0114047614946678
+Ecuador,2006,50.2,6.87,56.2,depressive or anxiety disorders,0.0083566143204435
+Estonia,2006,53.7,11.9,131.0,depressive or anxiety disorders,0.0176867032602059
+Finland,2006,76.7,34.1,91.4,depressive or anxiety disorders,0.0151116444758107
+France,2006,65.8,34.7,104.0,depressive or anxiety disorders,0.013842799594570101
+Georgia,2006,36.8,6.21,108.0,depressive or anxiety disorders,0.0149766930081877
+Ghana,2006,45.4,30.7,26.5,depressive or anxiety disorders,0.0079359593631583
+Guatemala,2006,59.0,2.75,137.0,depressive or anxiety disorders,0.009430555614772601
+Honduras,2006,54.0,4.7,124.0,depressive or anxiety disorders,0.007357643916954501
+Haiti,2006,37.5,4.23,60.3,depressive or anxiety disorders,0.0080160390757546
+Indonesia,2006,49.5,22.6,39.6,depressive or anxiety disorders,0.0044744652937722
+India,2006,53.5,5.23,55.2,depressive or anxiety disorders,0.0101250206567438
+Ireland,2006,71.4,20.6,108.0,depressive or anxiety disorders,0.0146524468991216
+Israel,2006,71.7,19.6,70.6,depressive or anxiety disorders,0.013414361336780199
+Jamaica,2006,62.1,29.0,131.0,depressive or anxiety disorders,0.008415153711914999
+Kazakhstan,2006,54.8,3.42,85.0,depressive or anxiety disorders,0.012385801007756301
+Kenya,2006,42.2,4.1,51.0,depressive or anxiety disorders,0.0065446362256226
+Kyrgyzstan,2006,46.4,1.83,70.5,depressive or anxiety disorders,0.0124420114689007
+Cambodia,2006,35.7,36.2,48.1,depressive or anxiety disorders,0.0071107841177021
+South Korea,2006,53.3,58.1,104.0,depressive or anxiety disorders,0.0070888211224699
+Kuwait,2006,60.8,12.1,108.0,depressive or anxiety disorders,0.0147629859950322
+Laos,2006,50.8,15.4,14.5,depressive or anxiety disorders,0.0056216250531346
+Lebanon,2006,46.5,9.53,103.0,depressive or anxiety disorders,0.0178755981815546
+Sri Lanka,2006,43.5,19.1,83.0,depressive or anxiety disorders,0.0072383959697018
+Lithuania,2006,59.5,37.2,126.0,depressive or anxiety disorders,0.0171320294775695
+Latvia,2006,47.1,14.0,88.2,depressive or anxiety disorders,0.0162597021441931
+Moldova,2006,51.0,12.0,81.9,depressive or anxiety disorders,0.012835429469765
+Madagascar,2006,39.8,6.84,18.7,depressive or anxiety disorders,0.0067395541158322
+Mali,2006,40.1,9.35,37.6,depressive or anxiety disorders,0.0046061441125089
+Mozambique,2006,46.0,5.07,23.6,depressive or anxiety disorders,0.007654417556163799
+Malawi,2006,38.3,5.84,34.4,depressive or anxiety disorders,0.0053631221165411
+Malaysia,2006,60.1,54.4,97.5,depressive or anxiety disorders,0.0093421109746553
+Niger,2006,37.4,2.24,17.5,depressive or anxiety disorders,0.0050012927653777
+Nigeria,2006,47.1,15.1,25.6,depressive or anxiety disorders,0.0062413709626744
+Nicaragua,2006,44.6,5.01,101.0,depressive or anxiety disorders,0.010304269632788599
+Norway,2006,74.2,51.3,101.0,depressive or anxiety disorders,0.012869438655629901
+Nepal,2006,45.7,1.81,13.8,depressive or anxiety disorders,0.0120740709554696
+New Zealand,2006,73.0,24.8,162.0,depressive or anxiety disorders,0.0110132518283343
+Panama,2006,61.3,13.8,79.8,depressive or anxiety disorders,0.008424813632895
+Peru,2006,48.1,20.5,58.6,depressive or anxiety disorders,0.005630383176445101
+Philippines,2006,46.7,33.2,67.5,depressive or anxiety disorders,0.0054174169935847
+Portugal,2006,54.0,56.5,81.7,depressive or anxiety disorders,0.0203087703718251
+Paraguay,2006,47.3,4.03,69.5,depressive or anxiety disorders,0.0080392947914962
+Russia,2006,49.6,18.6,138.0,depressive or anxiety disorders,0.0113031992436763
+Rwanda,2006,42.1,1.13,8.19,depressive or anxiety disorders,0.008603047080382
+Senegal,2006,44.2,22.4,43.9,depressive or anxiety disorders,0.0065976361993611
+Sierra Leone,2006,36.3,27.3,18.5,depressive or anxiety disorders,0.0068903097928508005
+El Salvador,2006,57.0,6.38,116.0,depressive or anxiety disorders,0.0098759462960186
+Slovakia,2006,52.6,8.94,121.0,depressive or anxiety disorders,0.0118708824937171
+Slovenia,2006,58.1,9.87,62.9,depressive or anxiety disorders,0.0154553639235999
+Chad,2006,34.4,5.04,25.2,depressive or anxiety disorders,0.0070083178902319
+Togo,2006,32.0,7.31,18.0,depressive or anxiety disorders,0.0065835168690509
+Thailand,2006,58.9,31.2,104.0,depressive or anxiety disorders,0.006576690235441
+Tajikistan,2006,46.1,0.34,45.1,depressive or anxiety disorders,0.007793256645063
+Trinidad and Tobago,2006,58.3,19.2,174.0,depressive or anxiety disorders,0.012638659628815399
+Taiwan,2006,61.9,27.9,76.9,depressive or anxiety disorders,0.0087778225144966
+Tanzania,2006,39.2,6.54,26.3,depressive or anxiety disorders,0.007078915147461401
+Uganda,2006,37.3,10.6,25.9,depressive or anxiety disorders,0.0099744880333835
+Ukraine,2006,48.0,15.8,142.0,depressive or anxiety disorders,0.017105692902505097
+Uruguay,2006,57.9,7.24,98.0,depressive or anxiety disorders,0.0090864552666448
+United States,2006,71.8,24.2,187.0,depressive or anxiety disorders,0.0134996358362828
+Uzbekistan,2006,52.3,0.27,34.2,depressive or anxiety disorders,0.011411885476408699
+Venezuela,2006,65.3,13.3,108.0,depressive or anxiety disorders,0.0094354970280642
+Vietnam,2006,52.9,24.4,35.9,depressive or anxiety disorders,0.0056957188444851994
+South Africa,2006,50.8,7.88,85.8,depressive or anxiety disorders,0.0070577771476044
+Zambia,2006,48.2,6.13,31.2,depressive or anxiety disorders,0.0053785197906823
+Zimbabwe,2006,38.3,1.35,73.1,depressive or anxiety disorders,0.0052936293551867
+Albania,2007,46.3,5.24,75.5,depressive or anxiety disorders,0.008440112641164
+Argentina,2007,60.7,7.29,134.0,depressive or anxiety disorders,0.0077862452440953
+Armenia,2007,48.8,2.26,94.0,depressive or anxiety disorders,0.0105324170001507
+Australia,2007,72.8,25.9,130.0,depressive or anxiety disorders,0.0158123368141027
+Azerbaijan,2007,45.7,1.72,37.0,depressive or anxiety disorders,0.0097117208276418
+Belgium,2007,72.2,25.1,138.0,depressive or anxiety disorders,0.0122835616261329
+Burkina Faso,2007,40.2,2.79,18.7,depressive or anxiety disorders,0.0061026552518239
+Bangladesh,2007,46.1,16.1,23.7,depressive or anxiety disorders,0.0100566743672366
+Bulgaria,2007,38.4,4.58,93.1,depressive or anxiety disorders,0.012162334435032202
+Bosnia and Herzegovina,2007,49.0,6.18,57.0,depressive or anxiety disorders,0.011982670643506199
+Belarus,2007,56.2,17.0,104.0,depressive or anxiety disorders,0.0163186827877021
+Belize,2007,64.5,14.1,120.0,depressive or anxiety disorders,0.0080958079885466
+Bolivia,2007,56.3,1.36,70.4,depressive or anxiety disorders,0.0093282610868357
+Brazil,2007,63.2,6.99,114.0,depressive or anxiety disorders,0.012067422852421399
+Central African Republic,2007,41.6,7.94,25.7,depressive or anxiety disorders,0.009355355439021901
+Canada,2007,74.8,23.4,146.0,depressive or anxiety disorders,0.0086207264863261
+Chile,2007,57.0,14.8,129.0,depressive or anxiety disorders,0.0132585587468881
+China,2007,48.6,28.6,17.7,depressive or anxiety disorders,0.010003573477451299
+Cameroon,2007,43.5,15.3,27.4,depressive or anxiety disorders,0.006580455378350099
+Colombia,2007,61.4,6.05,167.0,depressive or anxiety disorders,0.0069371958484738
+Costa Rica,2007,74.3,10.2,161.0,depressive or anxiety disorders,0.0099044284385816
+Czech Republic,2007,65.0,9.83,95.2,depressive or anxiety disorders,0.012954674872140701
+Germany,2007,64.2,15.4,126.0,depressive or anxiety disorders,0.0125620997733363
+Denmark,2007,78.3,22.1,172.0,depressive or anxiety disorders,0.0124364108718491
+Dominican Republic,2007,50.8,10.3,105.0,depressive or anxiety disorders,0.0114672549598888
+Ecuador,2007,50.0,7.23,49.6,depressive or anxiety disorders,0.008558596823612801
+Egypt,2007,55.4,18.0,72.5,depressive or anxiety disorders,0.0117441937090063
+Spain,2007,70.0,43.7,81.7,depressive or anxiety disorders,0.0151310601275721
+Estonia,2007,53.3,15.8,131.0,depressive or anxiety disorders,0.017351030149875
+United Kingdom,2007,68.0,21.7,99.0,depressive or anxiety disorders,0.013827347350114899
+Georgia,2007,37.1,8.46,117.0,depressive or anxiety disorders,0.015045157276322201
+Ghana,2007,52.2,30.4,27.7,depressive or anxiety disorders,0.0079607931950427
+Greece,2007,66.5,21.3,86.0,depressive or anxiety disorders,0.021777866088372098
+Guatemala,2007,63.3,2.18,152.0,depressive or anxiety disorders,0.009598966011204899
+Guyana,2007,59.9,22.9,113.0,depressive or anxiety disorders,0.0140270930285152
+Honduras,2007,51.0,4.81,126.0,depressive or anxiety disorders,0.0074633934287954996
+Croatia,2007,58.2,16.4,132.0,depressive or anxiety disorders,0.0138437053647293
+Hungary,2007,49.5,5.06,95.9,depressive or anxiety disorders,0.012906926823833799
+Indonesia,2007,51.0,24.1,39.1,depressive or anxiety disorders,0.0044849600591669
+India,2007,50.3,5.17,56.2,depressive or anxiety disorders,0.0097106427779572
+Iran,2007,53.4,7.22,76.3,depressive or anxiety disorders,0.01761700046415
+Israel,2007,68.4,24.3,71.6,depressive or anxiety disorders,0.013392208917606901
+Italy,2007,65.7,25.7,81.3,depressive or anxiety disorders,0.0145492515580222
+Jordan,2007,56.0,6.0,134.0,depressive or anxiety disorders,0.014092478194988201
+Japan,2007,62.4,56.1,82.5,depressive or anxiety disorders,0.007654696384849
+Kazakhstan,2007,57.2,4.73,88.7,depressive or anxiety disorders,0.012313125349243701
+Kenya,2007,45.8,3.33,49.3,depressive or anxiety disorders,0.0065442236533934
+Kyrgyzstan,2007,47.0,2.39,68.1,depressive or anxiety disorders,0.0124332260351426
+Cambodia,2007,41.6,34.4,48.4,depressive or anxiety disorders,0.007148480855156099
+South Korea,2007,57.7,57.9,100.0,depressive or anxiety disorders,0.0072493879476572005
+Laos,2007,53.6,16.0,16.5,depressive or anxiety disorders,0.0056383951248017
+Liberia,2007,37.0,4.69,16.2,depressive or anxiety disorders,0.0071557516008096
+Sri Lanka,2007,44.1,20.9,72.2,depressive or anxiety disorders,0.0071403782796349005
+Lithuania,2007,58.1,43.5,130.0,depressive or anxiety disorders,0.0170809096214564
+Latvia,2007,46.7,19.8,80.2,depressive or anxiety disorders,0.0160849766139286
+Moldova,2007,47.8,12.1,103.0,depressive or anxiety disorders,0.0128076122789648
+Mexico,2007,65.3,12.3,133.0,depressive or anxiety disorders,0.0094615916078737
+North Macedonia,2007,44.9,6.11,99.0,depressive or anxiety disorders,0.0098240713248355
+Montenegro,2007,52.0,9.86,130.0,depressive or anxiety disorders,0.0114427224714871
+Mongolia,2007,46.1,0.45,34.2,depressive or anxiety disorders,0.014886231440745301
+Mozambique,2007,48.3,4.38,27.8,depressive or anxiety disorders,0.0077105079727106006
+Mauritania,2007,41.5,10.3,105.0,depressive or anxiety disorders,0.005978091021648401
+Malawi,2007,48.9,5.25,34.5,depressive or anxiety disorders,0.0053185218516605
+Malaysia,2007,62.4,56.5,107.0,depressive or anxiety disorders,0.0093241314259833
+Namibia,2007,48.9,14.3,51.6,depressive or anxiety disorders,0.006492888573775
+Niger,2007,42.8,2.17,15.8,depressive or anxiety disorders,0.005019374467502001
+Nigeria,2007,48.9,17.1,26.1,depressive or anxiety disorders,0.0061553905432685
+Nicaragua,2007,49.4,4.19,100.0,depressive or anxiety disorders,0.0104074024128498
+Netherlands,2007,74.5,20.9,128.0,depressive or anxiety disorders,0.012087639014248301
+Nepal,2007,47.5,1.86,13.9,depressive or anxiety disorders,0.012351547733933899
+New Zealand,2007,76.0,28.4,165.0,depressive or anxiety disorders,0.0109245534461498
+Pakistan,2007,56.7,1.91,81.6,depressive or anxiety disorders,0.007497858133269099
+Panama,2007,68.9,13.6,83.3,depressive or anxiety disorders,0.0085576150248406
+Peru,2007,52.1,22.2,58.5,depressive or anxiety disorders,0.0056361596789767
+Philippines,2007,50.7,35.7,68.2,depressive or anxiety disorders,0.005480685106901299
+Poland,2007,58.9,10.9,119.0,depressive or anxiety disorders,0.007521697553873399
+Paraguay,2007,52.7,3.98,68.6,depressive or anxiety disorders,0.0082028519368993
+Romania,2007,53.9,5.3,74.8,depressive or anxiety disorders,0.0107195792390843
+Russia,2007,52.2,22.4,140.0,depressive or anxiety disorders,0.0111827600143864
+Saudi Arabia,2007,72.7,10.2,87.9,depressive or anxiety disorders,0.0135853945508209
+Senegal,2007,46.8,23.5,42.9,depressive or anxiety disorders,0.0066168111253208
+Sierra Leone,2007,35.9,26.2,18.4,depressive or anxiety disorders,0.006918263574904
+El Salvador,2007,53.0,7.76,113.0,depressive or anxiety disorders,0.010059080979936099
+Serbia,2007,47.5,6.23,87.8,depressive or anxiety disorders,0.0123394328573487
+Sweden,2007,72.4,32.7,114.0,depressive or anxiety disorders,0.0159184799584524
+Chad,2007,41.4,4.23,24.9,depressive or anxiety disorders,0.0070565366142425
+Thailand,2007,57.8,29.0,101.0,depressive or anxiety disorders,0.0065893420810178
+Tajikistan,2007,44.3,0.32,44.7,depressive or anxiety disorders,0.0078850574285864
+Turkiye,2007,56.2,8.52,78.0,depressive or anxiety disorders,0.0123965658936414
+Tanzania,2007,43.2,8.02,27.2,depressive or anxiety disorders,0.007116932659504
+Uganda,2007,44.6,13.3,25.7,depressive or anxiety disorders,0.009802515443792
+Ukraine,2007,52.5,17.9,144.0,depressive or anxiety disorders,0.0169171388228705
+Uruguay,2007,56.9,7.47,97.6,depressive or anxiety disorders,0.0091608658314559
+United States,2007,75.1,22.5,175.0,depressive or anxiety disorders,0.013697537153074
+Vietnam,2007,54.2,29.1,31.7,depressive or anxiety disorders,0.0056808936903011
+Yemen,2007,44.8,3.79,74.3,depressive or anxiety disorders,0.0109636462791721
+South Africa,2007,52.0,7.79,84.1,depressive or anxiety disorders,0.0071770727376656
+Zambia,2007,40.0,7.11,27.0,depressive or anxiety disorders,0.0054191704807883
+Zimbabwe,2007,32.8,1.1,64.8,depressive or anxiety disorders,0.0051763786556861
+Afghanistan,2008,37.2,0.08,23.4,depressive or anxiety disorders,0.0127430284097325
+Argentina,2008,59.6,7.8,133.0,depressive or anxiety disorders,0.007689757285072
+Armenia,2008,46.5,3.19,98.9,depressive or anxiety disorders,0.010607982926454
+Australia,2008,72.5,26.1,129.0,depressive or anxiety disorders,0.015755251738891002
+Austria,2008,71.8,14.5,134.0,depressive or anxiety disorders,0.009929568620862599
+Azerbaijan,2008,48.2,2.17,39.6,depressive or anxiety disorders,0.009758113230506401
+Belgium,2008,71.2,26.3,144.0,depressive or anxiety disorders,0.0125095409556019
+Benin,2008,36.7,14.3,14.5,depressive or anxiety disorders,0.0065375150648004
+Burkina Faso,2008,38.5,2.61,13.1,depressive or anxiety disorders,0.0061066819724479
+Bangladesh,2008,50.5,16.5,22.7,depressive or anxiety disorders,0.0102377756977816
+Belarus,2008,54.6,18.1,113.0,depressive or anxiety disorders,0.016168539453624
+Bolivia,2008,53.0,2.23,71.2,depressive or anxiety disorders,0.009466633652248299
+Brazil,2008,66.9,7.61,116.0,depressive or anxiety disorders,0.0116690292282338
+Botswana,2008,54.5,2.88,79.1,depressive or anxiety disorders,0.0082755243573924
+Canada,2008,74.9,22.3,140.0,depressive or anxiety disorders,0.0086109206340636
+Chile,2008,57.9,15.2,130.0,depressive or anxiety disorders,0.013003516383096601
+China,2008,48.5,29.7,17.5,depressive or anxiety disorders,0.010018866960322299
+Cameroon,2008,42.9,15.7,26.2,depressive or anxiety disorders,0.0065758949123087
+Congo,2008,38.2,21.8,52.0,depressive or anxiety disorders,0.0104596962828254
+Colombia,2008,61.7,5.52,167.0,depressive or anxiety disorders,0.0067027866365017
+Costa Rica,2008,68.5,10.3,154.0,depressive or anxiety disorders,0.0099509232299618
+Germany,2008,65.2,14.7,136.0,depressive or anxiety disorders,0.012500005644933
+Djibouti,2008,50.1,2.55,82.1,depressive or anxiety disorders,0.0084290720706286
+Denmark,2008,79.7,22.2,147.0,depressive or anxiety disorders,0.0122497972963513
+Dominican Republic,2008,48.4,11.5,103.0,depressive or anxiety disorders,0.0115192298047297
+Ecuador,2008,53.0,8.09,54.2,depressive or anxiety disorders,0.008766163338801201
+Egypt,2008,46.3,18.2,74.5,depressive or anxiety disorders,0.011765287255708901
+Spain,2008,72.9,42.2,82.8,depressive or anxiety disorders,0.0156376174049995
+Estonia,2008,54.5,16.4,119.0,depressive or anxiety disorders,0.017013450876281998
+Finland,2008,76.7,34.9,81.9,depressive or anxiety disorders,0.0152317435657307
+France,2008,70.1,34.2,99.5,depressive or anxiety disorders,0.014174653185849501
+United Kingdom,2008,69.9,21.3,99.9,depressive or anxiety disorders,0.013780257046399302
+Georgia,2008,41.6,9.54,124.0,depressive or anxiety disorders,0.0149699597918866
+Ghana,2008,49.6,27.4,26.1,depressive or anxiety disorders,0.0079464088090086
+Guatemala,2008,64.1,2.02,135.0,depressive or anxiety disorders,0.0097583485042959
+Honduras,2008,54.2,3.37,126.0,depressive or anxiety disorders,0.007569371710507
+Haiti,2008,38.5,4.52,58.7,depressive or anxiety disorders,0.008069720488040201
+Indonesia,2008,48.1,25.1,37.9,depressive or anxiety disorders,0.0044904725597997
+India,2008,51.5,5.99,62.2,depressive or anxiety disorders,0.0091790121993459
+Ireland,2008,75.7,21.2,120.0,depressive or anxiety disorders,0.0144562909863069
+Iran,2008,51.3,6.7,75.2,depressive or anxiety disorders,0.0181166572339195
+Iraq,2008,45.9,3.09,50.8,depressive or anxiety disorders,0.0098480122293397
+Iceland,2008,68.9,91.2,128.0,depressive or anxiety disorders,0.0097878353160555
+Israel,2008,72.6,22.0,69.4,depressive or anxiety disorders,0.0133312977532645
+Italy,2008,67.8,24.7,81.5,depressive or anxiety disorders,0.0144098593401826
+Jordan,2008,49.3,7.23,134.0,depressive or anxiety disorders,0.0139208332851509
+Japan,2008,59.1,55.6,77.8,depressive or anxiety disorders,0.0075739596767252
+Kazakhstan,2008,58.9,5.65,86.8,depressive or anxiety disorders,0.0122142881280318
+Kenya,2008,40.1,3.41,48.4,depressive or anxiety disorders,0.0065167982723852
+Kyrgyzstan,2008,47.4,2.45,70.0,depressive or anxiety disorders,0.0123906738695612
+Cambodia,2008,44.6,32.2,56.9,depressive or anxiety disorders,0.0071638967666538
+South Korea,2008,53.9,57.8,99.9,depressive or anxiety disorders,0.0074245652846099
+Laos,2008,50.4,15.9,17.1,depressive or anxiety disorders,0.0056637245820332
+Lebanon,2008,46.0,9.78,131.0,depressive or anxiety disorders,0.018158499574783202
+Liberia,2008,42.2,3.72,16.8,depressive or anxiety disorders,0.0071445386769524
+Sri Lanka,2008,44.3,20.6,88.2,depressive or anxiety disorders,0.0069677333162712005
+Lithuania,2008,55.5,43.4,137.0,depressive or anxiety disorders,0.0170154978689651
+Latvia,2008,51.5,24.2,96.4,depressive or anxiety disorders,0.0159115347096899
+Moldova,2008,55.0,15.8,85.9,depressive or anxiety disorders,0.012771298482338
+Madagascar,2008,46.4,5.82,18.9,depressive or anxiety disorders,0.0067604578050756
+Mexico,2008,68.3,12.5,134.0,depressive or anxiety disorders,0.009873904450061099
+Mali,2008,41.1,8.5,37.0,depressive or anxiety disorders,0.0045995295667744
+Mongolia,2008,44.9,0.52,39.2,depressive or anxiety disorders,0.0149155287960015
+Mozambique,2008,46.5,5.78,30.6,depressive or anxiety disorders,0.0077552526101079
+Mauritania,2008,42.5,7.82,98.3,depressive or anxiety disorders,0.005922424123654299
+Malaysia,2008,58.1,57.8,110.0,depressive or anxiety disorders,0.009286525103228
+Niger,2008,42.4,2.16,15.3,depressive or anxiety disorders,0.0050299418500578995
+Nigeria,2008,49.4,16.3,26.8,depressive or anxiety disorders,0.0060306175537450995
+Nicaragua,2008,51.0,4.58,108.0,depressive or anxiety disorders,0.010501684520589999
+Netherlands,2008,76.3,21.4,126.0,depressive or anxiety disorders,0.0120050222894773
+Norway,2008,76.3,53.4,105.0,depressive or anxiety disorders,0.0127709527191748
+Nepal,2008,44.4,1.96,12.7,depressive or anxiety disorders,0.0125898212120981
+New Zealand,2008,73.8,26.6,171.0,depressive or anxiety disorders,0.010811208467346399
+Pakistan,2008,44.1,1.88,79.7,depressive or anxiety disorders,0.0075004750123681
+Panama,2008,69.3,14.1,81.9,depressive or anxiety disorders,0.00870990503127
+Peru,2008,51.3,22.0,62.5,depressive or anxiety disorders,0.0056356567661983
+Philippines,2008,45.9,35.4,70.6,depressive or anxiety disorders,0.0055430523683439
+Portugal,2008,57.2,56.3,82.6,depressive or anxiety disorders,0.0204565132008056
+Paraguay,2008,55.7,3.92,70.0,depressive or anxiety disorders,0.0083663664884499
+Russia,2008,56.2,21.7,139.0,depressive or anxiety disorders,0.011042944120315801
+Rwanda,2008,43.6,1.94,8.79,depressive or anxiety disorders,0.0083075337202751
+Saudi Arabia,2008,68.1,8.42,88.8,depressive or anxiety disorders,0.0138729886881551
+Senegal,2008,46.8,26.5,37.8,depressive or anxiety disorders,0.0066221391931944006
+Sierra Leone,2008,30.0,36.3,18.3,depressive or anxiety disorders,0.0069177657597903
+El Salvador,2008,51.9,5.8,112.0,depressive or anxiety disorders,0.0102462781398346
+Sweden,2008,75.2,32.4,111.0,depressive or anxiety disorders,0.0159602347831004
+Chad,2008,46.3,3.7,22.4,depressive or anxiety disorders,0.0070605718453364006
+Togo,2008,28.1,5.56,23.8,depressive or anxiety disorders,0.0066984535560899
+Thailand,2008,56.4,23.4,104.0,depressive or anxiety disorders,0.0065842458756476
+Tajikistan,2008,50.6,0.36,47.8,depressive or anxiety disorders,0.0079634265064566
+Trinidad and Tobago,2008,67.0,19.8,171.0,depressive or anxiety disorders,0.012631795253464001
+Turkiye,2008,51.2,7.71,84.2,depressive or anxiety disorders,0.0124296383454485
+Taiwan,2008,55.5,31.5,79.0,depressive or anxiety disorders,0.0087854688238968
+Tanzania,2008,43.9,5.09,26.2,depressive or anxiety disorders,0.0071530087835787
+Uganda,2008,45.7,12.4,26.8,depressive or anxiety disorders,0.0095602351261669
+Ukraine,2008,51.7,21.9,144.0,depressive or anxiety disorders,0.016707256777643998
+Uruguay,2008,56.6,7.5,100.0,depressive or anxiety disorders,0.009243197051130199
+United States,2008,72.8,21.6,170.0,depressive or anxiety disorders,0.0139143901159116
+Uzbekistan,2008,53.1,0.45,33.4,depressive or anxiety disorders,0.0114934224134646
+Venezuela,2008,62.6,13.3,104.0,depressive or anxiety disorders,0.009444814293690899
+Vietnam,2008,54.8,30.3,31.5,depressive or anxiety disorders,0.0056488687965066
+South Africa,2008,53.5,6.94,82.3,depressive or anxiety disorders,0.0073157311144686
+Zambia,2008,47.3,6.78,26.4,depressive or anxiety disorders,0.005454178167049
+Zimbabwe,2008,31.7,1.15,61.1,depressive or anxiety disorders,0.005186633059646
+Afghanistan,2009,44.0,0.07,23.3,depressive or anxiety disorders,0.013024996239254901
+Albania,2009,54.9,5.9,117.0,depressive or anxiety disorders,0.0086413634655005
+United Arab Emirates,2009,68.7,24.8,94.1,depressive or anxiety disorders,0.0148257536114617
+Argentina,2009,64.2,6.1,132.0,depressive or anxiety disorders,0.0076157482340516
+Armenia,2009,41.8,3.4,103.0,depressive or anxiety disorders,0.010670503490604
+Azerbaijan,2009,45.7,2.18,40.0,depressive or anxiety disorders,0.0098057751530233
+Bangladesh,2009,50.8,18.6,22.8,depressive or anxiety disorders,0.010422658852406499
+Bosnia and Herzegovina,2009,49.6,5.63,52.4,depressive or anxiety disorders,0.011686235655936
+Belarus,2009,55.6,18.0,118.0,depressive or anxiety disorders,0.016029150272726802
+Bolivia,2009,60.9,2.07,69.8,depressive or anxiety disorders,0.009607219316185701
+Brazil,2009,70.0,8.32,115.0,depressive or anxiety disorders,0.011298890044759
+Canada,2009,74.9,23.0,136.0,depressive or anxiety disorders,0.0086142338966847
+Switzerland,2009,75.3,18.1,159.0,depressive or anxiety disorders,0.013434447395711799
+Chile,2009,64.9,14.2,130.0,depressive or anxiety disorders,0.012788749062498399
+China,2009,44.5,31.2,18.0,depressive or anxiety disorders,0.0100829014060579
+Ivory Coast,2009,42.0,19.1,25.2,depressive or anxiety disorders,0.0059911659314445
+Cameroon,2009,47.4,18.2,21.5,depressive or anxiety disorders,0.0065969409888310005
+Colombia,2009,62.7,5.52,164.0,depressive or anxiety disorders,0.0064937076803752
+Costa Rica,2009,76.2,11.0,150.0,depressive or anxiety disorders,0.0100022286562285
+Cyprus,2009,68.3,21.9,90.3,depressive or anxiety disorders,0.0102209031793004
+Germany,2009,66.4,14.3,132.0,depressive or anxiety disorders,0.0124435260495985
+Djibouti,2009,49.1,2.3,80.6,depressive or anxiety disorders,0.0084421556224904
+Denmark,2009,76.8,23.1,144.0,depressive or anxiety disorders,0.0121075882320106
+Dominican Republic,2009,54.3,11.4,95.8,depressive or anxiety disorders,0.0115676781952387
+Ecuador,2009,60.2,8.3,52.2,depressive or anxiety disorders,0.0089600666379622
+Egypt,2009,50.7,18.3,68.5,depressive or anxiety disorders,0.0117641169754306
+Spain,2009,62.0,42.0,82.9,depressive or anxiety disorders,0.0161138020506852
+Estonia,2009,51.4,15.0,127.0,depressive or anxiety disorders,0.016709222448812
+France,2009,62.8,34.5,111.0,depressive or anxiety disorders,0.014340378301487999
+United Kingdom,2009,69.1,20.0,106.0,depressive or anxiety disorders,0.0137571747360099
+Georgia,2009,38.0,8.11,117.0,depressive or anxiety disorders,0.015061998906307099
+Ghana,2009,42.0,25.0,30.9,depressive or anxiety disorders,0.0079294620549145
+Greece,2009,60.4,21.3,75.7,depressive or anxiety disorders,0.0216755871776704
+Guatemala,2009,64.5,1.58,148.0,depressive or anxiety disorders,0.0099078492226748
+Honduras,2009,60.3,2.28,128.0,depressive or anxiety disorders,0.007678496333659499
+Croatia,2009,54.3,18.6,138.0,depressive or anxiety disorders,0.013640057021969
+Hungary,2009,49.0,5.24,93.9,depressive or anxiety disorders,0.0127611780683183
+Indonesia,2009,54.7,25.6,39.0,depressive or anxiety disorders,0.0044971281776576
+India,2009,45.2,5.59,62.4,depressive or anxiety disorders,0.0087330557453009
+Ireland,2009,70.5,22.5,108.0,depressive or anxiety disorders,0.014337162777163001
+Iraq,2009,47.8,2.91,43.5,depressive or anxiety disorders,0.009998984887405499
+Israel,2009,73.5,20.9,71.6,depressive or anxiety disorders,0.0132806719825825
+Italy,2009,63.3,24.8,81.2,depressive or anxiety disorders,0.0143082612785717
+Jordan,2009,60.0,6.94,115.0,depressive or anxiety disorders,0.013806968529460199
+Japan,2009,58.5,53.6,75.6,depressive or anxiety disorders,0.0074985340794272
+Kazakhstan,2009,53.8,3.9,81.9,depressive or anxiety disorders,0.0121185765630011
+Kenya,2009,42.7,3.32,47.0,depressive or anxiety disorders,0.0065006868027613005
+Kyrgyzstan,2009,50.7,1.89,68.9,depressive or anxiety disorders,0.0123552104111531
+Cambodia,2009,41.1,34.6,54.1,depressive or anxiety disorders,0.0071767229936496
+South Korea,2009,56.5,57.5,95.1,depressive or anxiety disorders,0.0075906246394226995
+Kuwait,2009,65.8,17.7,106.0,depressive or anxiety disorders,0.0148410023731378
+Lebanon,2009,52.1,11.1,134.0,depressive or anxiety disorders,0.018288936572791098
+Sri Lanka,2009,42.1,21.2,69.8,depressive or anxiety disorders,0.0068868462077741
+Lithuania,2009,54.7,43.5,131.0,depressive or anxiety disorders,0.0169679280045859
+Luxembourg,2009,69.6,26.2,144.0,depressive or anxiety disorders,0.011442313290004301
+Latvia,2009,46.7,27.1,90.8,depressive or anxiety disorders,0.0157870348413057
+Moldova,2009,55.5,13.7,69.5,depressive or anxiety disorders,0.0127536688891767
+Mexico,2009,69.6,11.7,136.0,depressive or anxiety disorders,0.0102521904979055
+North Macedonia,2009,44.3,5.63,100.0,depressive or anxiety disorders,0.009874272787271501
+Mali,2009,39.8,8.24,34.8,depressive or anxiety disorders,0.0046025377939167
+Malta,2009,63.3,31.2,174.0,depressive or anxiety disorders,0.0107297535285448
+Montenegro,2009,48.0,10.7,121.0,depressive or anxiety disorders,0.0115012592603203
+Mauritania,2009,45.0,8.88,98.3,depressive or anxiety disorders,0.0059371312510742
+Malawi,2009,51.5,5.18,32.4,depressive or anxiety disorders,0.0052191661841939005
+Malaysia,2009,53.9,59.7,116.0,depressive or anxiety disorders,0.009252143514670099
+Niger,2009,42.7,2.15,18.4,depressive or anxiety disorders,0.0050579274286763
+Nigeria,2009,49.8,14.2,27.9,depressive or anxiety disorders,0.0059253913084743
+Nicaragua,2009,53.5,5.53,108.0,depressive or anxiety disorders,0.0105811252150491
+Nepal,2009,49.2,2.01,12.5,depressive or anxiety disorders,0.0128204182763127
+Pakistan,2009,52.1,1.88,75.6,depressive or anxiety disorders,0.007481781115192401
+Panama,2009,70.3,14.0,81.8,depressive or anxiety disorders,0.0088508441364757
+Peru,2009,55.2,22.2,62.0,depressive or anxiety disorders,0.0056435084519696
+Philippines,2009,48.8,36.4,62.7,depressive or anxiety disorders,0.005607167618150199
+Poland,2009,57.7,12.1,119.0,depressive or anxiety disorders,0.007576701198653
+Paraguay,2009,55.8,3.76,70.6,depressive or anxiety disorders,0.0085182573528351
+Romania,2009,53.7,6.39,69.5,depressive or anxiety disorders,0.0107486187346169
+Russia,2009,51.6,22.7,132.0,depressive or anxiety disorders,0.0109211513629854
+Rwanda,2009,40.3,2.09,11.9,depressive or anxiety disorders,0.008156172474720499
+Saudi Arabia,2009,61.5,8.34,92.2,depressive or anxiety disorders,0.0141347847709008
+Sudan,2009,44.5,1.81,65.9,depressive or anxiety disorders,0.0106894675249086
+Senegal,2009,43.4,26.5,41.9,depressive or anxiety disorders,0.0066470680007705
+El Salvador,2009,68.4,7.59,112.0,depressive or anxiety disorders,0.010405810882313
+Serbia,2009,43.8,5.67,84.7,depressive or anxiety disorders,0.0122239428050732
+Slovenia,2009,58.3,10.8,67.1,depressive or anxiety disorders,0.0147926546176382
+Sweden,2009,72.7,29.9,111.0,depressive or anxiety disorders,0.015977710809582598
+Chad,2009,36.4,3.61,21.3,depressive or anxiety disorders,0.0070811404009491
+Thailand,2009,54.8,25.3,105.0,depressive or anxiety disorders,0.006569473423003599
+Tajikistan,2009,45.8,0.35,50.3,depressive or anxiety disorders,0.0080887607693055
+Turkmenistan,2009,65.7,3.47,22.1,depressive or anxiety disorders,0.0102691524461003
+Tunisia,2009,50.3,13.1,98.9,depressive or anxiety disorders,0.0191034129018453
+Turkiye,2009,52.1,7.52,88.4,depressive or anxiety disorders,0.0124568397742445
+Tanzania,2009,34.1,6.1,26.8,depressive or anxiety disorders,0.0072048279719948
+Uganda,2009,46.1,13.3,29.3,depressive or anxiety disorders,0.0093173205691997
+Ukraine,2009,51.7,16.3,132.0,depressive or anxiety disorders,0.0165113069782921
+Uruguay,2009,63.0,5.83,104.0,depressive or anxiety disorders,0.0093320205166684
+United States,2009,71.6,21.4,165.0,depressive or anxiety disorders,0.014109702283637001
+Uzbekistan,2009,52.6,0.47,28.5,depressive or anxiety disorders,0.0115189647700598
+Venezuela,2009,71.9,14.4,106.0,depressive or anxiety disorders,0.0094664278774845
+Vietnam,2009,53.0,34.4,26.8,depressive or anxiety disorders,0.0056175182440169995
+Yemen,2009,48.1,3.51,74.7,depressive or anxiety disorders,0.0107664535013908
+South Africa,2009,52.2,5.13,83.2,depressive or anxiety disorders,0.007457659458412501
+Zambia,2009,52.6,7.49,28.5,depressive or anxiety disorders,0.0054740573958943
+Zimbabwe,2009,40.6,1.36,61.1,depressive or anxiety disorders,0.0051337307522111
+Afghanistan,2010,47.6,0.07,24.2,depressive or anxiety disorders,0.0132694063431798
+Albania,2010,52.7,5.73,113.0,depressive or anxiety disorders,0.008747600186950701
+United Arab Emirates,2010,71.0,24.0,107.0,depressive or anxiety disorders,0.014791262353397101
+Argentina,2010,64.4,5.85,131.0,depressive or anxiety disorders,0.0076056814843334
+Armenia,2010,43.7,2.6,112.0,depressive or anxiety disorders,0.010740608427557401
+Australia,2010,74.5,26.7,126.0,depressive or anxiety disorders,0.0156318175649221
+Austria,2010,73.0,13.5,132.0,depressive or anxiety disorders,0.0100040703021652
+Azerbaijan,2010,42.2,2.23,43.4,depressive or anxiety disorders,0.0098543254496063
+Belgium,2010,68.5,25.2,156.0,depressive or anxiety disorders,0.0127613834854135
+Burkina Faso,2010,40.4,5.33,13.3,depressive or anxiety disorders,0.006164199365058
+Bangladesh,2010,48.6,19.3,21.9,depressive or anxiety disorders,0.0106109297095638
+Bulgaria,2010,39.1,6.48,72.2,depressive or anxiety disorders,0.0119573661436961
+Bosnia and Herzegovina,2010,46.7,5.37,53.8,depressive or anxiety disorders,0.0116350186975609
+Belarus,2010,55.3,16.9,102.0,depressive or anxiety disorders,0.015951074687321
+Bolivia,2010,57.8,1.78,70.6,depressive or anxiety disorders,0.009743441394366099
+Brazil,2010,68.4,8.99,117.0,depressive or anxiety disorders,0.011120500028169
+Botswana,2010,35.5,3.78,93.4,depressive or anxiety disorders,0.0084105254171418
+Central African Republic,2010,35.7,9.52,23.3,depressive or anxiety disorders,0.0094449116251857
+Canada,2010,76.5,22.1,126.0,depressive or anxiety disorders,0.0086204219948493
+Chile,2010,66.4,13.4,133.0,depressive or anxiety disorders,0.012712623318721701
+China,2010,46.5,32.2,17.9,depressive or anxiety disorders,0.0101655984706761
+Cameroon,2010,45.5,14.5,26.4,depressive or anxiety disorders,0.0066266603203852
+Colombia,2010,64.1,5.55,150.0,depressive or anxiety disorders,0.0064075034645362005
+Costa Rica,2010,72.7,11.0,150.0,depressive or anxiety disorders,0.0100711320401641
+Cyprus,2010,63.9,22.2,88.7,depressive or anxiety disorders,0.0101857269014285
+Czech Republic,2010,62.5,9.49,111.0,depressive or anxiety disorders,0.0127112736552323
+Germany,2010,67.3,14.2,137.0,depressive or anxiety disorders,0.012412865908769201
+Djibouti,2010,50.1,2.61,83.4,depressive or anxiety disorders,0.0084923367852983
+Denmark,2010,77.7,23.0,147.0,depressive or anxiety disorders,0.0120462864113849
+Dominican Republic,2010,47.4,10.4,90.1,depressive or anxiety disorders,0.0116318700504897
+Algeria,2010,54.6,3.81,85.6,depressive or anxiety disorders,0.0142400383001995
+Ecuador,2010,58.4,8.02,49.0,depressive or anxiety disorders,0.0091157563474177
+Egypt,2010,46.7,22.4,81.2,depressive or anxiety disorders,0.011722554674372
+Spain,2010,61.9,42.4,83.2,depressive or anxiety disorders,0.0164680608503545
+Finland,2010,73.9,36.0,84.4,depressive or anxiety disorders,0.0152897734375795
+France,2010,68.0,34.8,104.0,depressive or anxiety disorders,0.0143839758805395
+United Kingdom,2010,70.3,19.6,100.0,depressive or anxiety disorders,0.0137580820170613
+Georgia,2010,41.0,10.3,85.3,depressive or anxiety disorders,0.015080546957245498
+Ghana,2010,46.1,24.2,35.8,depressive or anxiety disorders,0.0079348095427129
+Greece,2010,58.4,18.8,77.3,depressive or anxiety disorders,0.021628221944674
+Guatemala,2010,62.9,1.41,136.0,depressive or anxiety disorders,0.0100457251155957
+Honduras,2010,58.7,3.01,127.0,depressive or anxiety disorders,0.0077892984410041005
+Croatia,2010,56.0,17.9,148.0,depressive or anxiety disorders,0.0136141893819068
+Haiti,2010,37.7,3.87,47.9,depressive or anxiety disorders,0.0073143399452653
+Hungary,2010,47.3,5.24,93.9,depressive or anxiety disorders,0.0127389243191245
+Indonesia,2010,54.6,27.2,39.3,depressive or anxiety disorders,0.0045228838044584
+India,2010,49.9,5.72,59.9,depressive or anxiety disorders,0.0085776779390832
+Ireland,2010,72.6,22.8,105.0,depressive or anxiety disorders,0.014212379467494301
+Iraq,2010,50.6,2.67,52.5,depressive or anxiety disorders,0.010121406704254501
+Israel,2010,73.6,21.9,75.6,depressive or anxiety disorders,0.0132371962023909
+Italy,2010,63.5,25.6,82.3,depressive or anxiety disorders,0.0142798489350673
+Jordan,2010,55.7,6.72,130.0,depressive or anxiety disorders,0.0137856457281026
+Japan,2010,60.6,52.6,69.4,depressive or anxiety disorders,0.0074479505437108
+Kazakhstan,2010,55.1,5.07,72.7,depressive or anxiety disorders,0.0120443745065133
+Kenya,2010,42.6,3.42,46.7,depressive or anxiety disorders,0.0065046937125326
+Kyrgyzstan,2010,50.0,2.12,69.8,depressive or anxiety disorders,0.01228307707271
+Cambodia,2010,41.4,36.1,51.3,depressive or anxiety disorders,0.0072076476301229
+South Korea,2010,61.2,56.7,104.0,depressive or anxiety disorders,0.007720319904291
+Kuwait,2010,68.0,19.8,98.4,depressive or anxiety disorders,0.014924435635655
+Lebanon,2010,50.3,12.2,145.0,depressive or anxiety disorders,0.018377802291660097
+Liberia,2010,42.0,4.34,19.9,depressive or anxiety disorders,0.0071958537640513
+Sri Lanka,2010,39.8,24.1,79.4,depressive or anxiety disorders,0.0068876536172299
+Lithuania,2010,50.7,42.9,118.0,depressive or anxiety disorders,0.0169664422793388
+Luxembourg,2010,71.0,29.1,137.0,depressive or anxiety disorders,0.0113837820084444
+Morocco,2010,43.8,14.7,104.0,depressive or anxiety disorders,0.0158972876413497
+Moldova,2010,55.9,13.2,64.2,depressive or anxiety disorders,0.0127771766001617
+Mexico,2010,68.0,12.1,136.0,depressive or anxiety disorders,0.0105087844955478
+North Macedonia,2010,41.8,5.56,111.0,depressive or anxiety disorders,0.0099237031872094
+Mali,2010,37.6,8.44,29.4,depressive or anxiety disorders,0.0046098710826245
+Malta,2010,57.7,30.9,171.0,depressive or anxiety disorders,0.0106934657130852
+Montenegro,2010,54.5,10.7,118.0,depressive or anxiety disorders,0.0115396800511438
+Mongolia,2010,45.9,0.52,35.7,depressive or anxiety disorders,0.014981526620287101
+Mauritania,2010,47.7,9.8,97.6,depressive or anxiety disorders,0.0059198723362214
+Malaysia,2010,55.8,60.5,117.0,depressive or anxiety disorders,0.0092369667401601
+Niger,2010,41.0,2.72,13.3,depressive or anxiety disorders,0.005070121563999301
+Nigeria,2010,47.6,15.2,28.4,depressive or anxiety disorders,0.005872565159189
+Nicaragua,2010,56.9,5.02,114.0,depressive or anxiety disorders,0.010658373331177199
+Netherlands,2010,75.0,23.4,129.0,depressive or anxiety disorders,0.0118722333050017
+Nepal,2010,43.5,2.02,11.8,depressive or anxiety disorders,0.0130221299420247
+New Zealand,2010,72.2,25.9,156.0,depressive or anxiety disorders,0.0106356237310279
+Pakistan,2010,57.9,1.94,81.6,depressive or anxiety disorders,0.0074625916688595
+Panama,2010,73.2,13.7,84.8,depressive or anxiety disorders,0.0089397733860353
+Peru,2010,56.1,22.1,62.0,depressive or anxiety disorders,0.0056833673185599995
+Philippines,2010,49.4,34.9,63.3,depressive or anxiety disorders,0.0056816209086001
+Poland,2010,58.9,10.5,119.0,depressive or anxiety disorders,0.0075971891830527005
+Portugal,2010,51.0,56.1,80.4,depressive or anxiety disorders,0.0205457415053965
+Paraguay,2010,58.4,3.72,70.7,depressive or anxiety disorders,0.0086477198930981
+Romania,2010,49.1,6.17,69.2,depressive or anxiety disorders,0.0107814981774743
+Russia,2010,53.9,22.3,129.0,depressive or anxiety disorders,0.0108524840110759
+Saudi Arabia,2010,63.1,11.3,90.7,depressive or anxiety disorders,0.014333994269354899
+Sudan,2010,44.4,1.79,65.5,depressive or anxiety disorders,0.0107407368934805
+Senegal,2010,43.7,24.0,43.6,depressive or anxiety disorders,0.0066445431272296
+Sierra Leone,2010,41.3,34.1,10.4,depressive or anxiety disorders,0.006978221267337099
+El Salvador,2010,67.4,7.06,108.0,depressive or anxiety disorders,0.0105420298435762
+Serbia,2010,44.6,5.66,66.7,depressive or anxiety disorders,0.0122229743310388
+Slovakia,2010,60.5,7.93,144.0,depressive or anxiety disorders,0.0117142262024418
+Slovenia,2010,60.8,11.1,71.6,depressive or anxiety disorders,0.0146637147350377
+Sweden,2010,75.0,31.2,106.0,depressive or anxiety disorders,0.015945985605211502
+Chad,2010,37.4,4.33,25.3,depressive or anxiety disorders,0.0070868753592618
+Thailand,2010,62.2,24.4,108.0,depressive or anxiety disorders,0.0065978924508897
+Tajikistan,2010,43.8,0.37,49.7,depressive or anxiety disorders,0.0081682383562568
+Tunisia,2010,51.3,12.8,95.3,depressive or anxiety disorders,0.0191744753257674
+Turkiye,2010,54.9,6.87,90.5,depressive or anxiety disorders,0.012500646656798299
+Taiwan,2010,62.3,30.0,78.8,depressive or anxiety disorders,0.008832445118957
+Tanzania,2010,32.3,6.27,28.5,depressive or anxiety disorders,0.0072649342752621
+Uganda,2010,41.9,13.5,28.9,depressive or anxiety disorders,0.0091818219260455
+Ukraine,2010,50.6,13.7,129.0,depressive or anxiety disorders,0.0163582569179943
+Uruguay,2010,60.6,5.41,106.0,depressive or anxiety disorders,0.009424016453637201
+United States,2010,71.6,21.8,167.0,depressive or anxiety disorders,0.0142271482613185
+Uzbekistan,2010,51.0,0.54,28.3,depressive or anxiety disorders,0.011561554784195299
+Venezuela,2010,74.8,9.63,107.0,depressive or anxiety disorders,0.009531070586693599
+Vietnam,2010,53.0,33.9,28.7,depressive or anxiety disorders,0.0056067981714186
+Yemen,2010,43.5,3.03,78.6,depressive or anxiety disorders,0.010735583382526401
+South Africa,2010,46.5,5.86,96.4,depressive or anxiety disorders,0.0075911623069149
+Zimbabwe,2010,46.8,2.23,65.8,depressive or anxiety disorders,0.005126200282167199
+Afghanistan,2011,38.3,0.07,24.8,depressive or anxiety disorders,0.013473245037140001
+Angola,2011,55.9,16.3,40.1,depressive or anxiety disorders,0.0107584023067956
+Albania,2011,58.7,5.86,122.0,depressive or anxiety disorders,0.0088622318672491
+United Arab Emirates,2011,71.2,23.9,95.3,depressive or anxiety disorders,0.0148574929795755
+Argentina,2011,67.8,6.02,132.0,depressive or anxiety disorders,0.007658647880151
+Armenia,2011,42.6,3.22,101.0,depressive or anxiety disorders,0.0108457566352601
+Australia,2011,74.1,26.0,127.0,depressive or anxiety disorders,0.015573009908805
+Austria,2011,74.7,14.2,131.0,depressive or anxiety disorders,0.0100764509482173
+Azerbaijan,2011,46.8,2.18,44.2,depressive or anxiety disorders,0.0099178417817358
+Belgium,2011,71.1,26.1,138.0,depressive or anxiety disorders,0.0127446502072972
+Benin,2011,38.7,13.2,14.5,depressive or anxiety disorders,0.0067825864401246
+Burkina Faso,2011,47.9,6.71,19.5,depressive or anxiety disorders,0.0062933301735401005
+Bangladesh,2011,49.9,19.7,22.5,depressive or anxiety disorders,0.0108175100319161
+Bulgaria,2011,38.8,5.73,77.7,depressive or anxiety disorders,0.0120004951520102
+Bosnia and Herzegovina,2011,50.0,4.65,55.4,depressive or anxiety disorders,0.011626066156216799
+Belarus,2011,52.3,14.5,110.0,depressive or anxiety disorders,0.015925397072305
+Bolivia,2011,57.8,2.25,73.1,depressive or anxiety disorders,0.009881465347602
+Brazil,2011,70.4,10.6,116.0,depressive or anxiety disorders,0.0110696358908571
+Botswana,2011,35.2,3.04,81.9,depressive or anxiety disorders,0.0085169772384031
+Central African Republic,2011,36.8,9.28,24.1,depressive or anxiety disorders,0.0095007409471972
+Canada,2011,74.3,22.7,137.0,depressive or anxiety disorders,0.0086391278571975
+Chile,2011,65.3,13.8,133.0,depressive or anxiety disorders,0.012777152221786998
+China,2011,50.4,32.9,18.7,depressive or anxiety disorders,0.010312832797761
+Cameroon,2011,44.3,17.2,27.0,depressive or anxiety disorders,0.0066902788871206
+Congo,2011,45.1,23.3,38.3,depressive or anxiety disorders,0.010329170839520199
+Colombia,2011,64.6,5.97,151.0,depressive or anxiety disorders,0.0064319493196183
+Costa Rica,2011,72.3,13.2,149.0,depressive or anxiety disorders,0.0101625344153372
+Cyprus,2011,66.9,22.1,93.2,depressive or anxiety disorders,0.0102090904876634
+Czech Republic,2011,63.3,9.05,113.0,depressive or anxiety disorders,0.0126809721113679
+Germany,2011,66.2,14.3,133.0,depressive or anxiety disorders,0.0124726927399568
+Djibouti,2011,43.7,3.04,84.7,depressive or anxiety disorders,0.0085549876505422
+Denmark,2011,77.9,23.0,146.0,depressive or anxiety disorders,0.0120520259496523
+Dominican Republic,2011,54.0,8.29,87.6,depressive or anxiety disorders,0.0117115322223826
+Algeria,2011,53.2,3.94,74.9,depressive or anxiety disorders,0.0142317379209485
+Ecuador,2011,58.0,8.42,54.7,depressive or anxiety disorders,0.0092362937851619
+Egypt,2011,41.7,22.1,82.9,depressive or anxiety disorders,0.011726025751941802
+Spain,2011,65.2,41.9,85.2,depressive or anxiety disorders,0.0167588431330854
+Estonia,2011,54.9,14.6,120.0,depressive or anxiety disorders,0.016317575654148
+Finland,2011,73.5,36.6,85.8,depressive or anxiety disorders,0.0151231305978378
+France,2011,69.6,34.9,103.0,depressive or anxiety disorders,0.0142168664429889
+Gabon,2011,42.5,35.5,44.8,depressive or anxiety disorders,0.0110189392954598
+United Kingdom,2011,68.7,20.4,110.0,depressive or anxiety disorders,0.0139028681799125
+Georgia,2011,42.0,10.5,81.3,depressive or anxiety disorders,0.0151401228461939
+Ghana,2011,56.1,28.0,30.4,depressive or anxiety disorders,0.0080075025470217
+Guinea,2011,40.5,9.66,35.0,depressive or anxiety disorders,0.0068126293054702
+Greece,2011,53.7,19.9,75.1,depressive or anxiety disorders,0.0212415486801256
+Guatemala,2011,57.4,1.36,145.0,depressive or anxiety disorders,0.010150879974357
+Honduras,2011,49.6,4.15,124.0,depressive or anxiety disorders,0.0079204369257726
+Croatia,2011,53.9,19.6,143.0,depressive or anxiety disorders,0.0136389203574484
+Haiti,2011,48.5,4.97,49.5,depressive or anxiety disorders,0.008223096561919
+Hungary,2011,49.2,5.32,96.8,depressive or anxiety disorders,0.012776497300858499
+Indonesia,2011,51.7,28.9,40.5,depressive or anxiety disorders,0.0045717784651772
+India,2011,46.4,5.17,60.9,depressive or anxiety disorders,0.0086539989510785
+Ireland,2011,70.1,22.5,135.0,depressive or anxiety disorders,0.014029141797849299
+Iran,2011,47.7,9.09,80.1,depressive or anxiety disorders,0.01902755721069
+Iraq,2011,47.3,2.87,51.9,depressive or anxiety disorders,0.010429983235903701
+Israel,2011,74.3,24.0,75.4,depressive or anxiety disorders,0.0131024999589202
+Italy,2011,60.6,25.9,84.2,depressive or anxiety disorders,0.014291884464889
+Jamaica,2011,53.7,24.3,138.0,depressive or anxiety disorders,0.008639156542362001
+Jordan,2011,55.4,5.71,113.0,depressive or anxiety disorders,0.0138409811985051
+Japan,2011,62.6,51.3,76.3,depressive or anxiety disorders,0.0074204963822607
+Kazakhstan,2011,57.4,5.44,78.2,depressive or anxiety disorders,0.0120299335346697
+Kenya,2011,44.0,4.51,45.5,depressive or anxiety disorders,0.0065219595311921995
+Kyrgyzstan,2011,49.2,2.37,73.4,depressive or anxiety disorders,0.0123071128039945
+Cambodia,2011,41.6,40.5,49.6,depressive or anxiety disorders,0.0072804538770977
+South Korea,2011,69.5,58.6,100.0,depressive or anxiety disorders,0.0078223153043092
+Kuwait,2011,63.8,15.8,96.6,depressive or anxiety disorders,0.0150376020799738
+Laos,2011,47.0,20.6,17.7,depressive or anxiety disorders,0.0058241675547179
+Lebanon,2011,51.9,11.4,138.0,depressive or anxiety disorders,0.0184768013344602
+Sri Lanka,2011,41.8,26.1,75.4,depressive or anxiety disorders,0.0070073733781404
+Lesotho,2011,49.0,0.85,46.4,depressive or anxiety disorders,0.011209066108002201
+Lithuania,2011,54.3,43.3,125.0,depressive or anxiety disorders,0.0169994620570715
+Luxembourg,2011,71.0,30.5,128.0,depressive or anxiety disorders,0.0114048668589968
+Latvia,2011,49.7,25.7,103.0,depressive or anxiety disorders,0.0158018082908781
+Morocco,2011,50.9,14.4,108.0,depressive or anxiety disorders,0.0160995614615217
+Moldova,2011,57.9,12.7,67.0,depressive or anxiety disorders,0.012836478986037101
+Madagascar,2011,43.8,4.82,22.2,depressive or anxiety disorders,0.0068091467294821
+Mexico,2011,69.1,10.7,134.0,depressive or anxiety disorders,0.0106673775517552
+North Macedonia,2011,49.0,5.72,107.0,depressive or anxiety disorders,0.0099835425404666
+Mali,2011,46.7,8.77,25.4,depressive or anxiety disorders,0.0046435393509879005
+Malta,2011,61.5,30.8,165.0,depressive or anxiety disorders,0.0107104651313352
+Montenegro,2011,52.2,11.4,132.0,depressive or anxiety disorders,0.0115932718902393
+Mongolia,2011,50.3,0.7,39.8,depressive or anxiety disorders,0.0150284738736962
+Mozambique,2011,49.7,8.47,31.3,depressive or anxiety disorders,0.0078939179059072
+Mauritania,2011,47.9,9.55,98.0,depressive or anxiety disorders,0.0059581720626508
+Mauritius,2011,54.8,22.2,80.9,depressive or anxiety disorders,0.012575200968195
+Malawi,2011,39.5,5.7,21.9,depressive or anxiety disorders,0.0053146025183922994
+Malaysia,2011,57.9,56.2,117.0,depressive or anxiety disorders,0.009280017045128
+Niger,2011,45.6,3.3,13.3,depressive or anxiety disorders,0.0051158006672864
+Nicaragua,2011,53.9,4.89,118.0,depressive or anxiety disorders,0.0107429998365446
+Netherlands,2011,75.6,22.4,125.0,depressive or anxiety disorders,0.0118098933393798
+Nepal,2011,38.1,2.22,11.9,depressive or anxiety disorders,0.0131155818454673
+New Zealand,2011,71.9,25.3,159.0,depressive or anxiety disorders,0.0105987771715071
+Oman,2011,68.5,26.9,96.3,depressive or anxiety disorders,0.014288947116431
+Pakistan,2011,52.7,1.99,71.6,depressive or anxiety disorders,0.007500321330671801
+Panama,2011,72.5,13.4,87.9,depressive or anxiety disorders,0.0089888675913583
+Peru,2011,58.9,22.7,63.3,depressive or anxiety disorders,0.0057529116674149006
+Philippines,2011,49.9,32.7,65.7,depressive or anxiety disorders,0.0057681499672985
+Poland,2011,56.5,9.63,120.0,depressive or anxiety disorders,0.0076120646922461
+Portugal,2011,52.2,55.8,77.8,depressive or anxiety disorders,0.02029460899403
+Paraguay,2011,56.8,3.81,71.6,depressive or anxiety disorders,0.008761428424818
+Romania,2011,50.2,6.19,68.2,depressive or anxiety disorders,0.0108324138056345
+Russia,2011,53.9,22.2,134.0,depressive or anxiety disorders,0.010866699000914101
+Rwanda,2011,41.0,4.1,14.3,depressive or anxiety disorders,0.0083344409892211
+Saudi Arabia,2011,67.0,11.1,88.8,depressive or anxiety disorders,0.0144968143860211
+Sudan,2011,43.1,1.79,67.4,depressive or anxiety disorders,0.0108239912359945
+Senegal,2011,38.3,23.5,44.0,depressive or anxiety disorders,0.0067388292731335
+Sierra Leone,2011,45.0,34.2,15.6,depressive or anxiety disorders,0.0070593891801546
+El Salvador,2011,47.4,7.87,112.0,depressive or anxiety disorders,0.0106267993281037
+Serbia,2011,48.1,7.54,79.2,depressive or anxiety disorders,0.012264638320690299
+Slovakia,2011,59.5,7.8,133.0,depressive or anxiety disorders,0.011689921521371001
+Slovenia,2011,60.4,11.1,70.4,depressive or anxiety disorders,0.014606207552958701
+Sweden,2011,73.8,31.2,110.0,depressive or anxiety disorders,0.0158069066437005
+Eswatini,2011,48.7,1.34,89.4,depressive or anxiety disorders,0.0082599909518772
+Chad,2011,43.9,5.03,27.9,depressive or anxiety disorders,0.0070798748940496
+Togo,2011,29.4,12.3,33.1,depressive or anxiety disorders,0.006926876771669701
+Thailand,2011,66.6,25.0,111.0,depressive or anxiety disorders,0.0066831712457664
+Tajikistan,2011,42.6,0.52,51.6,depressive or anxiety disorders,0.0082505370667123
+Turkmenistan,2011,57.9,3.57,25.6,depressive or anxiety disorders,0.010399577057737001
+Trinidad and Tobago,2011,65.2,24.0,157.0,depressive or anxiety disorders,0.0126794140998584
+Tunisia,2011,48.8,12.5,98.3,depressive or anxiety disorders,0.0192001875870996
+Turkiye,2011,52.7,6.04,85.4,depressive or anxiety disorders,0.012557644480235601
+Taiwan,2011,63.1,33.0,78.0,depressive or anxiety disorders,0.0088826752425261
+Tanzania,2011,40.7,5.94,29.3,depressive or anxiety disorders,0.0073695003343794
+Uganda,2011,48.3,13.7,25.9,depressive or anxiety disorders,0.0090684015153251
+Ukraine,2011,50.8,14.2,133.0,depressive or anxiety disorders,0.0161906095238374
+Uruguay,2011,65.5,7.19,109.0,depressive or anxiety disorders,0.0095792131443979
+United States,2011,71.2,21.4,172.0,depressive or anxiety disorders,0.014189291174883899
+Uzbekistan,2011,57.4,0.66,27.9,depressive or anxiety disorders,0.0116278731799422
+Venezuela,2011,65.8,9.36,108.0,depressive or anxiety disorders,0.0096391729621245
+Vietnam,2011,57.7,33.3,27.2,depressive or anxiety disorders,0.0056185500605695
+Yemen,2011,37.5,2.57,81.4,depressive or anxiety disorders,0.0108527756135956
+South Africa,2011,49.3,5.67,95.8,depressive or anxiety disorders,0.0077597982582284005
+Zambia,2011,50.0,6.64,28.4,depressive or anxiety disorders,0.005568582935556199
+Zimbabwe,2011,48.5,2.99,68.9,depressive or anxiety disorders,0.0052008351211493995
+Afghanistan,2012,37.8,0.07,25.4,depressive or anxiety disorders,0.0136655610050196
+Angola,2012,43.6,15.8,42.7,depressive or anxiety disorders,0.0108437947865642
+Albania,2012,55.1,4.97,129.0,depressive or anxiety disorders,0.0089762668035956
+United Arab Emirates,2012,72.2,23.1,98.8,depressive or anxiety disorders,0.0149918572268437
+Argentina,2012,64.7,5.88,131.0,depressive or anxiety disorders,0.00773991440837
+Armenia,2012,43.2,3.42,101.0,depressive or anxiety disorders,0.0109889166354269
+Australia,2012,72.0,26.0,126.0,depressive or anxiety disorders,0.0155202998859494
+Austria,2012,74.0,13.7,130.0,depressive or anxiety disorders,0.010167260431986501
+Azerbaijan,2012,49.1,2.16,48.3,depressive or anxiety disorders,0.0099854561898628
+Belgium,2012,69.3,25.1,153.0,depressive or anxiety disorders,0.0126997992069767
+Benin,2012,31.9,12.8,17.2,depressive or anxiety disorders,0.0068825565511219
+Burkina Faso,2012,39.5,6.92,19.8,depressive or anxiety disorders,0.006546421448150199
+Bangladesh,2012,47.2,19.4,22.3,depressive or anxiety disorders,0.011026635299690099
+Bulgaria,2012,42.2,5.8,76.5,depressive or anxiety disorders,0.0120357782043676
+Bosnia and Herzegovina,2012,47.7,4.61,57.7,depressive or anxiety disorders,0.0116181674068983
+Belarus,2012,57.5,15.3,104.0,depressive or anxiety disorders,0.0159175322005894
+Bolivia,2012,60.2,2.18,72.8,depressive or anxiety disorders,0.010013686778822702
+Brazil,2012,66.6,11.0,117.0,depressive or anxiety disorders,0.0109924175034395
+Botswana,2012,48.4,4.92,80.4,depressive or anxiety disorders,0.0086458683536925
+Canada,2012,74.2,21.7,132.0,depressive or anxiety disorders,0.0086798388139183
+Switzerland,2012,77.8,16.9,165.0,depressive or anxiety disorders,0.0136516381903793
+Chile,2012,66.0,12.7,133.0,depressive or anxiety disorders,0.0128593870294775
+China,2012,51.0,34.7,18.9,depressive or anxiety disorders,0.010505432196511202
+Cameroon,2012,42.5,15.8,25.9,depressive or anxiety disorders,0.006775398122406
+Congo,2012,39.2,25.2,41.9,depressive or anxiety disorders,0.010303993361658602
+Colombia,2012,63.8,6.31,155.0,depressive or anxiety disorders,0.0064667332570337
+Costa Rica,2012,72.7,13.2,149.0,depressive or anxiety disorders,0.0102655557944461
+Cyprus,2012,61.8,21.8,88.5,depressive or anxiety disorders,0.0102618202099782
+Czech Republic,2012,63.3,8.51,119.0,depressive or anxiety disorders,0.0126662807096358
+Germany,2012,67.0,13.6,130.0,depressive or anxiety disorders,0.012643690458348698
+Denmark,2012,75.2,22.8,152.0,depressive or anxiety disorders,0.012079279756419401
+Dominican Republic,2012,47.5,8.19,91.4,depressive or anxiety disorders,0.0117926099132225
+Algeria,2012,56.0,3.99,82.8,depressive or anxiety disorders,0.0142388909650321
+Ecuador,2012,59.6,8.29,58.4,depressive or anxiety disorders,0.0093437634383138
+Egypt,2012,42.0,22.4,73.9,depressive or anxiety disorders,0.0118630245704545
+Spain,2012,62.9,40.5,85.5,depressive or anxiety disorders,0.017103513119793502
+Estonia,2012,53.6,14.7,89.5,depressive or anxiety disorders,0.0161578208866211
+Ethiopia,2012,45.6,0.25,15.7,depressive or anxiety disorders,0.007345207380933899
+Finland,2012,74.2,36.5,86.8,depressive or anxiety disorders,0.0148130357108312
+France,2012,66.5,33.2,104.0,depressive or anxiety disorders,0.0138929890971922
+Gabon,2012,39.7,33.8,41.7,depressive or anxiety disorders,0.011087506854004999
+United Kingdom,2012,68.8,20.2,106.0,depressive or anxiety disorders,0.0142344076021651
+Georgia,2012,42.5,10.6,96.8,depressive or anxiety disorders,0.0152278808436721
+Ghana,2012,50.6,24.8,25.8,depressive or anxiety disorders,0.0081492095072393
+Guinea,2012,36.5,9.42,32.7,depressive or anxiety disorders,0.0069043171074491
+Greece,2012,51.0,18.1,81.2,depressive or anxiety disorders,0.0203898900939779
+Guatemala,2012,58.6,1.33,130.0,depressive or anxiety disorders,0.0102074032477131
+Honduras,2012,46.0,4.06,130.0,depressive or anxiety disorders,0.0080642472949164
+Croatia,2012,60.3,18.5,129.0,depressive or anxiety disorders,0.0136811614148186
+Haiti,2012,44.1,4.9,51.0,depressive or anxiety disorders,0.0082846830153168
+Hungary,2012,46.8,4.96,94.2,depressive or anxiety disorders,0.0128685263250289
+Indonesia,2012,53.7,28.5,43.9,depressive or anxiety disorders,0.004634974264934999
+India,2012,47.2,5.1,63.6,depressive or anxiety disorders,0.008750392479325901
+Ireland,2012,69.7,22.2,133.0,depressive or anxiety disorders,0.013790729717963201
+Iran,2012,46.1,9.68,79.6,depressive or anxiety disorders,0.0192676215937682
+Iraq,2012,46.6,3.63,50.4,depressive or anxiety disorders,0.011000637878066
+Iceland,2012,75.9,92.0,132.0,depressive or anxiety disorders,0.0096723865567311
+Israel,2012,71.1,20.9,76.9,depressive or anxiety disorders,0.012908133117892
+Italy,2012,58.4,25.2,86.4,depressive or anxiety disorders,0.014299673804701
+Jordan,2012,51.3,5.48,133.0,depressive or anxiety disorders,0.013931609860802701
+Japan,2012,59.7,51.6,75.2,depressive or anxiety disorders,0.0074200768442977995
+Kazakhstan,2012,57.6,5.38,78.7,depressive or anxiety disorders,0.012065303786301
+Kenya,2012,45.5,4.39,44.4,depressive or anxiety disorders,0.0065342689258992
+Kyrgyzstan,2012,52.1,2.34,71.8,depressive or anxiety disorders,0.012288713116961301
+Cambodia,2012,39.0,40.6,51.0,depressive or anxiety disorders,0.0073887171228825
+South Korea,2012,60.0,56.6,103.0,depressive or anxiety disorders,0.0079264522280162
+Kuwait,2012,62.2,13.8,107.0,depressive or anxiety disorders,0.0151541363344437
+Laos,2012,48.8,20.2,19.1,depressive or anxiety disorders,0.0059500020591193
+Lebanon,2012,45.7,11.0,131.0,depressive or anxiety disorders,0.0185781276061765
+Sri Lanka,2012,42.3,25.9,74.5,depressive or anxiety disorders,0.0070879181521232
+Lithuania,2012,57.7,43.5,127.0,depressive or anxiety disorders,0.0170334730661889
+Luxembourg,2012,69.6,35.7,139.0,depressive or anxiety disorders,0.0114528987067983
+Latvia,2012,51.3,20.9,109.0,depressive or anxiety disorders,0.015868895013706398
+Morocco,2012,49.7,17.3,106.0,depressive or anxiety disorders,0.0163496315588722
+Moldova,2012,60.0,12.8,63.9,depressive or anxiety disorders,0.0129069436920599
+Madagascar,2012,35.5,4.69,20.1,depressive or anxiety disorders,0.0068539541247833995
+Mexico,2012,73.2,10.6,139.0,depressive or anxiety disorders,0.0108103034102199
+North Macedonia,2012,46.4,5.19,114.0,depressive or anxiety disorders,0.0100453099701375
+Mali,2012,43.1,6.06,36.1,depressive or anxiety disorders,0.0047196900117619
+Malta,2012,59.6,31.9,168.0,depressive or anxiety disorders,0.0107586581217727
+Myanmar,2012,44.4,54.9,47.6,depressive or anxiety disorders,0.0050124136338257
+Montenegro,2012,52.2,11.1,133.0,depressive or anxiety disorders,0.011655718641102101
+Mongolia,2012,48.9,0.69,40.9,depressive or anxiety disorders,0.015079203626182
+Mauritania,2012,46.7,9.32,94.8,depressive or anxiety disorders,0.0061012584549573
+Malawi,2012,42.8,8.26,32.0,depressive or anxiety disorders,0.0054901549095645
+Malaysia,2012,59.1,60.8,121.0,depressive or anxiety disorders,0.0093804538790314
+Niger,2012,38.0,2.86,13.1,depressive or anxiety disorders,0.0051947683313295
+Nigeria,2012,54.9,16.6,28.5,depressive or anxiety disorders,0.0057758097364415
+Nicaragua,2012,54.5,4.82,114.0,depressive or anxiety disorders,0.010823470060887
+Netherlands,2012,74.7,23.1,124.0,depressive or anxiety disorders,0.0117279260756167
+Norway,2012,76.8,52.9,114.0,depressive or anxiety disorders,0.0127943864448481
+Nepal,2012,42.3,2.2,12.5,depressive or anxiety disorders,0.013067190762952001
+New Zealand,2012,72.5,24.3,158.0,depressive or anxiety disorders,0.010586142096389
+Pakistan,2012,51.3,1.96,76.2,depressive or anxiety disorders,0.0075696008413732
+Panama,2012,68.6,13.2,91.3,depressive or anxiety disorders,0.0090370072123382
+Peru,2012,58.3,22.4,64.1,depressive or anxiety disorders,0.005829519667775
+Philippines,2012,50.0,32.1,68.1,depressive or anxiety disorders,0.0058791455440992
+Poland,2012,58.8,10.3,122.0,depressive or anxiety disorders,0.0076269503315407996
+Portugal,2012,49.9,52.6,77.6,depressive or anxiety disorders,0.0197132613678008
+Paraguay,2012,58.2,3.75,70.7,depressive or anxiety disorders,0.008870989055520199
+Romania,2012,51.7,6.2,69.0,depressive or anxiety disorders,0.0108915314310318
+Russia,2012,56.2,23.8,134.0,depressive or anxiety disorders,0.0109424748007666
+Rwanda,2012,33.3,3.99,18.9,depressive or anxiety disorders,0.0085641516728186
+Saudi Arabia,2012,64.0,13.3,88.0,depressive or anxiety disorders,0.0146732041324982
+Sudan,2012,45.5,0.97,96.4,depressive or anxiety disorders,0.011034128839628
+Senegal,2012,36.7,24.2,46.1,depressive or anxiety disorders,0.0068504853841626
+El Salvador,2012,59.3,6.82,113.0,depressive or anxiety disorders,0.0106931710269942
+Serbia,2012,51.5,7.28,75.6,depressive or anxiety disorders,0.0123167919987594
+Suriname,2012,62.7,16.6,121.0,depressive or anxiety disorders,0.014544085598785901
+Slovakia,2012,59.1,7.54,122.0,depressive or anxiety disorders,0.011661542451523099
+Slovenia,2012,60.6,10.0,73.9,depressive or anxiety disorders,0.0145732111273276
+Sweden,2012,75.6,30.8,110.0,depressive or anxiety disorders,0.0155645821013582
+Chad,2012,40.3,4.88,30.5,depressive or anxiety disorders,0.007048175193970101
+Thailand,2012,63.0,24.9,108.0,depressive or anxiety disorders,0.0067762635364905
+Tajikistan,2012,45.0,0.51,50.6,depressive or anxiety disorders,0.00832078851406
+Turkmenistan,2012,54.6,3.83,26.6,depressive or anxiety disorders,0.0104684041790057
+Tunisia,2012,44.6,14.1,95.7,depressive or anxiety disorders,0.019277452277441598
+Turkiye,2012,53.1,6.82,86.2,depressive or anxiety disorders,0.0126206229696641
+Taiwan,2012,61.3,35.5,77.1,depressive or anxiety disorders,0.0089125637196157
+Tanzania,2012,40.1,5.76,29.8,depressive or anxiety disorders,0.0075253121506787
+Uganda,2012,43.1,12.5,25.3,depressive or anxiety disorders,0.008921351010516101
+Ukraine,2012,50.3,14.2,131.0,depressive or anxiety disorders,0.0159756484448006
+Uruguay,2012,64.5,6.46,111.0,depressive or anxiety disorders,0.009819893603878301
+United States,2012,70.3,21.3,174.0,depressive or anxiety disorders,0.0139993512768136
+Uzbekistan,2012,60.2,0.76,27.7,depressive or anxiety disorders,0.0116903142412467
+Venezuela,2012,70.7,11.0,106.0,depressive or anxiety disorders,0.009761956769993599
+Vietnam,2012,55.4,33.0,29.2,depressive or anxiety disorders,0.0056360837307868
+Yemen,2012,40.6,2.51,79.8,depressive or anxiety disorders,0.0110262434943802
+South Africa,2012,51.3,7.47,98.7,depressive or anxiety disorders,0.0079803733168068
+Zambia,2012,50.1,6.43,30.1,depressive or anxiety disorders,0.005695150448186599
+Zimbabwe,2012,49.5,2.91,79.0,depressive or anxiety disorders,0.005295277013911
+Afghanistan,2013,35.7,0.07,24.5,depressive or anxiety disorders,0.0139092085318975
+Angola,2013,39.4,15.3,44.7,depressive or anxiety disorders,0.0109366073351235
+Albania,2013,45.5,4.87,131.0,depressive or anxiety disorders,0.0090851936345291
+United Arab Emirates,2013,66.2,22.8,101.0,depressive or anxiety disorders,0.0151663076525347
+Argentina,2013,65.8,7.05,132.0,depressive or anxiety disorders,0.0078375643310877
+Armenia,2013,42.8,4.38,97.4,depressive or anxiety disorders,0.011147757509563599
+Australia,2013,73.6,26.1,126.0,depressive or anxiety disorders,0.0154638319325686
+Austria,2013,75.0,13.9,124.0,depressive or anxiety disorders,0.010264402364235899
+Azerbaijan,2013,54.8,2.13,50.5,depressive or anxiety disorders,0.0100597024610361
+Belgium,2013,71.0,25.0,144.0,depressive or anxiety disorders,0.0126486245880878
+Benin,2013,34.8,13.3,21.4,depressive or anxiety disorders,0.0069672341903193
+Burkina Faso,2013,33.3,6.72,20.2,depressive or anxiety disorders,0.0068728946222102
+Bangladesh,2013,46.6,19.2,22.1,depressive or anxiety disorders,0.011250683337352
+Bulgaria,2013,39.9,6.94,78.7,depressive or anxiety disorders,0.0120774594455987
+Bosnia and Herzegovina,2013,51.2,4.28,55.3,depressive or anxiety disorders,0.0116118627311499
+Belarus,2013,58.8,16.4,107.0,depressive or anxiety disorders,0.0159115913972958
+Bolivia,2013,57.7,2.19,75.2,depressive or anxiety disorders,0.0101393336268375
+Brazil,2013,71.4,10.9,117.0,depressive or anxiety disorders,0.010912747456465699
+Botswana,2013,41.3,4.05,85.0,depressive or anxiety disorders,0.0087811346916029
+Canada,2013,75.9,22.5,132.0,depressive or anxiety disorders,0.0087284741897004
+Chile,2013,67.4,12.5,131.0,depressive or anxiety disorders,0.0129429875350735
+China,2013,52.4,34.5,18.8,depressive or anxiety disorders,0.0107056504779894
+Ivory Coast,2013,37.4,15.5,28.2,depressive or anxiety disorders,0.0063736308055835
+Cameroon,2013,42.7,15.4,27.2,depressive or anxiety disorders,0.0068758011123354
+Congo,2013,39.5,26.5,48.4,depressive or anxiety disorders,0.0102900143777497
+Colombia,2013,66.1,6.23,160.0,depressive or anxiety disorders,0.0065194084643389
+Costa Rica,2013,71.6,12.9,144.0,depressive or anxiety disorders,0.010374761503749
+Cyprus,2013,54.4,21.6,101.0,depressive or anxiety disorders,0.0103329348338786
+Czech Republic,2013,67.0,8.6,118.0,depressive or anxiety disorders,0.0126649651194445
+Germany,2013,69.7,12.6,133.0,depressive or anxiety disorders,0.012860510263943801
+Denmark,2013,75.9,23.2,152.0,depressive or anxiety disorders,0.012121709582765
+Dominican Republic,2013,50.2,8.09,95.3,depressive or anxiety disorders,0.0118735381637832
+Ecuador,2013,60.2,8.16,63.3,depressive or anxiety disorders,0.0094399767708637
+Egypt,2013,35.6,22.1,78.0,depressive or anxiety disorders,0.0120347860750227
+Spain,2013,61.5,42.4,85.6,depressive or anxiety disorders,0.017463470533694802
+Estonia,2013,53.7,14.7,86.5,depressive or anxiety disorders,0.0160231637949074
+Ethiopia,2013,44.5,0.25,18.1,depressive or anxiety disorders,0.0074784312760698
+Finland,2013,74.5,36.4,86.8,depressive or anxiety disorders,0.0144613122680961
+France,2013,66.7,33.5,107.0,depressive or anxiety disorders,0.0135252833596298
+Gabon,2013,38.0,35.6,42.6,depressive or anxiety disorders,0.0112037135922138
+United Kingdom,2013,69.2,20.8,113.0,depressive or anxiety disorders,0.0146454759101907
+Georgia,2013,43.5,10.6,93.1,depressive or anxiety disorders,0.015332195066022201
+Ghana,2013,49.6,26.3,40.5,depressive or anxiety disorders,0.0083453122779168
+Guinea,2013,39.0,9.18,27.2,depressive or anxiety disorders,0.0070570379563171
+Greece,2013,47.2,19.3,80.3,depressive or anxiety disorders,0.0193867095692352
+Guatemala,2013,59.9,1.29,132.0,depressive or anxiety disorders,0.010234012745869799
+Honduras,2013,47.1,3.98,131.0,depressive or anxiety disorders,0.008208192848413901
+Croatia,2013,58.9,19.0,118.0,depressive or anxiety disorders,0.0137342501669965
+Haiti,2013,46.2,4.84,45.8,depressive or anxiety disorders,0.008342249953858601
+Hungary,2013,49.1,5.09,95.0,depressive or anxiety disorders,0.012983197593501
+Indonesia,2013,52.9,28.2,46.5,depressive or anxiety disorders,0.0047079451428996
+India,2013,44.3,5.04,64.2,depressive or anxiety disorders,0.0088553420749114
+Ireland,2013,67.6,22.0,126.0,depressive or anxiety disorders,0.0135656027225816
+Iran,2013,51.4,9.97,79.8,depressive or anxiety disorders,0.019495312547042398
+Iraq,2013,47.3,3.29,52.7,depressive or anxiety disorders,0.0115833523968445
+Iceland,2013,75.0,91.9,132.0,depressive or anxiety disorders,0.0097358442670038
+Israel,2013,73.2,23.2,76.2,depressive or anxiety disorders,0.0127191433614354
+Italy,2013,60.1,25.1,88.0,depressive or anxiety disorders,0.0143111509320814
+Jamaica,2013,57.1,24.0,135.0,depressive or anxiety disorders,0.0089422156049308
+Jordan,2013,51.7,5.28,128.0,depressive or anxiety disorders,0.0140485383036943
+Japan,2013,59.6,48.6,74.2,depressive or anxiety disorders,0.007426506640634299
+Kazakhstan,2013,58.4,5.33,78.4,depressive or anxiety disorders,0.0121219118368171
+Kenya,2013,38.0,4.28,43.7,depressive or anxiety disorders,0.0065626213198336
+Kyrgyzstan,2013,54.0,2.31,86.3,depressive or anxiety disorders,0.012267301949166
+Cambodia,2013,36.7,41.4,51.5,depressive or anxiety disorders,0.0074911588877006
+South Korea,2013,59.6,52.8,105.0,depressive or anxiety disorders,0.008020670093314
+Kuwait,2013,64.8,13.8,106.0,depressive or anxiety disorders,0.0152759083642902
+Lebanon,2013,49.8,10.6,123.0,depressive or anxiety disorders,0.018582172306887
+Sri Lanka,2013,43.6,25.6,73.4,depressive or anxiety disorders,0.0071629146944139
+Lithuania,2013,56.0,43.6,130.0,depressive or anxiety disorders,0.017067365163203698
+Luxembourg,2013,71.3,33.8,141.0,depressive or anxiety disorders,0.011498361551045699
+Latvia,2013,50.7,23.7,117.0,depressive or anxiety disorders,0.0159436547817265
+Morocco,2013,51.4,18.1,109.0,depressive or anxiety disorders,0.016617819174918398
+Moldova,2013,57.6,12.9,64.6,depressive or anxiety disorders,0.012983880506832501
+Madagascar,2013,38.2,4.56,20.3,depressive or anxiety disorders,0.0069067651597701
+Mexico,2013,74.4,10.5,133.0,depressive or anxiety disorders,0.0109380001310838
+North Macedonia,2013,51.9,5.52,110.0,depressive or anxiety disorders,0.0101074945008966
+Mali,2013,36.8,7.73,28.1,depressive or anxiety disorders,0.0048158818960832
+Malta,2013,63.8,32.6,168.0,depressive or anxiety disorders,0.0108292331783187
+Myanmar,2013,41.8,54.4,46.2,depressive or anxiety disorders,0.0051379710571395
+Montenegro,2013,50.7,12.2,131.0,depressive or anxiety disorders,0.0117203234950754
+Mongolia,2013,49.1,0.68,40.2,depressive or anxiety disorders,0.015124586944448399
+Mauritania,2013,42.0,9.09,99.2,depressive or anxiety disorders,0.0062371900703787
+Malawi,2013,40.4,7.33,22.6,depressive or anxiety disorders,0.0056936873419516
+Malaysia,2013,57.7,59.0,121.0,depressive or anxiety disorders,0.00950607508253
+Niger,2013,37.2,2.69,14.5,depressive or anxiety disorders,0.0053093098503988
+Nigeria,2013,48.2,16.2,29.5,depressive or anxiety disorders,0.0057203594130795996
+Nicaragua,2013,57.7,4.75,116.0,depressive or anxiety disorders,0.0108989105098064
+Netherlands,2013,74.1,22.1,122.0,depressive or anxiety disorders,0.011655857684250499
+Nepal,2013,46.0,2.17,13.0,depressive or anxiety disorders,0.0129838883770921
+New Zealand,2013,72.8,24.9,162.0,depressive or anxiety disorders,0.010590101796434801
+Pakistan,2013,51.4,1.92,76.0,depressive or anxiety disorders,0.007675756678995
+Panama,2013,68.7,13.0,95.3,depressive or anxiety disorders,0.0090849841284172
+Peru,2013,57.8,22.1,62.9,depressive or anxiety disorders,0.0059027169284795004
+Philippines,2013,49.8,31.6,64.6,depressive or anxiety disorders,0.005976065603533901
+Poland,2013,57.5,10.6,122.0,depressive or anxiety disorders,0.0076424104391172
+Portugal,2013,51.6,53.8,78.0,depressive or anxiety disorders,0.0190220053268935
+Paraguay,2013,59.4,3.69,69.6,depressive or anxiety disorders,0.0089724040846711
+Romania,2013,50.8,6.22,70.1,depressive or anxiety disorders,0.010960625484192299
+Russia,2013,55.4,22.9,134.0,depressive or anxiety disorders,0.0110393513044433
+Rwanda,2013,34.7,3.88,14.1,depressive or anxiety disorders,0.0088261691829509
+Saudi Arabia,2013,65.0,13.5,86.8,depressive or anxiety disorders,0.014848518064977
+Senegal,2013,36.5,23.9,50.0,depressive or anxiety disorders,0.0070292013255702
+Sierra Leone,2013,45.1,32.3,16.5,depressive or anxiety disorders,0.0072977178076743
+El Salvador,2013,63.3,6.77,113.0,depressive or anxiety disorders,0.0107446351488581
+Serbia,2013,51.0,5.8,77.1,depressive or anxiety disorders,0.0123693474917571
+Slovakia,2013,59.4,8.65,136.0,depressive or anxiety disorders,0.0116405663512479
+Slovenia,2013,59.8,10.5,75.1,depressive or anxiety disorders,0.0145605991497721
+Sweden,2013,74.3,32.0,115.0,depressive or anxiety disorders,0.015285356606766599
+Chad,2013,35.1,4.74,29.0,depressive or anxiety disorders,0.0070192688533835
+Thailand,2013,62.3,24.8,109.0,depressive or anxiety disorders,0.0068618746642647
+Tajikistan,2013,49.7,0.5,51.9,depressive or anxiety disorders,0.0083959703398443
+Turkmenistan,2013,53.9,3.72,24.6,depressive or anxiety disorders,0.0105429661762763
+Trinidad and Tobago,2013,61.7,23.9,162.0,depressive or anxiety disorders,0.0128219925049132
+Tunisia,2013,52.5,13.6,95.5,depressive or anxiety disorders,0.0193306771127457
+Turkiye,2013,48.9,6.07,87.3,depressive or anxiety disorders,0.0126839121395679
+Taiwan,2013,63.4,35.4,81.2,depressive or anxiety disorders,0.0089308896310873
+Tanzania,2013,38.5,5.59,27.9,depressive or anxiety disorders,0.007685991368843
+Uganda,2013,37.1,12.5,32.4,depressive or anxiety disorders,0.0088309146876321
+Ukraine,2013,47.1,17.0,126.0,depressive or anxiety disorders,0.0157644054546262
+Uruguay,2013,64.4,7.49,111.0,depressive or anxiety disorders,0.010081439177445601
+United States,2013,72.5,21.5,175.0,depressive or anxiety disorders,0.0137424788641694
+Uzbekistan,2013,59.4,0.74,27.6,depressive or anxiety disorders,0.0117475020014639
+Venezuela,2013,65.5,9.58,106.0,depressive or anxiety disorders,0.009885252626459
+Vietnam,2013,50.2,32.7,27.4,depressive or anxiety disorders,0.0056520804736415
+Yemen,2013,42.2,2.46,77.9,depressive or anxiety disorders,0.0113419614261011
+South Africa,2013,36.6,6.25,101.0,depressive or anxiety disorders,0.0082192378350007
+Zambia,2013,52.4,6.22,28.1,depressive or anxiety disorders,0.0058559803717686005
+Zimbabwe,2013,46.9,2.82,80.6,depressive or anxiety disorders,0.0053703534687548
+Afghanistan,2014,31.3,0.19,34.7,depressive or anxiety disorders,0.013994974196787701
+Angola,2014,38.0,26.4,60.2,depressive or anxiety disorders,0.011036405794788099
+Albania,2014,48.1,5.34,83.2,depressive or anxiety disorders,0.0091876890862726
+United Arab Emirates,2014,65.4,25.4,123.0,depressive or anxiety disorders,0.015346103746448899
+Argentina,2014,66.7,5.88,128.0,depressive or anxiety disorders,0.0079390580580532
+Armenia,2014,44.5,5.5,140.0,depressive or anxiety disorders,0.0112967307923497
+Australia,2014,72.9,26.4,169.0,depressive or anxiety disorders,0.0153964796233734
+Austria,2014,69.5,14.0,123.0,depressive or anxiety disorders,0.0103552804111511
+Azerbaijan,2014,52.5,1.93,145.0,depressive or anxiety disorders,0.0101447975720131
+Belgium,2014,68.5,26.2,146.0,depressive or anxiety disorders,0.0126146309951846
+Benin,2014,33.5,20.1,24.8,depressive or anxiety disorders,0.0070385569470610004
+Burkina Faso,2014,34.8,6.53,23.6,depressive or anxiety disorders,0.0071788151179543
+Bangladesh,2014,46.4,22.9,26.3,depressive or anxiety disorders,0.0114705359754141
+Bulgaria,2014,44.4,6.43,93.3,depressive or anxiety disorders,0.0121222805188454
+Bosnia and Herzegovina,2014,52.5,4.7,94.2,depressive or anxiety disorders,0.0116203649915262
+Belarus,2014,58.1,16.3,234.0,depressive or anxiety disorders,0.0159032382839723
+Belize,2014,59.6,12.9,131.0,depressive or anxiety disorders,0.0086544230510513
+Bolivia,2014,58.6,2.39,74.3,depressive or anxiety disorders,0.010251349999413899
+Brazil,2014,69.8,9.94,118.0,depressive or anxiety disorders,0.010849292252378401
+Botswana,2014,40.3,4.46,101.0,depressive or anxiety disorders,0.0089172803191647
+Canada,2014,73.0,23.0,256.0,depressive or anxiety disorders,0.0087705396644905
+Switzerland,2014,74.9,16.9,142.0,depressive or anxiety disorders,0.0135989843812355
+Chile,2014,68.4,12.7,132.0,depressive or anxiety disorders,0.0130091352127624
+China,2014,52.0,35.9,23.0,depressive or anxiety disorders,0.0108812969439296
+Ivory Coast,2014,35.7,16.5,21.8,depressive or anxiety disorders,0.0064983673916439
+Cameroon,2014,42.4,19.8,26.7,depressive or anxiety disorders,0.0069826623461221
+Congo,2014,40.6,27.9,45.7,depressive or anxiety disorders,0.0103439560320643
+Colombia,2014,64.5,7.49,164.0,depressive or anxiety disorders,0.006579014531664
+Costa Rica,2014,72.5,14.2,147.0,depressive or anxiety disorders,0.010481361338672899
+Cyprus,2014,56.3,23.9,165.0,depressive or anxiety disorders,0.0104103052176496
+Czech Republic,2014,64.8,8.78,154.0,depressive or anxiety disorders,0.012672901740069499
+Germany,2014,69.8,13.1,134.0,depressive or anxiety disorders,0.013058927932968001
+Denmark,2014,75.1,23.0,150.0,depressive or anxiety disorders,0.012170132902072701
+Dominican Republic,2014,53.9,8.99,109.0,depressive or anxiety disorders,0.0119582128084375
+Algeria,2014,63.5,4.4,80.2,depressive or anxiety disorders,0.0142634273686585
+Ecuador,2014,59.5,6.95,58.9,depressive or anxiety disorders,0.009526611951275401
+Egypt,2014,48.9,24.2,72.7,depressive or anxiety disorders,0.0122320683234243
+Spain,2014,64.6,44.1,91.1,depressive or anxiety disorders,0.0177979098009008
+Estonia,2014,55.6,12.6,169.0,depressive or anxiety disorders,0.0159310406869527
+Ethiopia,2014,45.1,0.51,20.9,depressive or anxiety disorders,0.0076996295708985
+Finland,2014,73.8,35.8,110.0,depressive or anxiety disorders,0.014190609230219
+France,2014,64.7,33.9,102.0,depressive or anxiety disorders,0.0132280206482994
+Gabon,2014,39.2,36.9,47.1,depressive or anxiety disorders,0.011338618966257099
+United Kingdom,2014,67.6,20.1,107.0,depressive or anxiety disorders,0.0150221382189657
+Georgia,2014,42.9,7.99,96.8,depressive or anxiety disorders,0.015445243645975399
+Ghana,2014,38.6,22.5,40.7,depressive or anxiety disorders,0.008560313380528501
+Guinea,2014,34.1,10.9,41.8,depressive or anxiety disorders,0.0071991204642514
+Greece,2014,47.6,17.8,80.4,depressive or anxiety disorders,0.018559482360160702
+Guatemala,2014,65.4,2.75,117.0,depressive or anxiety disorders,0.0102673230194202
+Honduras,2014,50.6,3.32,153.0,depressive or anxiety disorders,0.0083408480342324
+Croatia,2014,53.8,18.0,156.0,depressive or anxiety disorders,0.0137902580448326
+Haiti,2014,38.9,5.36,52.3,depressive or anxiety disorders,0.0084008339027692
+Hungary,2014,51.8,5.58,111.0,depressive or anxiety disorders,0.013091193991751699
+Indonesia,2014,56.0,37.0,46.2,depressive or anxiety disorders,0.0047845453481189
+India,2014,44.2,6.2,58.0,depressive or anxiety disorders,0.0089561454116981
+Ireland,2014,70.2,21.8,249.0,depressive or anxiety disorders,0.013411274227246599
+Iran,2014,46.8,10.6,88.2,depressive or anxiety disorders,0.0196585482463942
+Iraq,2014,45.4,3.87,57.8,depressive or anxiety disorders,0.012041722691821998
+Israel,2014,74.0,23.8,86.0,depressive or anxiety disorders,0.012516655409610099
+Italy,2014,60.3,28.2,89.6,depressive or anxiety disorders,0.0143382437447531
+Jamaica,2014,53.1,21.5,173.0,depressive or anxiety disorders,0.0091091824654775
+Jordan,2014,53.3,5.62,118.0,depressive or anxiety disorders,0.014179577259719899
+Japan,2014,59.2,48.7,75.2,depressive or anxiety disorders,0.0074390979060861995
+Kazakhstan,2014,59.7,4.7,86.1,depressive or anxiety disorders,0.012161665161329
+Kenya,2014,49.0,4.06,44.4,depressive or anxiety disorders,0.0066115017903395
+Kyrgyzstan,2014,52.5,3.0,123.0,depressive or anxiety disorders,0.012251393815559
+Cambodia,2014,38.8,42.4,60.3,depressive or anxiety disorders,0.0075716408034632
+South Korea,2014,58.0,54.4,104.0,depressive or anxiety disorders,0.0081017494030225
+Kuwait,2014,61.8,12.6,104.0,depressive or anxiety disorders,0.0154055408132442
+Lebanon,2014,52.3,9.44,200.0,depressive or anxiety disorders,0.0184656933677226
+Liberia,2014,45.7,7.35,21.0,depressive or anxiety disorders,0.0075081350757037
+Sri Lanka,2014,42.7,30.5,76.8,depressive or anxiety disorders,0.0072361179616385
+Lithuania,2014,61.3,31.7,252.0,depressive or anxiety disorders,0.017103358150377702
+Luxembourg,2014,68.9,35.0,448.0,depressive or anxiety disorders,0.0115463455958858
+Latvia,2014,57.3,24.0,157.0,depressive or anxiety disorders,0.0160136495051602
+Moldova,2014,59.2,12.1,103.0,depressive or anxiety disorders,0.0130622244707423
+Madagascar,2014,36.8,3.56,22.2,depressive or anxiety disorders,0.0069885660224597
+Mexico,2014,66.8,14.4,134.0,depressive or anxiety disorders,0.0110563137409085
+North Macedonia,2014,52.0,6.15,130.0,depressive or anxiety disorders,0.0101680861129101
+Mali,2014,39.8,6.4,29.4,depressive or anxiety disorders,0.0049386688171299
+Malta,2014,64.5,32.5,231.0,depressive or anxiety disorders,0.0109047023845164
+Myanmar,2014,47.9,45.8,74.4,depressive or anxiety disorders,0.0052541388435112
+Montenegro,2014,52.8,11.9,353.0,depressive or anxiety disorders,0.011780494272446299
+Mongolia,2014,48.3,0.78,63.7,depressive or anxiety disorders,0.0151506045941533
+Mauritania,2014,44.8,8.77,109.0,depressive or anxiety disorders,0.0063370314542638
+Mauritius,2014,56.5,23.2,104.0,depressive or anxiety disorders,0.0120279507722097
+Malawi,2014,45.6,7.78,28.7,depressive or anxiety disorders,0.0058993699755893
+Malaysia,2014,59.6,57.4,124.0,depressive or anxiety disorders,0.0096312523736488
+Namibia,2014,45.7,12.2,89.8,depressive or anxiety disorders,0.0067796092818206005
+Niger,2014,41.8,2.64,14.2,depressive or anxiety disorders,0.0054129136595915
+Nicaragua,2014,62.8,6.41,155.0,depressive or anxiety disorders,0.0109700102943472
+Netherlands,2014,73.2,21.9,120.0,depressive or anxiety disorders,0.0116155418688471
+Norway,2014,74.4,50.8,123.0,depressive or anxiety disorders,0.012933907179495701
+Nepal,2014,49.8,2.76,21.4,depressive or anxiety disorders,0.0129247203378949
+New Zealand,2014,73.1,24.4,159.0,depressive or anxiety disorders,0.0106097345481365
+Pakistan,2014,54.4,1.83,67.9,depressive or anxiety disorders,0.0077943247514866
+Panama,2014,66.3,13.8,149.0,depressive or anxiety disorders,0.0091301477519989
+Peru,2014,58.7,24.2,60.2,depressive or anxiety disorders,0.00597214643571
+Philippines,2014,53.1,29.7,60.7,depressive or anxiety disorders,0.0061006453625997
+Poland,2014,57.5,10.7,123.0,depressive or anxiety disorders,0.0076595690288212
+Portugal,2014,51.3,53.2,101.0,depressive or anxiety disorders,0.0184384510677841
+Paraguay,2014,51.2,4.2,86.2,depressive or anxiety disorders,0.0090651066610159
+Romania,2014,57.3,5.85,73.9,depressive or anxiety disorders,0.0110253068377543
+Russia,2014,60.4,22.5,209.0,depressive or anxiety disorders,0.0111192278958723
+Rwanda,2014,36.0,5.26,21.8,depressive or anxiety disorders,0.0090751256329928
+Saudi Arabia,2014,62.8,12.4,83.4,depressive or anxiety disorders,0.015007902885839499
+Sudan,2014,41.4,1.01,83.3,depressive or anxiety disorders,0.0115057184721993
+Senegal,2014,44.0,20.9,47.5,depressive or anxiety disorders,0.0072718382715486
+Sierra Leone,2014,45.0,29.0,15.4,depressive or anxiety disorders,0.0074128336001977
+El Salvador,2014,58.6,8.29,109.0,depressive or anxiety disorders,0.0107902472440732
+Serbia,2014,51.1,6.65,82.8,depressive or anxiety disorders,0.012419467739506201
+Slovakia,2014,61.4,8.44,146.0,depressive or anxiety disorders,0.011639342653912199
+Slovenia,2014,56.8,11.1,127.0,depressive or anxiety disorders,0.01456737292697
+Sweden,2014,72.4,35.0,139.0,depressive or anxiety disorders,0.0150379993512543
+Chad,2014,34.6,8.93,28.2,depressive or anxiety disorders,0.0069911816762608
+Togo,2014,28.4,10.6,40.4,depressive or anxiety disorders,0.0071439635088127
+Thailand,2014,69.8,23.1,104.0,depressive or anxiety disorders,0.0069451314788755
+Tajikistan,2014,49.0,0.61,55.5,depressive or anxiety disorders,0.0084705145258994
+Turkmenistan,2014,57.9,3.64,50.8,depressive or anxiety disorders,0.0106081713632037
+Tunisia,2014,47.6,13.8,96.9,depressive or anxiety disorders,0.019387458622220802
+Turkiye,2014,55.8,5.06,86.7,depressive or anxiety disorders,0.0127429383778112
+Taiwan,2014,63.6,33.0,80.1,depressive or anxiety disorders,0.0089430447392296
+Tanzania,2014,34.8,6.33,27.0,depressive or anxiety disorders,0.0078358132987865
+Uganda,2014,37.7,14.4,32.5,depressive or anxiety disorders,0.008782999489270402
+Ukraine,2014,43.0,12.6,194.0,depressive or anxiety disorders,0.015556182447710499
+Uruguay,2014,65.6,9.21,146.0,depressive or anxiety disorders,0.010299972958265501
+United States,2014,71.5,21.8,182.0,depressive or anxiety disorders,0.0135089334857975
+Uzbekistan,2014,60.5,1.92,27.0,depressive or anxiety disorders,0.0117931491276185
+Venezuela,2014,61.4,11.1,91.6,depressive or anxiety disorders,0.0099989017887623
+Vietnam,2014,50.9,30.9,32.1,depressive or anxiety disorders,0.005665551132790401
+Yemen,2014,39.7,5.46,91.2,depressive or anxiety disorders,0.01161508907319
+South Africa,2014,48.3,7.2,122.0,depressive or anxiety disorders,0.008433690378799
+Zambia,2014,43.5,10.6,30.8,depressive or anxiety disorders,0.0060302381745958
+Zimbabwe,2014,41.8,3.39,94.1,depressive or anxiety disorders,0.0054412998044706
+Afghanistan,2015,39.8,0.21,32.6,depressive or anxiety disorders,0.0140792545176454
+Albania,2015,46.1,5.35,94.2,depressive or anxiety disorders,0.009284960375346301
+United Arab Emirates,2015,65.7,25.3,124.0,depressive or anxiety disorders,0.015491653948419
+Argentina,2015,67.0,7.21,127.0,depressive or anxiety disorders,0.0080323278128884
+Armenia,2015,43.5,6.59,144.0,depressive or anxiety disorders,0.0114100504908761
+Australia,2015,73.1,24.8,166.0,depressive or anxiety disorders,0.0153089996574205
+Austria,2015,70.8,14.0,128.0,depressive or anxiety disorders,0.0104293009705056
+Azerbaijan,2015,51.5,1.37,142.0,depressive or anxiety disorders,0.010238487280578499
+Belgium,2015,69.0,24.7,169.0,depressive or anxiety disorders,0.0126255113134363
+Benin,2015,36.3,19.0,23.8,depressive or anxiety disorders,0.007094041080751699
+Burkina Faso,2015,44.2,6.89,24.3,depressive or anxiety disorders,0.0073842916784986005
+Bangladesh,2015,46.3,23.9,26.0,depressive or anxiety disorders,0.0117093997306204
+Bulgaria,2015,48.6,6.98,93.1,depressive or anxiety disorders,0.012170070374127099
+Bosnia and Herzegovina,2015,51.2,4.78,97.9,depressive or anxiety disorders,0.011665298650295199
+Belarus,2015,57.2,16.3,212.0,depressive or anxiety disorders,0.0158858499046043
+Bolivia,2015,58.3,2.65,70.4,depressive or anxiety disorders,0.010352588094467
+Brazil,2015,65.5,9.02,117.0,depressive or anxiety disorders,0.0108307250205657
+Botswana,2015,37.6,3.95,106.0,depressive or anxiety disorders,0.0090359734402364
+Canada,2015,74.1,22.2,255.0,depressive or anxiety disorders,0.0087919286379227
+Switzerland,2015,75.7,17.2,132.0,depressive or anxiety disorders,0.0135905615260085
+Chile,2015,65.3,11.4,133.0,depressive or anxiety disorders,0.0130405496274206
+China,2015,53.0,37.5,22.0,depressive or anxiety disorders,0.010987639442449602
+Ivory Coast,2015,44.5,18.4,24.5,depressive or anxiety disorders,0.0066107654973203
+Cameroon,2015,50.4,20.1,25.2,depressive or anxiety disorders,0.0070845725916868
+Congo,2015,46.9,25.2,46.3,depressive or anxiety disorders,0.0104407183442436
+Colombia,2015,63.9,7.37,164.0,depressive or anxiety disorders,0.006643131837795
+Costa Rica,2015,68.5,14.7,146.0,depressive or anxiety disorders,0.010575490834399601
+Cyprus,2015,54.4,23.1,168.0,depressive or anxiety disorders,0.0104801131276939
+Czech Republic,2015,66.1,9.3,132.0,depressive or anxiety disorders,0.0126862102635634
+Germany,2015,70.4,12.9,135.0,depressive or anxiety disorders,0.0131823945506443
+Denmark,2015,75.1,22.9,150.0,depressive or anxiety disorders,0.0122128778644227
+Dominican Republic,2015,50.6,9.08,106.0,depressive or anxiety disorders,0.012053310364218401
+Ecuador,2015,59.6,7.79,58.8,depressive or anxiety disorders,0.009605186518168898
+Egypt,2015,47.6,23.5,73.4,depressive or anxiety disorders,0.0123433251045744
+Spain,2015,63.8,43.6,91.1,depressive or anxiety disorders,0.0180620573715705
+Estonia,2015,56.3,12.4,149.0,depressive or anxiety disorders,0.0159056121657165
+Ethiopia,2015,45.7,0.45,20.2,depressive or anxiety disorders,0.007850148787615
+Finland,2015,74.5,34.8,110.0,depressive or anxiety disorders,0.0141129043440072
+France,2015,63.6,33.5,106.0,depressive or anxiety disorders,0.013114798201092499
+Gabon,2015,46.6,34.3,47.3,depressive or anxiety disorders,0.0114651659683266
+United Kingdom,2015,65.2,20.0,103.0,depressive or anxiety disorders,0.0152448986095007
+Georgia,2015,41.2,6.45,99.8,depressive or anxiety disorders,0.0155425359824839
+Ghana,2015,39.9,24.7,39.4,depressive or anxiety disorders,0.008741552213662
+Guinea,2015,35.0,10.3,40.7,depressive or anxiety disorders,0.007299606866774
+Greece,2015,56.2,17.9,79.9,depressive or anxiety disorders,0.018262070273759
+Guatemala,2015,64.7,2.69,117.0,depressive or anxiety disorders,0.0103555840995604
+Honduras,2015,48.5,3.26,154.0,depressive or anxiety disorders,0.0084463638256675
+Croatia,2015,52.0,16.8,143.0,depressive or anxiety disorders,0.0138480240015973
+Haiti,2015,35.7,5.74,51.7,depressive or anxiety disorders,0.0084441278337808
+Hungary,2015,53.4,5.88,114.0,depressive or anxiety disorders,0.013158211842632599
+Indonesia,2015,50.4,38.3,45.9,depressive or anxiety disorders,0.0048582875209584
+India,2015,43.4,6.42,61.8,depressive or anxiety disorders,0.0090444194541096
+Ireland,2015,68.3,21.2,224.0,depressive or anxiety disorders,0.0133862215884419
+Iran,2015,47.5,10.8,88.1,depressive or anxiety disorders,0.019709572672589402
+Iraq,2015,44.9,2.45,69.7,depressive or anxiety disorders,0.0124609004222274
+Iceland,2015,75.0,91.8,136.0,depressive or anxiety disorders,0.009905177341471401
+Israel,2015,70.8,23.4,84.2,depressive or anxiety disorders,0.0125742528262825
+Italy,2015,58.5,29.4,89.0,depressive or anxiety disorders,0.0143939288246389
+Jordan,2015,54.0,5.8,123.0,depressive or anxiety disorders,0.0143370191544182
+Japan,2015,58.8,47.3,74.1,depressive or anxiety disorders,0.0074494501760691
+Kazakhstan,2015,59.5,4.63,86.1,depressive or anxiety disorders,0.012156727079117299
+Kenya,2015,43.6,3.9,47.1,depressive or anxiety disorders,0.0066888715219433
+Kyrgyzstan,2015,49.0,1.84,124.0,depressive or anxiety disorders,0.0122253373646663
+Cambodia,2015,41.6,41.2,62.3,depressive or anxiety disorders,0.007634269414920101
+South Korea,2015,57.8,55.5,102.0,depressive or anxiety disorders,0.0081640715176963
+Kuwait,2015,61.5,12.1,110.0,depressive or anxiety disorders,0.015536615039942199
+Lebanon,2015,51.7,8.03,182.0,depressive or anxiety disorders,0.018417811748089902
+Liberia,2015,27.0,6.64,23.3,depressive or anxiety disorders,0.0075948498203003
+Sri Lanka,2015,46.1,30.7,76.8,depressive or anxiety disorders,0.0072944146218127
+Lithuania,2015,57.1,32.1,249.0,depressive or anxiety disorders,0.0171414925701257
+Luxembourg,2015,67.0,35.2,447.0,depressive or anxiety disorders,0.0116010301021822
+Latvia,2015,58.8,24.3,143.0,depressive or anxiety disorders,0.0160717589457713
+Morocco,2015,51.6,20.2,98.1,depressive or anxiety disorders,0.017096752857385
+Moldova,2015,60.2,10.0,99.9,depressive or anxiety disorders,0.0131392372973077
+Madagascar,2015,35.9,4.38,22.4,depressive or anxiety disorders,0.0070865536416659
+Mexico,2015,62.4,14.9,136.0,depressive or anxiety disorders,0.011172922206235999
+North Macedonia,2015,49.8,6.44,137.0,depressive or anxiety disorders,0.0102311708062659
+Mali,2015,45.8,7.41,30.8,depressive or anxiety disorders,0.0050511737496311
+Malta,2015,66.1,32.2,247.0,depressive or anxiety disorders,0.010976187998602
+Myanmar,2015,42.2,46.8,76.2,depressive or anxiety disorders,0.0053300857596981
+Montenegro,2015,51.3,12.0,353.0,depressive or anxiety disorders,0.0118307864473916
+Mongolia,2015,49.8,0.48,58.9,depressive or anxiety disorders,0.0151062355493763
+Mozambique,2015,45.5,12.0,34.2,depressive or anxiety disorders,0.0082467673794998
+Mauritania,2015,39.2,8.56,109.0,depressive or anxiety disorders,0.006442706575186
+Malawi,2015,38.7,9.11,29.3,depressive or anxiety disorders,0.006064947839637401
+Malaysia,2015,63.2,57.5,120.0,depressive or anxiety disorders,0.0097233521867734
+Niger,2015,36.7,1.77,14.8,depressive or anxiety disorders,0.005498740994258
+Nigeria,2015,49.3,11.2,30.8,depressive or anxiety disorders,0.0056946224114411996
+Nicaragua,2015,59.2,5.78,151.0,depressive or anxiety disorders,0.0110360392075171
+Netherlands,2015,73.2,21.9,125.0,depressive or anxiety disorders,0.0116350702346224
+Norway,2015,76.0,50.0,122.0,depressive or anxiety disorders,0.012983808484431
+Nepal,2015,48.1,2.89,23.7,depressive or anxiety disorders,0.0128663727321404
+New Zealand,2015,74.2,24.2,158.0,depressive or anxiety disorders,0.0106382620917719
+Pakistan,2015,48.2,1.88,67.0,depressive or anxiety disorders,0.0079292389873387
+Panama,2015,66.1,13.6,153.0,depressive or anxiety disorders,0.0091758865133552
+Peru,2015,55.8,25.1,60.5,depressive or anxiety disorders,0.0060335520177137
+Philippines,2015,55.5,29.9,60.2,depressive or anxiety disorders,0.0061896084721322
+Poland,2015,60.1,10.7,112.0,depressive or anxiety disorders,0.0076787840609336
+Portugal,2015,50.8,52.7,104.0,depressive or anxiety disorders,0.018200568934962802
+Paraguay,2015,55.6,4.09,84.7,depressive or anxiety disorders,0.0091446383063908
+Romania,2015,57.8,5.88,76.4,depressive or anxiety disorders,0.0110855817269697
+Russia,2015,60.0,20.1,212.0,depressive or anxiety disorders,0.0111427265949094
+Rwanda,2015,34.8,7.15,23.8,depressive or anxiety disorders,0.0092491344802741
+Saudi Arabia,2015,63.5,11.7,83.8,depressive or anxiety disorders,0.0151395504298544
+Senegal,2015,46.2,17.1,43.5,depressive or anxiety disorders,0.0073890390140429
+Sierra Leone,2015,49.1,27.6,14.6,depressive or anxiety disorders,0.007515253709071999
+El Salvador,2015,60.2,7.23,115.0,depressive or anxiety disorders,0.0108378905753868
+Serbia,2015,53.2,5.56,75.2,depressive or anxiety disorders,0.012483863374668799
+Slovakia,2015,61.6,9.45,159.0,depressive or anxiety disorders,0.011669263836143999
+Slovenia,2015,57.4,11.2,135.0,depressive or anxiety disorders,0.0145882771890203
+Sweden,2015,72.9,33.3,132.0,depressive or anxiety disorders,0.014889255209398801
+Chad,2015,43.2,7.14,28.3,depressive or anxiety disorders,0.0070057683084322996
+Togo,2015,37.7,12.9,41.0,depressive or anxiety disorders,0.0072611555639384
+Thailand,2015,62.0,23.1,107.0,depressive or anxiety disorders,0.007016316112001601
+Tajikistan,2015,51.2,0.54,55.3,depressive or anxiety disorders,0.0085496110114876
+Turkmenistan,2015,57.9,3.62,47.0,depressive or anxiety disorders,0.010667733191491901
+Tunisia,2015,51.3,12.9,97.0,depressive or anxiety disorders,0.0194453136301913
+Turkiye,2015,55.1,5.51,87.2,depressive or anxiety disorders,0.0127921695244121
+Taiwan,2015,64.5,31.8,78.9,depressive or anxiety disorders,0.0089588180529775
+Tanzania,2015,36.6,7.33,30.3,depressive or anxiety disorders,0.0079936161844662
+Uganda,2015,42.4,12.4,32.8,depressive or anxiety disorders,0.0088678029269622
+Ukraine,2015,39.6,9.27,185.0,depressive or anxiety disorders,0.0155609417769881
+Uruguay,2015,66.3,8.61,143.0,depressive or anxiety disorders,0.010407354312939699
+United States,2015,68.6,21.9,182.0,depressive or anxiety disorders,0.013385414463955699
+Uzbekistan,2015,59.7,2.28,27.4,depressive or anxiety disorders,0.011826255827707601
+Venezuela,2015,55.7,8.64,85.0,depressive or anxiety disorders,0.010066584381648501
+Vietnam,2015,50.8,35.5,39.1,depressive or anxiety disorders,0.0056766727458971
+Yemen,2015,29.8,4.78,82.1,depressive or anxiety disorders,0.0118615228572677
+South Africa,2015,48.9,6.55,125.0,depressive or anxiety disorders,0.0085767565371528
+Zambia,2015,48.4,12.2,30.5,depressive or anxiety disorders,0.0061800427786151
+Zimbabwe,2015,37.0,3.82,96.7,depressive or anxiety disorders,0.0055153208640867
+Afghanistan,2016,42.2,0.23,29.9,depressive or anxiety disorders,0.014187176913012701
+Albania,2016,45.1,5.36,98.8,depressive or anxiety disorders,0.009377969682606
+United Arab Emirates,2016,68.3,25.0,117.0,depressive or anxiety disorders,0.0156373684032283
+Argentina,2016,64.3,6.07,127.0,depressive or anxiety disorders,0.0081345990647307
+Armenia,2016,43.3,6.54,140.0,depressive or anxiety disorders,0.011501681437963299
+Australia,2016,72.5,25.7,164.0,depressive or anxiety disorders,0.015152184728544101
+Austria,2016,70.5,14.1,133.0,depressive or anxiety disorders,0.0105080876307408
+Azerbaijan,2016,53.0,2.19,121.0,depressive or anxiety disorders,0.0103641901808289
+Belgium,2016,69.5,23.8,161.0,depressive or anxiety disorders,0.0127145226814076
+Benin,2016,40.1,20.1,22.2,depressive or anxiety disorders,0.007109112387644999
+Burkina Faso,2016,42.1,7.27,25.4,depressive or anxiety disorders,0.007444324904699101
+Bangladesh,2016,45.6,24.6,25.1,depressive or anxiety disorders,0.0119291896065953
+Bulgaria,2016,48.4,7.18,94.5,depressive or anxiety disorders,0.0122341825457188
+Bosnia and Herzegovina,2016,51.8,4.84,94.0,depressive or anxiety disorders,0.0117592514321599
+Belarus,2016,51.8,16.3,219.0,depressive or anxiety disorders,0.015854902686546598
+Bolivia,2016,57.7,2.63,72.4,depressive or anxiety disorders,0.0104287433351257
+Brazil,2016,63.8,9.05,117.0,depressive or anxiety disorders,0.0108286358787854
+Botswana,2016,35.0,3.88,106.0,depressive or anxiety disorders,0.0091318311211709
+Central African Republic,2016,26.9,7.83,20.0,depressive or anxiety disorders,0.0099576210367689
+Canada,2016,72.5,22.7,248.0,depressive or anxiety disorders,0.008805585918636
+Switzerland,2016,74.6,17.6,131.0,depressive or anxiety disorders,0.0136358003904446
+Chile,2016,65.8,11.3,131.0,depressive or anxiety disorders,0.0130343455481036
+China,2016,53.3,38.0,19.6,depressive or anxiety disorders,0.011022085227030501
+Ivory Coast,2016,45.4,18.4,25.4,depressive or anxiety disorders,0.0066786683160087994
+Cameroon,2016,48.2,21.0,24.6,depressive or anxiety disorders,0.0072293812877777
+Congo,2016,41.2,27.7,44.9,depressive or anxiety disorders,0.0105760021947228
+Colombia,2016,62.3,7.27,188.0,depressive or anxiety disorders,0.0067261511205184
+Costa Rica,2016,71.4,16.6,154.0,depressive or anxiety disorders,0.010638197443068001
+Cyprus,2016,58.0,23.6,158.0,depressive or anxiety disorders,0.0105996003522772
+Czech Republic,2016,67.4,8.94,128.0,depressive or anxiety disorders,0.0127050054577293
+Germany,2016,68.7,13.8,130.0,depressive or anxiety disorders,0.013226353949506
+Denmark,2016,75.6,22.8,151.0,depressive or anxiety disorders,0.012302404977398299
+Dominican Republic,2016,52.4,9.66,106.0,depressive or anxiety disorders,0.0120348518961945
+Algeria,2016,53.4,3.92,81.2,depressive or anxiety disorders,0.0142904484428099
+Ecuador,2016,61.1,7.91,57.6,depressive or anxiety disorders,0.0096565496677469
+Egypt,2016,45.6,23.4,73.5,depressive or anxiety disorders,0.0124235157519592
+Spain,2016,63.2,42.5,91.8,depressive or anxiety disorders,0.0183275628167682
+Estonia,2016,56.5,14.2,131.0,depressive or anxiety disorders,0.0159358443709792
+Ethiopia,2016,43.0,0.45,22.5,depressive or anxiety disorders,0.0080168234844204
+Finland,2016,76.6,31.8,110.0,depressive or anxiety disorders,0.0142121637504782
+France,2016,64.8,33.6,106.0,depressive or anxiety disorders,0.0132085206431002
+Gabon,2016,48.3,33.4,47.3,depressive or anxiety disorders,0.0116178231968307
+United Kingdom,2016,68.2,19.9,101.0,depressive or anxiety disorders,0.015332285612461
+Georgia,2016,44.5,8.03,98.8,depressive or anxiety disorders,0.0156591745659138
+Ghana,2016,45.1,26.1,36.4,depressive or anxiety disorders,0.0088952967478557
+Guinea,2016,36.0,10.4,40.9,depressive or anxiety disorders,0.0073746696076034
+Greece,2016,53.0,20.5,79.9,depressive or anxiety disorders,0.018734207667313
+Guatemala,2016,63.6,2.64,120.0,depressive or anxiety disorders,0.010360202070179
+Honduras,2016,56.5,3.21,158.0,depressive or anxiety disorders,0.008425554227258599
+Croatia,2016,54.2,17.0,148.0,depressive or anxiety disorders,0.013916825168763901
+Haiti,2016,33.5,4.59,52.0,depressive or anxiety disorders,0.0085204260794723
+Hungary,2016,54.5,5.73,112.0,depressive or anxiety disorders,0.013180776548573098
+Indonesia,2016,51.4,39.3,45.9,depressive or anxiety disorders,0.0049452146791415
+India,2016,41.8,6.59,62.7,depressive or anxiety disorders,0.0091156658763815
+Ireland,2016,70.4,21.2,231.0,depressive or anxiety disorders,0.0136876103752539
+Iran,2016,46.5,11.7,90.1,depressive or anxiety disorders,0.0196239335258784
+Iraq,2016,44.1,2.78,63.8,depressive or anxiety disorders,0.012597231169421401
+Iceland,2016,75.1,91.3,145.0,depressive or anxiety disorders,0.0100184035032903
+Israel,2016,71.6,24.6,83.8,depressive or anxiety disorders,0.0126834303148151
+Italy,2016,59.5,29.8,88.9,depressive or anxiety disorders,0.014474615796102399
+Jordan,2016,52.7,6.01,114.0,depressive or anxiety disorders,0.014583394465459
+Japan,2016,59.5,45.1,73.9,depressive or anxiety disorders,0.007455081821912
+Kazakhstan,2016,55.3,4.56,83.6,depressive or anxiety disorders,0.0121157702932838
+Kenya,2016,44.0,4.08,47.5,depressive or anxiety disorders,0.0068064138979261005
+Kyrgyzstan,2016,48.6,1.11,96.5,depressive or anxiety disorders,0.0122104895381073
+Cambodia,2016,44.6,42.2,64.3,depressive or anxiety disorders,0.0076688362415963
+South Korea,2016,59.7,55.1,105.0,depressive or anxiety disorders,0.008154790528154399
+Kuwait,2016,59.5,11.8,108.0,depressive or anxiety disorders,0.0156878347915725
+Lebanon,2016,52.7,8.87,179.0,depressive or anxiety disorders,0.0182479657737943
+Liberia,2016,33.5,6.03,23.6,depressive or anxiety disorders,0.007553381223802
+Lesotho,2016,38.1,1.84,44.5,depressive or anxiety disorders,0.0114621617424555
+Lithuania,2016,58.7,32.6,253.0,depressive or anxiety disorders,0.017187096363838
+Luxembourg,2016,69.7,34.5,443.0,depressive or anxiety disorders,0.0116804877305499
+Latvia,2016,59.4,24.6,133.0,depressive or anxiety disorders,0.0161610928865842
+Morocco,2016,53.9,20.4,104.0,depressive or anxiety disorders,0.0172143890261695
+Moldova,2016,55.8,11.2,99.5,depressive or anxiety disorders,0.013212111274552
+Madagascar,2016,36.6,5.44,22.7,depressive or anxiety disorders,0.0072132732616306
+Mexico,2016,68.2,15.6,138.0,depressive or anxiety disorders,0.0113035683976327
+North Macedonia,2016,53.5,6.31,135.0,depressive or anxiety disorders,0.010306214226456
+Mali,2016,40.2,8.53,31.6,depressive or anxiety disorders,0.0051707841706692
+Malta,2016,65.9,32.0,229.0,depressive or anxiety disorders,0.0110894832240445
+Myanmar,2016,46.2,47.6,77.0,depressive or anxiety disorders,0.0053992190823748
+Montenegro,2016,53.0,13.4,337.0,depressive or anxiety disorders,0.011871884127521099
+Mongolia,2016,50.6,0.49,59.6,depressive or anxiety disorders,0.015036620883361
+Mauritania,2016,44.7,8.47,108.0,depressive or anxiety disorders,0.0065192902513532
+Mauritius,2016,56.1,23.1,122.0,depressive or anxiety disorders,0.0121915686960398
+Malawi,2016,34.8,9.75,26.5,depressive or anxiety disorders,0.0061801077011879
+Niger,2016,42.4,2.1,12.4,depressive or anxiety disorders,0.0055722418300745
+Nigeria,2016,52.2,9.17,29.9,depressive or anxiety disorders,0.0057480996926942
+Nicaragua,2016,60.1,6.6,154.0,depressive or anxiety disorders,0.0109919839016767
+Netherlands,2016,75.4,21.8,122.0,depressive or anxiety disorders,0.0118154715909749
+Norway,2016,76.0,51.5,119.0,depressive or anxiety disorders,0.0130020637836421
+Nepal,2016,51.0,2.87,24.1,depressive or anxiety disorders,0.013255486208781302
+New Zealand,2016,72.3,23.7,147.0,depressive or anxiety disorders,0.0106811473200374
+Pakistan,2016,55.5,1.84,70.5,depressive or anxiety disorders,0.0081028900523035
+Panama,2016,61.2,13.3,148.0,depressive or anxiety disorders,0.009046904305616001
+Peru,2016,57.0,24.6,62.0,depressive or anxiety disorders,0.0060781913267876995
+Philippines,2016,54.3,28.6,63.0,depressive or anxiety disorders,0.006262875110731399
+Poland,2016,61.6,10.7,125.0,depressive or anxiety disorders,0.007852320241186801
+Portugal,2016,54.5,57.4,110.0,depressive or anxiety disorders,0.018396650621024798
+Paraguay,2016,58.0,3.96,89.3,depressive or anxiety disorders,0.0092081982565291
+Romania,2016,59.7,5.92,79.9,depressive or anxiety disorders,0.0111488102820542
+Russia,2016,58.5,20.6,208.0,depressive or anxiety disorders,0.0111286453510086
+Rwanda,2016,33.3,7.86,24.1,depressive or anxiety disorders,0.0093647368180795
+Saudi Arabia,2016,64.7,11.9,86.6,depressive or anxiety disorders,0.0152514693442236
+Senegal,2016,46.0,18.6,46.9,depressive or anxiety disorders,0.0075599638952697
+Sierra Leone,2016,47.3,26.9,18.1,depressive or anxiety disorders,0.0076044512205337995
+El Salvador,2016,61.4,6.72,114.0,depressive or anxiety disorders,0.010914799878962399
+Serbia,2016,57.5,4.63,83.3,depressive or anxiety disorders,0.0125320717808317
+Slovakia,2016,59.9,9.13,225.0,depressive or anxiety disorders,0.0117209542402255
+Slovenia,2016,59.4,11.4,125.0,depressive or anxiety disorders,0.014623249885359
+Sweden,2016,73.7,32.2,132.0,depressive or anxiety disorders,0.0148118529583668
+Chad,2016,40.3,7.6,27.5,depressive or anxiety disorders,0.007066352450154
+Togo,2016,38.8,12.0,46.1,depressive or anxiety disorders,0.0074106570927062005
+Thailand,2016,60.7,26.5,106.0,depressive or anxiety disorders,0.0070701899838072
+Tajikistan,2016,51.0,0.38,55.3,depressive or anxiety disorders,0.008645800762066301
+Turkmenistan,2016,58.9,3.15,37.7,depressive or anxiety disorders,0.0107285004693827
+Tunisia,2016,45.2,13.3,96.9,depressive or anxiety disorders,0.0195288653168567
+Turkiye,2016,53.3,4.93,87.2,depressive or anxiety disorders,0.0128009756266708
+Taiwan,2016,65.1,29.8,79.3,depressive or anxiety disorders,0.008958949812367
+Tanzania,2016,29.0,7.01,31.5,depressive or anxiety disorders,0.0081260729108817
+Uganda,2016,42.3,11.7,32.4,depressive or anxiety disorders,0.0090013702156317
+Ukraine,2016,40.3,10.4,163.0,depressive or anxiety disorders,0.0156404020641432
+Uruguay,2016,61.7,8.24,152.0,depressive or anxiety disorders,0.01041522755868
+United States,2016,68.0,21.9,182.0,depressive or anxiety disorders,0.0133703456949999
+Uzbekistan,2016,58.9,2.29,28.1,depressive or anxiety disorders,0.0118632238798068
+Venezuela,2016,40.4,9.95,86.3,depressive or anxiety disorders,0.0100400797574779
+Vietnam,2016,50.6,35.9,42.9,depressive or anxiety disorders,0.005681368012906101
+Yemen,2016,38.3,3.94,77.0,depressive or anxiety disorders,0.0120165662674041
+South Africa,2016,47.7,6.06,119.0,depressive or anxiety disorders,0.008668720842730099
+Zambia,2016,43.5,12.0,30.2,depressive or anxiety disorders,0.006293189424997
+Zimbabwe,2016,37.4,3.79,88.6,depressive or anxiety disorders,0.0055928881733801
+Afghanistan,2017,26.6,0.25,32.6,depressive or anxiety disorders,0.0143834018096808
+Albania,2017,46.4,5.36,98.7,depressive or anxiety disorders,0.0094623154521456
+United Arab Emirates,2017,70.4,24.7,105.0,depressive or anxiety disorders,0.0157964897193258
+Argentina,2017,60.4,7.29,129.0,depressive or anxiety disorders,0.008270865430673801
+Armenia,2017,42.9,5.83,143.0,depressive or anxiety disorders,0.0116263176047945
+Australia,2017,72.6,25.9,162.0,depressive or anxiety disorders,0.014931165522735
+Austria,2017,72.9,14.1,130.0,depressive or anxiety disorders,0.010602292793680398
+Azerbaijan,2017,51.5,3.2,127.0,depressive or anxiety disorders,0.010527257863501801
+Belgium,2017,69.3,23.0,162.0,depressive or anxiety disorders,0.012863243350026098
+Benin,2017,48.5,17.6,24.2,depressive or anxiety disorders,0.007140689130486599
+Burkina Faso,2017,46.5,7.06,26.9,depressive or anxiety disorders,0.0073532959581438
+Bangladesh,2017,43.1,24.3,24.6,depressive or anxiety disorders,0.0121498795822263
+Bulgaria,2017,51.0,7.05,94.5,depressive or anxiety disorders,0.0123164941441589
+Bosnia and Herzegovina,2017,50.9,4.89,85.1,depressive or anxiety disorders,0.011886499420068999
+Belarus,2017,55.5,16.3,208.0,depressive or anxiety disorders,0.0158282313266987
+Bolivia,2017,56.5,2.57,73.6,depressive or anxiety disorders,0.010489215638551201
+Brazil,2017,63.3,9.09,117.0,depressive or anxiety disorders,0.0108822628190044
+Botswana,2017,35.0,3.8,111.0,depressive or anxiety disorders,0.0092191235868823
+Central African Republic,2017,34.8,7.73,17.1,depressive or anxiety disorders,0.010020430209374199
+Canada,2017,74.2,22.4,231.0,depressive or anxiety disorders,0.0088393849965387
+Switzerland,2017,74.7,16.9,134.0,depressive or anxiety disorders,0.013740464107492899
+Chile,2017,63.2,11.8,129.0,depressive or anxiety disorders,0.0130028359596718
+China,2017,51.0,38.2,20.3,depressive or anxiety disorders,0.011037197219757499
+Ivory Coast,2017,50.4,18.0,27.1,depressive or anxiety disorders,0.006734657121091
+Cameroon,2017,50.7,18.1,27.3,depressive or anxiety disorders,0.007387959393337301
+Congo,2017,48.8,29.3,41.7,depressive or anxiety disorders,0.0107332380123357
+Colombia,2017,61.6,7.16,202.0,depressive or anxiety disorders,0.0069726704239814
+Costa Rica,2017,72.3,18.5,143.0,depressive or anxiety disorders,0.0107732409337272
+Cyprus,2017,60.6,24.9,159.0,depressive or anxiety disorders,0.0107864624004185
+Czech Republic,2017,67.9,9.31,135.0,depressive or anxiety disorders,0.0127353243767428
+Germany,2017,70.7,12.8,127.0,depressive or anxiety disorders,0.013236826242261999
+Denmark,2017,75.9,22.7,151.0,depressive or anxiety disorders,0.0124538513661589
+Dominican Republic,2017,56.0,9.56,110.0,depressive or anxiety disorders,0.0121689529057818
+Algeria,2017,52.5,3.86,80.9,depressive or anxiety disorders,0.014348551929675601
+Ecuador,2017,58.4,7.77,56.3,depressive or anxiety disorders,0.009751875918917399
+Egypt,2017,39.3,23.7,73.6,depressive or anxiety disorders,0.0124922860045691
+Spain,2017,62.3,42.5,90.3,depressive or anxiety disorders,0.0186609701440475
+Estonia,2017,59.4,14.7,124.0,depressive or anxiety disorders,0.0159988170419893
+Ethiopia,2017,41.8,0.44,22.5,depressive or anxiety disorders,0.0081909446521989
+Finland,2017,77.9,33.6,111.0,depressive or anxiety disorders,0.014391880687663
+France,2017,66.3,34.4,106.0,depressive or anxiety disorders,0.0133968916225404
+Gabon,2017,47.8,30.9,47.0,depressive or anxiety disorders,0.0117972431922879
+United Kingdom,2017,71.0,19.7,104.0,depressive or anxiety disorders,0.0153862004566744
+Georgia,2017,44.5,8.04,110.0,depressive or anxiety disorders,0.0158161597670329
+Ghana,2017,54.8,25.5,37.9,depressive or anxiety disorders,0.009032340988443199
+Guinea,2017,48.7,10.1,41.2,depressive or anxiety disorders,0.0074164881380984
+Gambia,2017,41.2,27.5,82.3,depressive or anxiety disorders,0.0114667837868643
+Greece,2017,51.5,19.4,92.1,depressive or anxiety disorders,0.0196886987214884
+Guatemala,2017,63.3,2.58,134.0,depressive or anxiety disorders,0.010612345480553
+Honduras,2017,60.2,3.15,160.0,depressive or anxiety disorders,0.008624085006525
+Croatia,2017,53.4,18.7,168.0,depressive or anxiety disorders,0.0139974078976152
+Haiti,2017,38.2,4.53,52.2,depressive or anxiety disorders,0.0086958694953203
+Hungary,2017,60.6,6.3,111.0,depressive or anxiety disorders,0.0131860528596457
+Indonesia,2017,51.0,44.7,46.9,depressive or anxiety disorders,0.0050487465620059
+India,2017,40.5,6.9,60.5,depressive or anxiety disorders,0.009177500626458
+Ireland,2017,70.6,23.4,216.0,depressive or anxiety disorders,0.014315997519226
+Iran,2017,47.2,11.7,90.4,depressive or anxiety disorders,0.0194502017119513
+Iraq,2017,44.6,3.37,59.5,depressive or anxiety disorders,0.0127688875288454
+Iceland,2017,74.8,90.7,213.0,depressive or anxiety disorders,0.0101643046633812
+Israel,2017,73.3,25.9,85.9,depressive or anxiety disorders,0.0128364605534904
+Italy,2017,62.0,29.8,88.8,depressive or anxiety disorders,0.0145653058558999
+Jamaica,2017,58.9,25.4,175.0,depressive or anxiety disorders,0.0095776179290832
+Jordan,2017,48.1,5.87,116.0,depressive or anxiety disorders,0.014935720930629
+Japan,2017,59.1,45.5,71.0,depressive or anxiety disorders,0.0074598593880998
+Kazakhstan,2017,58.8,4.5,82.3,depressive or anxiety disorders,0.0120771241174883
+Kenya,2017,44.8,3.98,52.8,depressive or anxiety disorders,0.006951656135148
+Kyrgyzstan,2017,56.3,1.14,115.0,depressive or anxiety disorders,0.0121730663376034
+Cambodia,2017,45.9,42.7,85.9,depressive or anxiety disorders,0.007657783221763599
+South Korea,2017,58.7,55.0,111.0,depressive or anxiety disorders,0.0080809250121321
+Kuwait,2017,60.9,11.5,111.0,depressive or anxiety disorders,0.0158478370619628
+Laos,2017,46.2,25.3,46.2,depressive or anxiety disorders,0.0064016316231348
+Lebanon,2017,51.5,8.73,177.0,depressive or anxiety disorders,0.0178832820340563
+Liberia,2017,44.2,5.88,23.8,depressive or anxiety disorders,0.0073772117577789
+Sri Lanka,2017,43.3,30.8,75.7,depressive or anxiety disorders,0.0074064230599815
+Lesotho,2017,38.0,1.84,42.8,depressive or anxiety disorders,0.0115165667813724
+Lithuania,2017,62.7,33.1,254.0,depressive or anxiety disorders,0.0172443411862742
+Luxembourg,2017,70.6,32.1,440.0,depressive or anxiety disorders,0.011792779935003701
+Latvia,2017,59.8,24.9,135.0,depressive or anxiety disorders,0.0163079046458104
+Morocco,2017,53.1,19.5,98.1,depressive or anxiety disorders,0.0172874307781016
+Moldova,2017,53.3,11.6,120.0,depressive or anxiety disorders,0.0132843271299057
+Madagascar,2017,40.8,5.29,23.0,depressive or anxiety disorders,0.0073752262284358
+Mexico,2017,64.1,14.4,136.0,depressive or anxiety disorders,0.0114651334262752
+North Macedonia,2017,52.3,6.21,143.0,depressive or anxiety disorders,0.0103968941646276
+Mali,2017,47.4,9.34,32.8,depressive or anxiety disorders,0.0052795735198537
+Malta,2017,66.8,31.9,242.0,depressive or anxiety disorders,0.0112595280138223
+Myanmar,2017,41.5,47.3,85.2,depressive or anxiety disorders,0.0053983104145216
+Montenegro,2017,56.1,14.1,343.0,depressive or anxiety disorders,0.011910456251952199
+Mongolia,2017,53.3,0.48,61.0,depressive or anxiety disorders,0.0150211680800219
+Mozambique,2017,42.8,11.5,32.2,depressive or anxiety disorders,0.0084027769432668
+Mauritania,2017,46.8,9.16,108.0,depressive or anxiety disorders,0.006661140872247499
+Mauritius,2017,61.7,23.1,116.0,depressive or anxiety disorders,0.012435988407354801
+Malawi,2017,34.2,9.5,33.3,depressive or anxiety disorders,0.006272449939361
+Namibia,2017,44.4,11.6,109.0,depressive or anxiety disorders,0.0070183342787756
+Niger,2017,46.2,2.03,0.274,depressive or anxiety disorders,0.0056497112768983
+Nigeria,2017,53.2,9.12,29.7,depressive or anxiety disorders,0.0058104522621467
+Nicaragua,2017,64.8,6.51,155.0,depressive or anxiety disorders,0.0111439416703197
+Netherlands,2017,74.6,21.8,125.0,depressive or anxiety disorders,0.012154332114896499
+Norway,2017,75.8,51.4,118.0,depressive or anxiety disorders,0.0130008371248212
+Nepal,2017,47.4,2.83,23.6,depressive or anxiety disorders,0.0135154628652954
+New Zealand,2017,73.3,24.7,152.0,depressive or anxiety disorders,0.010742408269877
+Pakistan,2017,58.3,1.72,68.5,depressive or anxiety disorders,0.008320071432877699
+Panama,2017,65.7,13.1,151.0,depressive or anxiety disorders,0.0092489879576681
+Peru,2017,57.1,25.0,62.7,depressive or anxiety disorders,0.0061113842170814
+Philippines,2017,55.9,28.1,65.4,depressive or anxiety disorders,0.0063660971629655
+Poland,2017,62.0,10.7,126.0,depressive or anxiety disorders,0.0082144969765287
+Portugal,2017,57.1,56.8,98.7,depressive or anxiety disorders,0.0188200717908399
+Paraguay,2017,57.1,4.17,88.4,depressive or anxiety disorders,0.0092643795254167
+Romania,2017,60.9,5.96,81.4,depressive or anxiety disorders,0.011220164628323499
+Russia,2017,55.8,20.1,211.0,depressive or anxiety disorders,0.0111260885507491
+Rwanda,2017,31.1,7.66,26.8,depressive or anxiety disorders,0.009469942135507699
+Saudi Arabia,2017,62.9,11.3,86.4,depressive or anxiety disorders,0.0153572009443676
+Senegal,2017,46.8,18.1,49.1,depressive or anxiety disorders,0.0076967654487836
+Sierra Leone,2017,40.9,26.3,18.9,depressive or anxiety disorders,0.0076766943320797
+El Salvador,2017,63.4,6.64,107.0,depressive or anxiety disorders,0.0109979751276706
+Serbia,2017,51.2,6.18,83.7,depressive or anxiety disorders,0.0125468735019563
+Slovakia,2017,63.7,9.7,239.0,depressive or anxiety disorders,0.0117726686678086
+Slovenia,2017,61.7,12.0,140.0,depressive or anxiety disorders,0.014664368380112999
+Sweden,2017,72.9,32.8,132.0,depressive or anxiety disorders,0.0147426359054859
+Chad,2017,45.6,7.18,26.4,depressive or anxiety disorders,0.0071447389052664
+Togo,2017,43.6,11.7,47.6,depressive or anxiety disorders,0.0075895650319673
+Thailand,2017,59.4,29.2,108.0,depressive or anxiety disorders,0.0071152086511044
+Tajikistan,2017,58.3,0.37,53.9,depressive or anxiety disorders,0.0087660329163864
+Turkmenistan,2017,52.3,2.94,41.9,depressive or anxiety disorders,0.010791911009961599
+Trinidad and Tobago,2017,61.9,23.9,181.0,depressive or anxiety disorders,0.0130530177149785
+Tunisia,2017,41.2,13.2,97.3,depressive or anxiety disorders,0.0196487408280706
+Turkiye,2017,56.1,4.85,87.6,depressive or anxiety disorders,0.0127869749587347
+Taiwan,2017,63.6,29.7,79.3,depressive or anxiety disorders,0.0089370816950965
+Tanzania,2017,33.5,6.8,30.5,depressive or anxiety disorders,0.0082516311788422
+Uganda,2017,40.0,11.3,35.0,depressive or anxiety disorders,0.0091881779198298
+Ukraine,2017,43.1,11.7,169.0,depressive or anxiety disorders,0.0157307678205584
+Uruguay,2017,63.4,9.23,148.0,depressive or anxiety disorders,0.0104030109906716
+United States,2017,69.9,22.4,180.0,depressive or anxiety disorders,0.0133852822911364
+Uzbekistan,2017,64.2,2.25,28.0,depressive or anxiety disorders,0.0119110035279961
+Venezuela,2017,50.7,10.1,76.5,depressive or anxiety disorders,0.010160736502283
+Vietnam,2017,51.8,37.7,29.2,depressive or anxiety disorders,0.0056900298388123
+Yemen,2017,32.5,3.17,85.7,depressive or anxiety disorders,0.0122213517019525
+South Africa,2017,45.1,5.97,114.0,depressive or anxiety disorders,0.0087643789797789
+Zambia,2017,39.3,12.1,30.7,depressive or anxiety disorders,0.006416675886284699
+Zimbabwe,2017,36.4,3.73,85.6,depressive or anxiety disorders,0.0055822542634091
+Afghanistan,2018,26.9,0.24,34.9,depressive or anxiety disorders,0.0144630320862041
+Albania,2018,50.0,8.64,101.0,depressive or anxiety disorders,0.009540439151048801
+United Arab Emirates,2018,66.0,26.1,114.0,depressive or anxiety disorders,0.0159671711264434
+Argentina,2018,57.9,7.22,128.0,depressive or anxiety disorders,0.0084027698676928
+Armenia,2018,50.6,5.82,143.0,depressive or anxiety disorders,0.0117302503167762
+Australia,2018,71.8,26.4,158.0,depressive or anxiety disorders,0.0147153571835088
+Austria,2018,74.0,14.0,127.0,depressive or anxiety disorders,0.0106848288055944
+Azerbaijan,2018,51.7,3.16,123.0,depressive or anxiety disorders,0.0106893262825772
+Belgium,2018,68.9,22.9,171.0,depressive or anxiety disorders,0.013008744104332899
+Benin,2018,58.2,17.1,24.2,depressive or anxiety disorders,0.0071894903633296
+Burkina Faso,2018,49.3,7.96,27.8,depressive or anxiety disorders,0.0072178280606978
+Bangladesh,2018,45.0,25.7,24.4,depressive or anxiety disorders,0.012381856156889
+Bulgaria,2018,51.0,7.1,94.7,depressive or anxiety disorders,0.0124040593978984
+Bosnia and Herzegovina,2018,58.9,5.8,81.1,depressive or anxiety disorders,0.0120189936261171
+Belarus,2018,52.3,11.8,183.0,depressive or anxiety disorders,0.015816308281731098
+Bolivia,2018,59.2,2.53,74.4,depressive or anxiety disorders,0.010548922585575202
+Brazil,2018,61.9,9.02,117.0,depressive or anxiety disorders,0.010923447074409901
+Botswana,2018,34.6,2.82,109.0,depressive or anxiety disorders,0.009297041203776
+Canada,2018,71.8,21.9,250.0,depressive or anxiety disorders,0.008896056731591
+Switzerland,2018,75.1,16.8,133.0,depressive or anxiety disorders,0.0138500892282496
+Chile,2018,64.4,11.6,127.0,depressive or anxiety disorders,0.012970219907200299
+China,2018,51.3,38.0,20.6,depressive or anxiety disorders,0.0110676263918093
+Ivory Coast,2018,52.7,20.4,29.6,depressive or anxiety disorders,0.0067757927837781996
+Cameroon,2018,52.5,17.6,28.9,depressive or anxiety disorders,0.0075377356959452
+Congo,2018,54.9,28.6,42.6,depressive or anxiety disorders,0.010898441586704399
+Colombia,2018,59.8,6.95,202.0,depressive or anxiety disorders,0.007164007062995199
+Costa Rica,2018,71.4,18.3,143.0,depressive or anxiety disorders,0.010896879023272
+Cyprus,2018,62.8,24.7,163.0,depressive or anxiety disorders,0.010969196818626199
+Czech Republic,2018,70.3,9.29,121.0,depressive or anxiety disorders,0.0127739523149772
+Germany,2018,71.2,12.7,121.0,depressive or anxiety disorders,0.0132054169313358
+Denmark,2018,76.5,26.6,154.0,depressive or anxiety disorders,0.0126049738707162
+Dominican Republic,2018,54.3,8.37,110.0,depressive or anxiety disorders,0.012207953801179899
+Algeria,2018,50.4,3.78,81.5,depressive or anxiety disorders,0.0144256119369344
+Ecuador,2018,61.3,8.48,59.6,depressive or anxiety disorders,0.0098313123986241
+Egypt,2018,40.0,23.2,70.8,depressive or anxiety disorders,0.0125868437475206
+Spain,2018,65.1,42.4,91.0,depressive or anxiety disorders,0.018976664443629297
+Estonia,2018,60.9,14.7,143.0,depressive or anxiety disorders,0.0160720128357001
+Ethiopia,2018,43.8,0.53,23.4,depressive or anxiety disorders,0.008350243546796
+Finland,2018,78.6,33.5,113.0,depressive or anxiety disorders,0.014636929117537301
+France,2018,66.7,33.3,117.0,depressive or anxiety disorders,0.013598449537360901
+Gabon,2018,47.8,30.1,46.8,depressive or anxiety disorders,0.0119811480159092
+United Kingdom,2018,72.3,18.6,104.0,depressive or anxiety disorders,0.0154164127531942
+Georgia,2018,46.6,8.91,106.0,depressive or anxiety disorders,0.0159721203366898
+Ghana,2018,50.0,24.8,35.1,depressive or anxiety disorders,0.0091421464313759
+Guinea,2018,52.5,10.3,40.5,depressive or anxiety disorders,0.0074427159060352
+Gambia,2018,49.2,26.7,82.7,depressive or anxiety disorders,0.0115887753346344
+Greece,2018,54.1,19.5,89.7,depressive or anxiety disorders,0.0206783187029587
+Guatemala,2018,66.3,3.09,140.0,depressive or anxiety disorders,0.010728817922533
+Honduras,2018,59.1,2.67,160.0,depressive or anxiety disorders,0.0087041185530229
+Croatia,2018,55.4,18.9,181.0,depressive or anxiety disorders,0.014078312305399
+Haiti,2018,36.1,6.41,51.8,depressive or anxiety disorders,0.0088720985404512
+Hungary,2018,59.4,6.31,112.0,depressive or anxiety disorders,0.0131874079868741
+Indonesia,2018,53.4,44.2,54.7,depressive or anxiety disorders,0.0051515002344677
+India,2018,38.2,6.83,63.8,depressive or anxiety disorders,0.009237105748438001
+Ireland,2018,69.6,23.1,228.0,depressive or anxiety disorders,0.0150189261233992
+Iran,2018,42.8,11.6,90.2,depressive or anxiety disorders,0.0192477037304244
+Iraq,2018,48.9,3.84,58.9,depressive or anxiety disorders,0.013144058005695
+Israel,2018,69.3,25.5,90.7,depressive or anxiety disorders,0.0129884532517757
+Italy,2018,65.2,29.8,89.9,depressive or anxiety disorders,0.0146606469423425
+Jordan,2018,46.4,5.25,113.0,depressive or anxiety disorders,0.0152896779246942
+Japan,2018,57.9,45.6,71.2,depressive or anxiety disorders,0.0074672833899009005
+Kazakhstan,2018,60.1,2.82,83.6,depressive or anxiety disorders,0.0120449400022032
+Kenya,2018,46.6,3.01,49.1,depressive or anxiety disorders,0.0070951941636079995
+Kyrgyzstan,2018,53.0,1.12,118.0,depressive or anxiety disorders,0.0121645707984954
+Cambodia,2018,51.2,42.1,86.1,depressive or anxiety disorders,0.0076539118447623
+South Korea,2018,58.4,56.7,110.0,depressive or anxiety disorders,0.0080036347417934
+Laos,2018,48.6,24.9,45.8,depressive or anxiety disorders,0.0064268682341285
+Lebanon,2018,51.7,8.68,186.0,depressive or anxiety disorders,0.0175316379858504
+Liberia,2018,41.4,4.67,29.2,depressive or anxiety disorders,0.0072251598332363
+Sri Lanka,2018,44.4,30.2,73.7,depressive or anxiety disorders,0.0074706328060251005
+Lithuania,2018,63.1,32.1,235.0,depressive or anxiety disorders,0.0173050241281075
+Luxembourg,2018,72.4,31.5,446.0,depressive or anxiety disorders,0.011896190451459301
+Latvia,2018,59.0,24.5,148.0,depressive or anxiety disorders,0.016472745274716302
+Morocco,2018,49.0,19.2,96.0,depressive or anxiety disorders,0.0173479503330729
+Moldova,2018,56.8,11.6,79.6,depressive or anxiety disorders,0.0133615952970609
+Madagascar,2018,40.7,5.53,22.5,depressive or anxiety disorders,0.0075274629516406
+Maldives,2018,52.0,87.0,83.9,depressive or anxiety disorders,0.007578972268181701
+Mexico,2018,65.5,14.2,128.0,depressive or anxiety disorders,0.011628074724749101
+North Macedonia,2018,52.4,6.21,155.0,depressive or anxiety disorders,0.0104887039879363
+Mali,2018,44.2,9.06,29.3,depressive or anxiety disorders,0.0053612180075921995
+Malta,2018,69.1,32.6,237.0,depressive or anxiety disorders,0.011424694746531
+Myanmar,2018,44.1,45.6,69.1,depressive or anxiety disorders,0.005507196274877201
+Montenegro,2018,56.5,14.1,337.0,depressive or anxiety disorders,0.0119471523206256
+Mongolia,2018,54.6,0.59,64.4,depressive or anxiety disorders,0.0149738176161689
+Mozambique,2018,46.5,12.1,36.9,depressive or anxiety disorders,0.0084734049878925
+Mauritania,2018,43.1,8.91,109.0,depressive or anxiety disorders,0.0067516455902558
+Mauritius,2018,58.8,24.1,123.0,depressive or anxiety disorders,0.0126743073802332
+Malawi,2018,33.4,11.9,34.3,depressive or anxiety disorders,0.0063652095875105
+Malaysia,2018,53.4,56.8,123.0,depressive or anxiety disorders,0.009997670059893701
+Namibia,2018,48.3,12.3,108.0,depressive or anxiety disorders,0.0071294518047488
+Niger,2018,51.6,2.0,0.0274,depressive or anxiety disorders,0.0057057754553022
+Nigeria,2018,52.5,8.88,29.3,depressive or anxiety disorders,0.005888833533337801
+Nicaragua,2018,58.2,6.09,148.0,depressive or anxiety disorders,0.0111784063566164
+Netherlands,2018,74.6,21.9,99.7,depressive or anxiety disorders,0.012504350938526499
+Norway,2018,74.4,51.0,115.0,depressive or anxiety disorders,0.0129959375775048
+Nepal,2018,49.1,3.09,25.4,depressive or anxiety disorders,0.013790022910881999
+New Zealand,2018,73.7,24.5,157.0,depressive or anxiety disorders,0.01080350266685
+Pakistan,2018,54.7,1.68,71.8,depressive or anxiety disorders,0.0085546314775657
+Panama,2018,62.8,14.1,148.0,depressive or anxiety disorders,0.0092529432996776
+Peru,2018,56.8,24.6,62.6,depressive or anxiety disorders,0.0061683659152509
+Philippines,2018,58.7,25.8,66.4,depressive or anxiety disorders,0.0064659367104252
+Poland,2018,61.1,12.4,127.0,depressive or anxiety disorders,0.0085893932998575
+Portugal,2018,59.2,57.0,103.0,depressive or anxiety disorders,0.0192712963488741
+Romania,2018,61.5,8.2,79.4,depressive or anxiety disorders,0.0112987247524827
+Russia,2018,55.1,20.0,209.0,depressive or anxiety disorders,0.011134475012765
+Rwanda,2018,35.6,7.66,30.9,depressive or anxiety disorders,0.009571655941224801
+Saudi Arabia,2018,63.6,11.1,85.9,depressive or anxiety disorders,0.0154563732553114
+Senegal,2018,47.7,18.7,53.2,depressive or anxiety disorders,0.0077996141491847
+Sierra Leone,2018,43.1,25.1,19.2,depressive or anxiety disorders,0.0077709244180354
+El Salvador,2018,62.4,6.6,117.0,depressive or anxiety disorders,0.011029694894900499
+Serbia,2018,59.4,6.2,70.7,depressive or anxiety disorders,0.0125600738916019
+Slovakia,2018,62.4,9.69,228.0,depressive or anxiety disorders,0.0118247161293392
+Slovenia,2018,62.5,11.9,123.0,depressive or anxiety disorders,0.014708621475945202
+Sweden,2018,73.8,32.6,134.0,depressive or anxiety disorders,0.0146984700543497
+Eswatini,2018,42.1,3.85,79.4,depressive or anxiety disorders,0.0089870409797243
+Chad,2018,44.9,6.97,26.6,depressive or anxiety disorders,0.007214325216929301
+Togo,2018,40.2,12.3,46.1,depressive or anxiety disorders,0.0077401995122026
+Thailand,2018,60.1,29.1,109.0,depressive or anxiety disorders,0.0071545832889950995
+Tajikistan,2018,55.0,0.44,54.2,depressive or anxiety disorders,0.0088847637222063
+Turkmenistan,2018,46.2,2.89,35.7,depressive or anxiety disorders,0.0108542334505789
+Tunisia,2018,47.4,12.7,97.8,depressive or anxiety disorders,0.019767170543436203
+Turkiye,2018,51.9,4.83,87.1,depressive or anxiety disorders,0.012751160160637801
+Taiwan,2018,64.7,29.2,78.6,depressive or anxiety disorders,0.0089051488181628
+Tanzania,2018,34.5,6.83,30.8,depressive or anxiety disorders,0.0083697879686728
+Uganda,2018,43.2,10.9,35.6,depressive or anxiety disorders,0.0093799118270167
+Ukraine,2018,46.6,11.7,185.0,depressive or anxiety disorders,0.0158276177988414
+Uruguay,2018,63.7,9.2,148.0,depressive or anxiety disorders,0.010391613442638
+United States,2018,68.8,22.2,176.0,depressive or anxiety disorders,0.0134177878199194
+Uzbekistan,2018,62.0,2.74,29.2,depressive or anxiety disorders,0.011957796229285
+Venezuela,2018,50.1,9.99,73.0,depressive or anxiety disorders,0.0102789734465827
+Vietnam,2018,53.0,37.3,33.7,depressive or anxiety disorders,0.0057013768246515
+Yemen,2018,30.6,3.1,82.4,depressive or anxiety disorders,0.012321937198170799
+South Africa,2018,48.8,6.35,113.0,depressive or anxiety disorders,0.0088645971530763
+Zambia,2018,40.4,11.7,31.4,depressive or anxiety disorders,0.0065123899730359
+Zimbabwe,2018,36.2,3.47,85.9,depressive or anxiety disorders,0.0056759714308244

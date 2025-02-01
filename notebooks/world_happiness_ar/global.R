@@ -13,4 +13,4 @@ library(shinyjs)
 # ----
 # setwd("~/Documents/1 projects/nss/nss_projects/world_happiness_ar/notebooks/world_happiness_ar")
 
-data <- read_csv('../../data/life_exp_happy_forest_sugar_fish_cont_merged.csv')
+data <- read_csv('../../data/happy_sad_sugar_fish.csv')

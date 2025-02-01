@@ -7,8 +7,6 @@
 #    https://shiny.posit.co/
 #
 
-
-
 # Define server logic 
 function(input, output, session) {
   # Reactive value for filtered data
@@ -28,6 +26,10 @@ function(input, output, session) {
   observeEvent(input$change_over_time, {
     active_view("change_over_time")
   })
+  observeEvent(input$happy_sad, {
+    active_view("happy_sad")
+  })
+  
   
   # Render the dynamic sidebar UI based on the active view
   output$dynamic_sidebar <- renderUI({
@@ -48,7 +50,7 @@ function(input, output, session) {
     }
   })
   
-      
+  
   output$line <- renderPlotly({
     req(plot_data())  # Ensure data is available
     
@@ -64,11 +66,11 @@ function(input, output, session) {
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +
         theme_classic()
-
-      ggplotly(p, tooltip = c("x", "y"))
-
       
-    } else {
+      ggplotly(p, tooltip = c("x", "y"))
+      
+      
+    } else if (active_view() == "change_over_time"){
       # Handle "change_over_time" view
       country_data <- data |>  filter(country == input$country)
       
@@ -93,11 +95,57 @@ function(input, output, session) {
                  xaxis = list(title = "Year"),
                  yaxis = list(title = var_title))
       }
-    }
+    } else if (active_view() == "happy_sad"){
+      
+      
+      
+    } 
   })
   
-
+  
   output$table <- renderDataTable({
     plot_data()
+  })
+  
+  
+  # Reactive value for filtered data
+  plot_data_2 <- reactive({
+    req(input$country) # Ensure inputs are available
+    data |> 
+      mutate(highlight = country %in% input$country)
+  })
+  
+  
+  output$scatter <- renderPlotly({
+    req(plot_data_2())  # Ensure data is available
+    
+    if (active_view() == "comparative") {
+      # Choose the selected X-axis variable
+      x_var <- input$x_var
+      
+      plot_data_2_mod <- plot_data_2() |> 
+        mutate(highlight = ifelse(highlight, country, "Other Countries"))  # Use country name for highlight
+      
+      # # Scatter plot with a trendline
+      p <- ggplot(data = plot_data_2_mod, aes_string(x = x_var, y = "happiness_score")) +
+        geom_point(aes(color=highlight), alpha = 0.7) +  # Scatter points
+        geom_smooth(method = "lm", formula = y~log(x), se = FALSE, linetype = "dashed", color = '#ff1d58') +  # Trendline
+        labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption', 'Sugar Consumption')} for the World"),
+             x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
+             y = "Happiness Score") +
+        theme_classic()
+      
+      ggplotly(p, tooltip = c("x", "y"))
+      
+      # gdp_le |> 
+      #   mutate(highlight = Country %in% countries) |> 
+      #   ggplot(aes(x = GDP_Per_Capita, y = Life_Expectancy)) +
+      #   geom_point(aes(color=Continent, size=highlight)) +
+      #   geom_smooth(method = lm, formula = y~log(x)) +
+      #   scale_size_manual(values=c(1,5))+
+      #   ggrepel::geom_label_repel(data = gdp_le |> filter(Country %in% countries), aes(label=Country))
+      
+      
+    }
   })
 }

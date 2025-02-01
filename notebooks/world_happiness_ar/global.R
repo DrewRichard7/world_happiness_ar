@@ -8,6 +8,7 @@ library(glue)
 library(bslib)
 library(plotly)
 library(shinyjs)
+library(ggrepel)
 
 # DELETE WHEN COMPLETE: 
 # ----
@@ -16,4 +17,3 @@ library(shinyjs)
 data <- tibble(read_csv('../../data/happy_sad_sugar_fish.csv')) |> 
   arrange(country)
 
-          

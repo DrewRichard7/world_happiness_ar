@@ -7,9 +7,6 @@
 #    https://shiny.posit.co/
 #
 
-
-
-
 # Define UI for World Happinesss Exploration app ----
 # Sidebar layout with input and output definitions ----
 
@@ -30,10 +27,16 @@ page_sidebar(
       'change_over_time',
       "Change Over Time"
     ),
-    
     # Dynamic UI content that will change based on the button clicked
-    uiOutput("dynamic_sidebar")
+    uiOutput("dynamic_sidebar"),
     
+    # Add vertical spacing between elements
+    br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
+    
+    actionButton(
+      'happy_sad',
+      "Toggle Happy or Sad"
+    ),
   ),
   
   # Main panel for displaying outputs ----
@@ -44,11 +47,13 @@ page_sidebar(
     # Panel with scatter plot ----
     #nav_panel("Scatter", plotOutput("scatter")),
     
-    # Panel with line plot (depending on plotly or ggplot, comment out correct one) ----
-    # nav_panel("Plot", plotOutput("line")),
+    # Panel with scatter and trendline plot ----
     nav_panel("Interactive Plot", plotlyOutput("line")),
+    # Panel with scatter plot ----
+    nav_panel("All Countries", plotlyOutput("scatter")),
     # Panel with table ----
-    nav_panel("Table", dataTableOutput("table"))
+    nav_panel("Table", dataTableOutput("table")),
+    
   )
 )
 

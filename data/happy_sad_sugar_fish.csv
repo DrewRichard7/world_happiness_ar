@@ -1,4 +1,4 @@
-country,year,happiness_score,pcp_fish_consumption,sugar_per_cap,pct_new_per_pop_disorders
+country,year,happiness_score,fish_kg_per_person_per_year,sugar_g_per_person_per_day,pct_new_per_pop_disorders
 Australia,2005,73.4,25.3,128.0,0.0158595193063275
 Belgium,2005,72.6,24.4,146.0,0.0119380759041528
 Brazil,2005,66.4,6.04,115.0,0.012405042307614

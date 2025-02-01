@@ -13,4 +13,7 @@ library(shinyjs)
 # ----
 # setwd("~/Documents/projects/nss/nss_projects/world_happiness_ar/notebooks/world_happiness_ar")
 
-data <- read_csv('../../data/happy_sad_sugar_fish.csv')
+data <- read_csv('../../data/happy_sad_sugar_fish.csv') |> 
+  arrange(desc('country'))
+
+          

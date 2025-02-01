@@ -61,7 +61,7 @@ function(input, output, session) {
       # # Scatter plot with a trendline
       p <- ggplot(
         data = plot_data(),
-        aes(x = .data[[x_var]], y = happiness_score)
+        aes(x = .data[[x_var]], y = happiness_score, text = paste("Year:", year, "\nCountry:", country))
       ) +
         geom_point(
           alpha = 0.7,
@@ -78,7 +78,7 @@ function(input, output, session) {
              y = "Happiness Score") +
         theme_classic()
       
-      ggplotly(p, tooltip = c("x", "y"))
+      ggplotly(p, tooltip = c("x", "y", 'text'))
       
       
     } else if (active_view() == "change_over_time"){
@@ -93,13 +93,29 @@ function(input, output, session) {
             y = ~fish_kg_per_person_per_year,
             name = "Fish Consumption",
             yaxis = "y1",
-            line = list(color = "#007fff")) |> 
+            line = list(color = "#007fff"),
+            hovertemplate = paste(
+              "Country: %{text}<br>",
+              "Year: %{x}<br>",
+              "Fish Consumption: %{y:.1f} kg/person/year<br>",
+              "<extra></extra>"
+            ),
+            text = ~country
+          ) |> 
           add_lines(
             x = ~year,
             y = ~sugar_g_per_person_per_day,
             name = "Sugar Consumption",
             yaxis = "y2",
-            line = list(color = "#ff1d58")) |> 
+            line = list(color = "#ff1d58"),
+            hovertemplate = paste(
+              "Country: %{text}<br>",
+              "Year: %{x}<br>",
+              "Sugar: %{y:.1f} g/person/day<br>",
+              "<extra></extra>"
+            ),
+            text = ~country
+            ) |> 
           layout(title = paste("Change Over Time (Both Variables) for", input$country),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = "Fish Consumption", titlefont = list(color = "#007fff"), tickfont = list(color = "#007fff")),
@@ -115,7 +131,16 @@ function(input, output, session) {
             x = ~year,
             y = ~get(selected_var),
             name = var_title,
-            line = list(color = color))  |> 
+            line = list(color = color),
+            hovertemplate = paste(
+              "Country: %{text}<br>",
+              "Year: %{x}<br>",
+              "%{y:.1f}",
+              ifelse(input$var_choice == "Fish", " kg/person/year", " g/person/day"),
+              "<br><extra></extra>"
+            ),
+            text = ~country
+            )  |> 
           layout(title = glue("Change Over Time for {var_title} in {input$country}"),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = var_title))
@@ -160,7 +185,7 @@ function(input, output, session) {
       
       
       # # Scatter plot with a trendline
-      p <- ggplot(data = plot_data_2_mod, aes(x = .data[[x_var]], y = happiness_score)) +
+      p <- ggplot(data = plot_data_2_mod, aes(x = .data[[x_var]], y = happiness_score, text = paste("Year:", year, "\nCountry:", country))) +
         geom_point(aes(color=highlight, alpha = alpha_val, size = size_val)) +  # Scatter points
         geom_smooth(method = "lm", formula = y~x, se = FALSE, linetype = "dashed", color = '#007fff') +  # Trendline
         labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption (kg/person/year)', 'Sugar Consumption (g/person/day)')} for the World"),
@@ -170,7 +195,7 @@ function(input, output, session) {
         scale_alpha_identity() +  # Use predefined alpha values from data
         theme_classic()
       
-      ggplotly(p, tooltip = c("x", "y"))
+      ggplotly(p, tooltip = c("x", "y", "text"))
       
     } else if (active_view() == "change_over_time"){
       
@@ -192,7 +217,15 @@ function(input, output, session) {
                       color = "#007fff",
                       size = 8,
                       opacity = ~alpha_val
-                    )) |> 
+                    ),
+                    hovertemplate = paste(
+                      "Country: %{text}<br>",
+                      "Year: %{x}<br>",
+                      "Fish Consumption: %{y:.1f} kg/person/year<br>",
+                      "<extra></extra>"
+                    ),
+                    text = ~country
+                    ) |> 
           add_trace(x = ~year, 
                     y = ~sugar_g_per_person_per_day, 
                     name = "Sugar Consumption (g/person/day)", 
@@ -203,7 +236,15 @@ function(input, output, session) {
                       color = "#ff1d58",
                       size = 8,
                       opacity = ~alpha_val
-                    )) |> 
+                    ),
+                    hovertemplate = paste(
+                      "Country: %{text}<br>",
+                      "Year: %{x}<br>",
+                      "Sugar: %{y:.1f} g/person/day<br>",
+                      "<extra></extra>"
+                    ),
+                    text = ~country
+                    ) |> 
           layout(title = paste("Change Over Time (Both Variables) for", input$country),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = "Fish Consumption (kg/person/year)", 
@@ -230,7 +271,16 @@ function(input, output, session) {
                       color = color,
                       size = 8,
                       opacity = ~alpha_val
-                    )) |> 
+                    ),
+                    hovertemplate = paste(
+                      "Country: %{text}<br>",
+                      "Year: %{x}<br>",
+                      "%{y:.1f}",
+                      ifelse(input$var_choice == "Fish", " kg/person/year", " g/person/day"),
+                      "<br><extra></extra>"
+                    ),
+                    text = ~country
+                    ) |> 
           layout(title = glue("Change Over Time for {var_title} for All Countries"),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = var_title))

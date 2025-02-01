@@ -9,17 +9,17 @@
 
 # Define server logic 
 function(input, output, session) {
-  # Reactive value for filtered data
+  # Reactive value for filtered data ----
   plot_data <- reactive({
     req(input$country) # Ensure inputs are available
     data |> 
       filter(country == input$country)
   })
   
-  # Reactive value to track the active button
+  # Reactive value to track the active button ----
   active_view <- reactiveVal("comparative")  # Default view
   
-  # Update the active view when either button is clicked
+  # Update the active view when either button is clicked ----
   observeEvent(input$comparative, {
     active_view("comparative")
   })
@@ -31,7 +31,7 @@ function(input, output, session) {
   })
   
   
-  # Render the dynamic sidebar UI based on the active view
+  # Render the dynamic sidebar UI based on the active view ----
   output$dynamic_sidebar <- renderUI({
     if (active_view() == "comparative") {
       tagList(
@@ -50,7 +50,7 @@ function(input, output, session) {
     }
   })
   
-  
+  # Render country specific plots ----
   output$line <- renderPlotly({
     req(plot_data())  # Ensure data is available
     
@@ -59,9 +59,20 @@ function(input, output, session) {
       x_var <- input$x_var
       
       # # Scatter plot with a trendline
-      p <- ggplot(data = plot_data(), aes_string(x = x_var, y = "happiness_score")) +
-        geom_point(alpha = 0.7, color = "#007fff") +  # Scatter points
-        geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = '#ff1d58') +  # Trendline
+      p <- ggplot(
+        data = plot_data(),
+        aes(x = .data[[x_var]], y = happiness_score)
+      ) +
+        geom_point(
+          alpha = 0.7,
+          color = "#007fff"
+        ) +  # Scatter points
+        geom_smooth(
+          method = "lm",
+          se = FALSE,
+          linetype = "dashed",
+          color = '#ff1d58'
+        ) +  # Trendline
         labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption', 'Sugar Consumption')}"),
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +
@@ -77,8 +88,18 @@ function(input, output, session) {
       if (input$var_choice == "Both") {
         # Dual y-axes plot for both variables
         plot_ly(data = country_data) %>%
-          add_lines(x = ~year, y = ~fish_kg_per_person_per_year, name = "Fish Consumption", yaxis = "y1", line = list(color = "#007fff")) |> 
-          add_lines(x = ~year, y = ~sugar_g_per_person_per_day, name = "Sugar Consumption", yaxis = "y2", line = list(color = "#ff1d58")) |> 
+          add_lines(
+            x = ~year,
+            y = ~fish_kg_per_person_per_year,
+            name = "Fish Consumption",
+            yaxis = "y1",
+            line = list(color = "#007fff")) |> 
+          add_lines(
+            x = ~year,
+            y = ~sugar_g_per_person_per_day,
+            name = "Sugar Consumption",
+            yaxis = "y2",
+            line = list(color = "#ff1d58")) |> 
           layout(title = paste("Change Over Time (Both Variables) for", input$country),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = "Fish Consumption", titlefont = list(color = "#007fff"), tickfont = list(color = "#007fff")),
@@ -90,7 +111,11 @@ function(input, output, session) {
         color <- ifelse(selected_var == "fish_kg_per_person_per_year", "#007fff", "#ff1d58")
         
         plot_ly(data = country_data) |> 
-          add_lines(x = ~year, y = ~get(selected_var), name = var_title, line = list(color = color))  |> 
+          add_lines(
+            x = ~year,
+            y = ~get(selected_var),
+            name = var_title,
+            line = list(color = color))  |> 
           layout(title = glue("Change Over Time for {var_title} in {input$country}"),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = var_title))
@@ -102,20 +127,20 @@ function(input, output, session) {
     } 
   })
   
-  
+  # Render selected country table ----
   output$table <- renderDataTable({
     plot_data()
   })
   
   
-  # Reactive value for filtered data
+  # Reactive value for filtered data ----
   plot_data_2 <- reactive({
     req(input$country) # Ensure inputs are available
     data |> 
       mutate(highlight = country %in% input$country)
   })
   
-  
+  # Render all countries tabset ----
   output$scatter <- renderPlotly({
     req(plot_data_2())  # Ensure data is available
     
@@ -123,29 +148,92 @@ function(input, output, session) {
       # Choose the selected X-axis variable
       x_var <- input$x_var
       
+      # Modify highlight column to use country names instead of TRUE/FALSE
       plot_data_2_mod <- plot_data_2() |> 
-        mutate(highlight = ifelse(highlight, country, "Other Countries"))  # Use country name for highlight
+        mutate(highlight = ifelse(highlight, country, "Other Countries"),
+               alpha_val = ifelse(highlight == "Other Countries", 0.4, 1))  # Lower opacity for other countries
+      
+      # Create color values with the actual country name
+      color_values <- c("Other Countries" = "#007fff")
+      color_values[input$country] <- "#ff1d58"  # Dynamically add the selected country's color
+      
       
       # # Scatter plot with a trendline
-      p <- ggplot(data = plot_data_2_mod, aes_string(x = x_var, y = "happiness_score")) +
-        geom_point(aes(color=highlight), alpha = 0.7) +  # Scatter points
+      p <- ggplot(data = plot_data_2_mod, aes(x = .data[[x_var]], y = happiness_score)) +
+        geom_point(aes(color=highlight, alpha = alpha_val)) +  # Scatter points
         geom_smooth(method = "lm", formula = y~log(x), se = FALSE, linetype = "dashed", color = '#ff1d58') +  # Trendline
-        labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption', 'Sugar Consumption')} for the World"),
+        labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption (kg/person/year)', 'Sugar Consumption (g/person/day)')} for the World"),
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +
+        scale_color_manual(values = color_values) +  # Custom color scale
+        scale_alpha_identity() +  # Use predefined alpha values from data
         theme_classic()
       
       ggplotly(p, tooltip = c("x", "y"))
       
-      # gdp_le |> 
-      #   mutate(highlight = Country %in% countries) |> 
-      #   ggplot(aes(x = GDP_Per_Capita, y = Life_Expectancy)) +
-      #   geom_point(aes(color=Continent, size=highlight)) +
-      #   geom_smooth(method = lm, formula = y~log(x)) +
-      #   scale_size_manual(values=c(1,5))+
-      #   ggrepel::geom_label_repel(data = gdp_le |> filter(Country %in% countries), aes(label=Country))
+    } else if (active_view() == "change_over_time"){
       
+      # Modify highlight column to use country names instead of TRUE/FALSE
+      plot_data_2_mod <- plot_data_2() |> 
+        mutate(highlight = ifelse(highlight, country, "Other Countries"),
+               alpha_val = ifelse(highlight == "Other Countries", 0.4, 1))  # Lower opacity for other countries
       
+      if (input$var_choice == "Both") {
+        # Dual y-axes scatter plot for both variables
+        plot_ly(data = plot_data_2_mod) |> 
+          add_trace(x = ~year, 
+                    y = ~fish_kg_per_person_per_year, 
+                    name = "Fish Consumption (kg/person/year)", 
+                    yaxis = "y1", 
+                    type = 'scatter',
+                    mode = 'markers',  # Add this line
+                    marker = list(
+                      color = "#007fff",
+                      size = 8,
+                      opacity = ~alpha_val
+                    )) |> 
+          add_trace(x = ~year, 
+                    y = ~sugar_g_per_person_per_day, 
+                    name = "Sugar Consumption (g/person/day)", 
+                    yaxis = "y2", 
+                    type = 'scatter',
+                    mode = 'markers',  # Add this line
+                    marker = list(
+                      color = "#ff1d58",
+                      size = 8,
+                      opacity = ~alpha_val
+                    )) |> 
+          layout(title = paste("Change Over Time (Both Variables) for", input$country),
+                 xaxis = list(title = "Year"),
+                 yaxis = list(title = "Fish Consumption (kg/person/year)", 
+                              titlefont = list(color = "#007fff"), 
+                              tickfont = list(color = "#007fff")),
+                 yaxis2 = list(title = "Sugar Consumption (g/person/day)", 
+                               overlaying = "y", 
+                               side = "right", 
+                               titlefont = list(color = "#ff1d58"), 
+                               tickfont = list(color = "#ff1d58")))
+      } else {
+        # Single variable scatter plot
+        selected_var <- ifelse(input$var_choice == "Fish", "fish_kg_per_person_per_year", "sugar_g_per_person_per_day")
+        var_title <- ifelse(input$var_choice == "Fish", "Fish Consumption (kg/person/year)", "Sugar Consumption (g/person/day)")
+        color <- ifelse(selected_var == "fish_kg_per_person_per_year", "#007fff", "#ff1d58")
+        
+        plot_ly(data = plot_data_2_mod) |> 
+          add_trace(x = ~year, 
+                    y = ~get(selected_var), 
+                    name = var_title, 
+                    type = 'scatter',
+                    mode = 'markers',  # Add this line
+                    marker = list(
+                      color = color,
+                      size = 8,
+                      opacity = ~alpha_val
+                    )) |> 
+          layout(title = glue("Change Over Time for {var_title} for All Countries"),
+                 xaxis = list(title = "Year"),
+                 yaxis = list(title = var_title))
+      }
     }
   })
 }

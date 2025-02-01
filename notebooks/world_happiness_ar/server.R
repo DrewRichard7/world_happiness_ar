@@ -14,7 +14,7 @@ function(input, output, session) {
   # Reactive value for filtered data
   plot_data <- reactive({
     req(input$country) # Ensure inputs are available
-    data %>%
+    data |> 
       filter(country == input$country)
   })
   
@@ -58,8 +58,8 @@ function(input, output, session) {
       
       # # Scatter plot with a trendline
       p <- ggplot(data = plot_data(), aes_string(x = x_var, y = "happiness_score")) +
-        geom_point(alpha = 0.7, color = "#00CC96") +  # Scatter points
-        geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = 'red') +  # Trendline
+        geom_point(alpha = 0.7, color = "#007fff") +  # Scatter points
+        geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = '#ff1d58') +  # Trendline
         labs(title = glue("Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year', 'Fish Consumption', 'Sugar Consumption')}"),
              x = ifelse(x_var == "fish_kg_per_person_per_year", "Fish Consumed (kg/person/year)", "Sugar Consumed (g/person/day)"),
              y = "Happiness Score") +
@@ -70,25 +70,25 @@ function(input, output, session) {
       
     } else {
       # Handle "change_over_time" view
-      country_data <- data %>% filter(country == input$country)
+      country_data <- data |>  filter(country == input$country)
       
       if (input$var_choice == "Both") {
         # Dual y-axes plot for both variables
         plot_ly(data = country_data) %>%
-          add_lines(x = ~year, y = ~fish_kg_per_person_per_year, name = "Fish Consumption", yaxis = "y1", line = list(color = "blue")) %>%
-          add_lines(x = ~year, y = ~sugar_g_per_person_per_day, name = "Sugar Consumption", yaxis = "y2", line = list(color = "red")) %>%
+          add_lines(x = ~year, y = ~fish_kg_per_person_per_year, name = "Fish Consumption", yaxis = "y1", line = list(color = "#007fff")) |> 
+          add_lines(x = ~year, y = ~sugar_g_per_person_per_day, name = "Sugar Consumption", yaxis = "y2", line = list(color = "#ff1d58")) |> 
           layout(title = paste("Change Over Time (Both Variables) for", input$country),
                  xaxis = list(title = "Year"),
-                 yaxis = list(title = "Fish Consumption", titlefont = list(color = "blue"), tickfont = list(color = "blue")),
-                 yaxis2 = list(title = "Sugar Consumption", overlaying = "y", side = "right", titlefont = list(color = "red"), tickfont = list(color = "red")))
+                 yaxis = list(title = "Fish Consumption", titlefont = list(color = "#007fff"), tickfont = list(color = "#007fff")),
+                 yaxis2 = list(title = "Sugar Consumption", overlaying = "y", side = "right", titlefont = list(color = "#ff1d58"), tickfont = list(color = "#ff1d58")))
       } else {
         # Single variable plot
         selected_var <- ifelse(input$var_choice == "Fish", "fish_kg_per_person_per_year", "sugar_g_per_person_per_day")
         var_title <- ifelse(input$var_choice == "Fish", "Fish Consumption", "Sugar Consumption")
-        color <- ifelse(selected_var == "fish_kg_per_person_per_year", "blue", "red")
+        color <- ifelse(selected_var == "fish_kg_per_person_per_year", "#007fff", "#ff1d58")
         
-        plot_ly(data = country_data) %>%
-          add_lines(x = ~year, y = ~get(selected_var), name = var_title, line = list(color = color)) %>%
+        plot_ly(data = country_data) |> 
+          add_lines(x = ~year, y = ~get(selected_var), name = var_title, line = list(color = color))  |> 
           layout(title = glue("Change Over Time for {var_title} in {input$country}"),
                  xaxis = list(title = "Year"),
                  yaxis = list(title = var_title))

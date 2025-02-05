@@ -28,7 +28,7 @@ function(input, output, session) {
   y_axis_label <- reactiveVal("Happiness Score")
   
   # Update the active view when either button is clicked ----
-
+  
   # view for comparing variables one country at a time
   observeEvent(input$comparative, {
     active_view("comparative")
@@ -36,7 +36,7 @@ function(input, output, session) {
   
   # view for viewing the change in one variable over time
   observeEvent(input$change_over_time, {
-    active_view("change_over_time")
+    active_view("change_over_time") 
   })
   
   # button toggles the y-ax variable between happy and sad variables
@@ -45,7 +45,7 @@ function(input, output, session) {
       happy_sad_y_val(data$pct_new_per_pop_disorders)
       y_axis_label(
         "Sadness Score"
-        )
+      )
     } else {
       happy_sad_y_val(data$happiness_score)
       y_axis_label("Happiness Score")
@@ -61,8 +61,8 @@ function(input, output, session) {
         radioButtons(
           "x_var", "Choose X-axis Variable:",
           choices = c("Fish Consumed" = "fish_kg_per_person_per_year",
-          "Sugar Consumed" = "sugar_g_per_person_per_day"),
-                     selected = "fish_kg_per_person_per_year") # Default to Fish
+                      "Sugar Consumed" = "sugar_g_per_person_per_day"),
+          selected = "fish_kg_per_person_per_year") # Default to Fish
       )
     } else if (active_view() == "change_over_time") {
       tagList(
@@ -111,48 +111,47 @@ function(input, output, session) {
           name = "Data points"
         ) %>%
         # Add trend line ----
-        add_trace(
-          data = plot_df,
-          x = ~x_value,
-          y = predicted_values,
-          type = "scatter",
-          mode = "lines",
-          line = list(
-            color = '#ff1d58',
-            dash = "dash",
-            width = 2
-          ),
-          name = "Trend line"
-        ) %>%
+      add_trace(
+        data = plot_df,
+        x = ~x_value,
+        y = predicted_values,
+        type = "scatter",
+        mode = "lines",
+        line = list(
+          color = '#ff1d58',
+          dash = "dash",
+          width = 2
+        ),
+        name = "Trend line"
+      ) %>%
         # Update layout ----
-        layout(
+      layout(
+        title = list(
+          text = paste("Happiness Score vs", 
+                       ifelse(x_var == "fish_kg_per_person_per_year", 
+                              "Fish Consumption", 
+                              "Sugar Consumption"))
+        ),
+        xaxis = list(
           title = list(
-            text = paste("Happiness Score vs", 
-                        ifelse(x_var == "fish_kg_per_person_per_year", 
-                               "Fish Consumption", 
-                               "Sugar Consumption"))
-          ),
-          xaxis = list(
-            title = list(
-              text = ifelse(x_var == "fish_kg_per_person_per_year", 
-                           "Fish Consumed (kg/person/year)", 
-                           "Sugar Consumed (g/person/day)")
-            )
-          ),
-          yaxis = list(
-            title = list(
-              text = y_axis_label()
-            )
-          ),
-          showlegend = FALSE,
-          hovermode = "closest"
-        )
+            text = ifelse(x_var == "fish_kg_per_person_per_year", 
+                          "Fish Consumed (kg/person/year)", 
+                          "Sugar Consumed (g/person/day)")
+          )
+        ),
+        yaxis = list(
+          title = list(
+            text = y_axis_label()
+          )
+        ),
+        showlegend = FALSE,
+        hovermode = "closest"
+      )
       
       return(p)
     } 
     # Handle "change_over_time" view ----
     else if (active_view() == "change_over_time") {
-      
       country_data <- data |>  filter(country == input$country)
       
       if (input$var_choice == "Both") {
@@ -185,16 +184,17 @@ function(input, output, session) {
               "<extra></extra>"
             ),
             text = ~country
-            ) |>
+          ) |>
           layout(
             title = paste(
               "Change Over Time (Both Variables) for", input$country
             ),
             xaxis = list(title = "Year"),
-            yaxis = list,
-            title = "Fish Consumption",
-            titlefont = list(color = "#007fff"),
-            tickfont = list(color = "#007fff"),
+            yaxis = list(
+              title = "Fish Consumption",
+              titlefont = list(color = "#007fff"),
+              tickfont = list(color = "#007fff")
+            ),
             yaxis2 = list(
               title = "Sugar Consumption",
               overlaying = "y",
@@ -208,18 +208,18 @@ function(input, output, session) {
           input$var_choice == "Fish",
           "fish_kg_per_person_per_year",
           "sugar_g_per_person_per_day"
-          )
+        )
         var_title <- ifelse(
           input$var_choice == "Fish",
           "Fish Consumption",
           "Sugar Consumption"
-          )
+        )
         color <- ifelse(
           selected_var == "fish_kg_per_person_per_year",
           "#007fff",
           "#ff1d58"
-          )
-
+        )
+        
         plot_ly(data = country_data) |>
           add_lines(
             x = ~year,
@@ -236,13 +236,13 @@ function(input, output, session) {
               "<br><extra></extra>"
             ),
             text = ~country
-            )  |>
+          )  |>
           layout(
             title = glue(
               "Change Over Time for {var_title} in {input$country}"
-              ),
-                 xaxis = list(title = "Year"),
-                 yaxis = list(title = var_title))
+            ),
+            xaxis = list(title = "Year"),
+            yaxis = list(title = var_title))
       }
     } else if (active_view() == "happy_sad"){
       
@@ -280,7 +280,7 @@ function(input, output, session) {
           alpha_val = ifelse(highlight == "Other Countries", 0.3, 1),
           size_val = ifelse(highlight == "Other Countries", 1, 1.01)  # More distinct size difference
         )
-
+      
       
       # Color mapping with selected country
       color_values <- c("Other Countries" = "#007FFF")
@@ -292,52 +292,52 @@ function(input, output, session) {
         aes(x = .data[[x_var]],
             y = happy_sad_y_val(),
             text = paste("Year:", year, "\nCountry:", country)
-            )
-        ) +
+        )
+      ) +
         geom_point(
           aes(color=highlight,
               alpha = alpha_val,
               size = size_val
-              )
-          ) +  # Scatter points
+          )
+        ) +  # Scatter points
         geom_smooth(
           aes(
             group = 1
-            ),
+          ),
           method = "lm",
           formula = y ~ x,
           se = FALSE,
           linetype = "dashed",
           color = '#007fff'
-          ) +  # Trendline
+        ) +  # Trendline
         labs(
           title = glue(
             "Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year',
             'Fish Consumption (kg/person/year)',
             'Sugar Consumption (g/person/day)')} for the World"
-            ),
-             x = ifelse(
-               x_var == "fish_kg_per_person_per_year",
-               "Fish Consumed (kg/person/year)",
-               "Sugar Consumed (g/person/day)"),
-             y = y_axis_label()
-          ) +
+          ),
+          x = ifelse(
+            x_var == "fish_kg_per_person_per_year",
+            "Fish Consumed (kg/person/year)",
+            "Sugar Consumed (g/person/day)"),
+          y = y_axis_label()
+        ) +
         scale_color_manual(values = color_values) +  # Custom color scale
         scale_alpha_identity() +  # Use predefined alpha values from data
         theme_classic()
       
       ggplotly(p, tooltip = c("x", "y", "text"))
       
-
+      
     } else if (active_view() == "change_over_time"){
-
+      
       # Modify highlight column to use country names instead of TRUE/FALSE ----
       plot_data_2_mod <- plot_data_2() |>
         mutate(
           highlight = ifelse(highlight, country, "Other Countries"),
           # Lower opacity for other countries ----
           alpha_val = ifelse(highlight == "Other Countries", 0.4, 1))  
-
+      
       if (input$var_choice == "Both") {
         # Dual y-axes scatter plot for both variables -----
         plot_ly(data = plot_data_2_mod) |>
@@ -359,7 +359,7 @@ function(input, output, session) {
                       "<extra></extra>"
                     ),
                     text = ~country
-                    ) |>
+          ) |>
           add_trace(x = ~year,
                     y = ~sugar_g_per_person_per_day,
                     name = "Sugar Consumption (g/person/day)",
@@ -398,18 +398,18 @@ function(input, output, session) {
           input$var_choice == "Fish",
           "fish_kg_per_person_per_year",
           "sugar_g_per_person_per_day"
-          )
+        )
         var_title <- ifelse(
           input$var_choice == "Fish",
           "Fish Consumption (kg/person/year)",
           "Sugar Consumption (g/person/day)"
-          )
+        )
         color <- ifelse(
           selected_var == "fish_kg_per_person_per_year",
           "#007fff",
           "#ff1d58"
-          )
-
+        )
+        
         plot_ly(data = plot_data_2_mod) |>
           add_trace(x = ~year,
                     y = ~get(selected_var),
@@ -426,16 +426,16 @@ function(input, output, session) {
                       "Year: %{x}<br>",
                       "%{y:.1f}",
                       ifelse(input$var_choice == "Fish",
-                        " kg/person/year",
-                        " g/person/day"),
+                             " kg/person/year",
+                             " g/person/day"),
                       "<br><extra></extra>"
                     ),
                     text = ~country
-                    ) |>
+          ) |>
           layout(
             title = glue("Change Over Time for {var_title} for All Countries"),
-                 xaxis = list(title = "Year"),
-                 yaxis = list(title = var_title))
+            xaxis = list(title = "Year"),
+            yaxis = list(title = var_title))
       }
     }
   })

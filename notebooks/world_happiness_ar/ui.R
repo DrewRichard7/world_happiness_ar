@@ -11,7 +11,7 @@
 # Sidebar layout with input and output definitions ----
 
 page_sidebar(
-  theme = shinytheme("darkly"),
+  # theme = shinytheme("darkly"),
   # App title ----
   title = "World Happiness Exploration",
   
@@ -31,10 +31,10 @@ page_sidebar(
     uiOutput("dynamic_sidebar"),
     
     # Add vertical spacing between elements
-    br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
+    br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
     
     actionButton(
-      'happy_sad',
+      'toggle_happy_sad',
       "Toggle Happy or Sad"
     ),
   ),

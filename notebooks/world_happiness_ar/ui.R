@@ -37,6 +37,22 @@ page_sidebar(
       'toggle_happy_sad',
       "Toggle Happy or Sad"
     ),
+    # Custom footer
+    tags$footer(
+      glue(
+        "*Sadness Score = (n new cases of depressive or anxiety disorders)",
+        " / (country population measured mid-year)     |     ",
+        "**Happiness Score = national average Cantril Life Ladder"
+        ),
+      style = "background-color: #f8f9fa; color: #333; text-align: center; padding: 5px; font-size: 8px; font-family: Arial, sans-serif; position: fixed; left: 0; bottom: 0; width: 100%;"
+    ),
+    
+    # Additional CSS to ensure the footer is above other content
+    tags$style(HTML("
+    body {
+      padding-bottom: 20px; /* Adjust based on footer height */
+    }
+  "))
   ),
   
   # Main panel for displaying outputs ----

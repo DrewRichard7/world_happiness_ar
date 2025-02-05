@@ -13,7 +13,6 @@ output: html_document
 ```{r}
 library(shiny)
 library(tidyverse)
-library(babynames)
 library(plotly)
 library(gapminder)
 ```

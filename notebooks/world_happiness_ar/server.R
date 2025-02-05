@@ -44,7 +44,7 @@ function(input, output, session) {
     if (identical(happy_sad_y_val(), data$happiness_score)) {
       happy_sad_y_val(data$pct_new_per_pop_disorders)
       y_axis_label(
-        "% New depressive or anxiety diagnoses / mid-year Population"
+        "Sadness Score"
         )
     } else {
       happy_sad_y_val(data$happiness_score)

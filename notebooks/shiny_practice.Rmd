@@ -15,11 +15,14 @@ library(shiny)
 library(tidyverse)
 library(plotly)
 library(gapminder)
+library(broom.mixed)
+library(lme4)
 ```
 
 ```{r}
 data <- tibble(read_csv('../data/happy_sad_sugar_fish.csv')) |> 
   arrange(country)
+data
 ```
 
 
@@ -28,4 +31,50 @@ data |>
   distinct(country) |> 
   count()
 ```
+```{r}
+data |> 
+  ggplot(aes(x=happiness_score))+
+  geom_histogram(bins = 20)
+```
+
+```{r}
+data |> 
+  ggplot(aes(x=pct_new_per_pop_disorders))+
+  geom_histogram(bins = 20)
+```
+
+```{r}
+data |> 
+  ggplot(aes(x=fish_kg_per_person_per_year))+
+  geom_histogram(bins = 20)
+```
+
+```{r}
+data |> 
+  ggplot(aes(x=sugar_g_per_person_per_day))+
+  geom_histogram(bins = 20)
+```
+
+- mixed effects models used when some variables are not independent
+(often when there is a time element)
+
+```{r}
+mixed_model <- lmer(
+  happiness_score ~ year + sugar_g_per_person_per_day + 
+    fish_kg_per_person_per_year + (1 | year) + 
+    (1 | sugar_g_per_person_per_day) + (1 | fish_kg_per_person_per_year),
+  data = data)
+
+ tidy_model <- tidy(mixed_model)
+```
+
+```{r}
+
+```
+
+
+
+
+
+
 

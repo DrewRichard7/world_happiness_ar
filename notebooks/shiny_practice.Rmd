@@ -17,6 +17,7 @@ library(plotly)
 library(gapminder)
 library(broom.mixed)
 library(lme4)
+library(ggeffects)
 ```
 
 ```{r}
@@ -56,25 +57,56 @@ data |>
 ```
 
 - mixed effects models used when some variables are not independent
-(often when there is a time element)
+(often when there is a repeated element i.e. time or grouped element i.e. country)
 
 ```{r}
 mixed_model <- lmer(
   happiness_score ~ year + sugar_g_per_person_per_day + 
-    fish_kg_per_person_per_year + (1 | year) + 
-    (1 | sugar_g_per_person_per_day) + (1 | fish_kg_per_person_per_year),
+    fish_kg_per_person_per_year + (1 | country), 
   data = data)
 
- tidy_model <- tidy(mixed_model)
 ```
 
 ```{r}
-
+summary(mixed_model)
+# data$fit <- predict(mixed_model)
 ```
 
 
 
 
+```{r}
+plot(mixed_model, which = 1) # Residuals vs. Fitted
 
+```
+
+
+```{r}
+# Extract predictions while varying one predictor at a time
+effects_year  <- ggpredict(mixed_model, terms = "year")  
+effects_sugar <- ggpredict(mixed_model, terms = "sugar_g_per_person_per_day")
+effects_fish  <- ggpredict(mixed_model, terms = "fish_kg_per_person_per_year")
+
+# Plot each effect separately
+plot1 <- ggplot(effects_year, aes(x = x, y = predicted)) +
+  geom_line(color = "blue") +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.2) +
+  labs(title = "Effect of Year on\nHappiness Score", x = "Year", y = "Predicted Happiness Score")
+
+plot2 <- ggplot(effects_sugar, aes(x = x, y = predicted)) +
+  geom_line(color = "red") +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.2, fill = "red") +
+  labs(title = "Effect of Sugar Consumption\non Happiness Score", x = "Sugar (g per person/day)", y = "Predicted Happiness Score")
+
+plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
+  geom_line(color = "orange") +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = 0.2, fill = "green") +
+  labs(title = "Effect of Fish Consumption\non Happiness Score", x = "Fish (kg per person/year)", y = "Predicted Happiness Score")
+
+# Arrange plots in a grid
+library(patchwork)
+plot1 + plot2 + plot3
+
+```
 
 

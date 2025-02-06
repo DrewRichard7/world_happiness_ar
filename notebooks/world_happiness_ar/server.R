@@ -127,7 +127,7 @@ function(input, output, session) {
         # Update layout ----
       layout(
         title = list(
-          text = paste("Happiness Score vs", 
+          text = glue("{y_axis_label()} vs ", 
                        ifelse(x_var == "fish_kg_per_person_per_year", 
                               "Fish Consumption", 
                               "Sugar Consumption"))
@@ -312,7 +312,7 @@ function(input, output, session) {
         ) +  # Trendline
         labs(
           title = glue(
-            "Happiness Score vs {ifelse(x_var == 'fish_kg_per_person_per_year',
+            "{y_axis_label() } vs {ifelse(x_var == 'fish_kg_per_person_per_year',
             'Fish Consumption (kg/person/year)',
             'Sugar Consumption (g/person/day)')} for the World"
           ),

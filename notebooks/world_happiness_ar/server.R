@@ -439,4 +439,14 @@ function(input, output, session) {
       }
     }
   })
+  # Render selected country table ----
+  output$calc_table <- renderDataTable({
+    data
+  })
+  
+  # add summary & calculations
+  output$calculations_html <- renderUI({
+    includeHTML("../calculations.html")  # Include the HTML file
+  })
+  
 }

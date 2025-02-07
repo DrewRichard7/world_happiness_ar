@@ -10,6 +10,8 @@ library(plotly)
 library(shinyjs)
 library(ggrepel)
 library(shinythemes)
+library(htmltools)
+library(rmarkdown)
 
 # DELETE WHEN COMPLETE: 
 # ----

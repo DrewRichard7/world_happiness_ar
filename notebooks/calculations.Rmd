@@ -20,6 +20,8 @@ shh(library(tidyverse))
 shh(library(broom.mixed))
 shh(library(lme4))
 shh(library(ggeffects))
+shh(library(performance))
+shh(library(plotly))
 ```
 
 #### Next we'll import our data.
@@ -27,7 +29,7 @@ shh(library(ggeffects))
 *You'll notice that the data has already been cleaned and arranged in a way that makes the following operations straightforward. The original data files are available from their sources (linked on the home page), or in the github repository.*
 
 ```{r}
-data <- tibble(read_csv('../../data/happy_sad_sugar_fish.csv')) |> 
+data <- tibble(read_csv('../data/happy_sad_sugar_fish.csv')) |> 
   arrange(country)
 data
 ```
@@ -76,17 +78,18 @@ year                         0.025223   0.028171   0.895
 sugar_g_per_person_per_day   0.017764   0.004474   3.971
 fish_kg_per_person_per_year  0.113243   0.036758   3.081
 ```
-We gain some interesting insight when looking at the fixed effects. There is a positive association between `year`, `sugar_consumption`, and `fish_consumption`. 
+
+We gain some interesting insight when looking at the fixed effects. There is a positive association between `year`, `sugar_consumption`, and `fish_consumption`.
 
 The $t-values$ (calculated as $t = Estimate / Std. Error$) will tell us what is statistically significant and what is not. As a rule of thumb, when using mixed effects models:
 
-  * \$t$\ > 2 suggests statistical significance at approximately the $p = 0.05$ level.
-  
-  * \$t$\ > 2.6 suggests significance at approximately the 0.01 level.
-  
-  * \$t$\ > 3.3 suggests significance at approximately the 0.001 level.
+-   \$t\$ \> 2 suggests statistical significance at approximately the $p = 0.05$ level.
 
-Based on the $t$ values, we conclude that `year` is **not** statistically significant, `fish_consumption` is **very** statistically significant, and `sugar_consumption` is **highly** statistically significant. 
+-   \$t\$ \> 2.6 suggests significance at approximately the 0.01 level.
+
+-   \$t\$ \> 3.3 suggests significance at approximately the 0.001 level.
+
+Based on the $t$ values, we conclude that `year` is **not** statistically significant, `fish_consumption` is **very** statistically significant, and `sugar_consumption` is **highly** statistically significant.
 
 ```{r}
 # Extract predictions while varying one predictor at a time
@@ -114,4 +117,66 @@ plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
 library(patchwork)
 plot1 + plot2 + plot3
 
+```
+
+This is a caterpillar plot or forest plot. it visually represents the estimated random intercepts for each country.
+
+-   **Values to the right of zero (positive values)**: Countries with positive random effect estimates (points to the right of the red dashed line) have a higher intercept than the average intercept in the model. In simpler terms, after accounting for `year`, `sugar_g_per_person_per_day`, and `fish_kg_per_person_per_year`, these countries tend to have a higher baseline happiness score compared to the average country in this dataset.
+
+-   **Values to the left of zero (negative values)**: Countries with negative random effect estimates (points to the left of the red dashed line) have a lower intercept than the average intercept. They tend to have a lower baseline happiness score than the average country, even after considering the fixed effects.
+
+-   **Values close to zero**: Countries with random effects close to zero have baseline happiness scores that are very close to the average baseline happiness score, after accounting for the fixed effects. ***Their happiness is already well-explained by the fixed predictors in the model, and there's not much country-specific deviation from the average intercept needed.***
+
+```{r}
+# Get random effects
+ranef_df <- ranef(mixed_model)$country %>%
+  as.data.frame() %>%
+  rownames_to_column("country") %>%
+  rename(effect = "(Intercept)") %>%
+  arrange(effect)
+
+# Plot random effects with confidence intervals
+ggplot(ranef_df, aes(y = reorder(country, effect), x = effect)) +
+  geom_point() +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  theme_minimal() +
+  labs(x = "Random Effect Estimate", y = "Country",
+       title = "Country Random Effects with 95% CI")+
+  theme(axis.text.y = element_text(size = 8))
+```
+
+
+```{r}
+# Residuals vs. fitted
+augmented_data <- augment(mixed_model)
+ggplot(augmented_data, aes(x = .fitted, y = .resid)) +
+  geom_point(alpha = 0.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  geom_smooth(method = "loess", se = FALSE, color = "blue") +
+  theme_minimal() +
+  labs(x = "Fitted values", y = "Residuals",
+       title = "Residuals vs Fitted Values")
+
+# QQ plot of residuals
+ggplot(augmented_data, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line() +
+  theme_minimal() +
+  labs(title = "Normal Q-Q Plot of Residuals")
+```
+
+
+```{r}
+# Convert ggplot to interactive plot
+p <- ggplot(ranef_df, aes(y = reorder(country, effect), 
+                         x = effect,
+                         text = paste("Country:", country,
+                                    "\nEffect:", round(effect, 2)))) +
+  geom_point() +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  theme_minimal() +
+  labs(title = "Country Random Effects with 95% CI",
+       x = "Random Effect Estimate", y = "Country")
+
+ggplotly(p, tooltip = "text")
 ```

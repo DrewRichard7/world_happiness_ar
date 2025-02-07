@@ -96,7 +96,9 @@ page_navbar(
         
         actionButton(
           'toggle_happy_sad',
-          "Toggle Happy or Sad"
+          "Toggle Happy or Sad",
+          # icon = icon("toggle-on"),
+          style="color: #fff; background-color: #00CC96; border-color: #00CC96"
         ),
         # Custom footer
         tags$footer(
@@ -148,16 +150,16 @@ page_navbar(
       # Panel with simple summary
       nav_panel(
         "Summary",
-        includeMarkdown("../../README.md") 
+        includeMarkdown("../conclusions.md") 
       ),
       nav_panel(
         "Technical Details",
         htmlOutput("calculations_html")
       ),
-      nav_panel(
-        "All Data Table",
-        dataTableOutput("calc_table")
-      )
+      # nav_panel(
+      #   "All Data Table",
+      #   dataTableOutput("calc_table")
+      # )
     )
   )
 )

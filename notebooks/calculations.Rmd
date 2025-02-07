@@ -93,7 +93,9 @@ The $t-values$ (calculated as $t = Estimate / Std. Error$) will tell us what is 
 
 Based on the $t$ values, we conclude that `year` is **not** statistically significant, `fish_consumption` is **very** statistically significant, and `sugar_consumption` is **highly** statistically significant.
 
-## Model Prediction
+All of this is well visualized in the plots below which show the predicted values and confidence intervals. 
+
+## Model Visualization
 We can visualize using `ggplot2` and `ggpredict`. 
 ```{r fig.width=12}
 # Extract predictions while varying one predictor at a time
@@ -221,8 +223,9 @@ We see a very strongly negative $t-value$ for the `Intercept`, and a very strong
 
 What is interesting is the sign difference between `sugar_consumption` and the other fixed effects. `Sugar_consumption` may have a slightly negative association with happiness score, meaning that as sugar consumption increases, the happiness score decreases. Again this is a small effect, and the $t-value$ of $-1.877$ tells us this variable is not statistically significant. 
 
+All of this is well visualized in the plots below which show the predicted values and confidence intervals. 
 
-## Model Prediction
+## Model Visualization
 We can visualize using `ggplot2` and `ggpredict`. 
 ```{r fig.width=12}
 # Extract predictions while varying one predictor at a time
@@ -270,7 +273,7 @@ plot1 + plot2 + plot3
 
 
 ## Random effects plot
-The following plot can be used to visualize baseline happiness by country after controlling for our fixed effects. 
+The following plot can be used to visualize baseline sadness scores by country after controlling for our fixed effects. 
 ```{r fig.width=12, fig.height=15}
 # Get random effects
 ranef_df <- ranef(mixed_model)$country %>%

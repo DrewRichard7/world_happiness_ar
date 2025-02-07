@@ -444,22 +444,22 @@ function(input, output, session) {
       }
     }
   })
-  # Render selected country table ----
-  output$calc_table <- renderDataTable({
-    data |> 
-      rename(Country = country,
-             Year = year,
-             `Fish Consumption` = fish_kg_per_person_per_year,
-             `Sugar Consumption` = sugar_g_per_person_per_day,
-             `Happiness Score` = happiness_score,
-             `Sadness Score` = pct_new_per_pop_disorders
-      ) |> 
-      select(Country, Year, `Fish Consumption`, `Sugar Consumption`, `Happiness Score`, `Sadness Score`)
-  })
+  # # Render selected country table ----
+  # output$calc_table <- renderDataTable({
+  #   data |> 
+  #     rename(Country = country,
+  #            Year = year,
+  #            `Fish Consumption` = fish_kg_per_person_per_year,
+  #            `Sugar Consumption` = sugar_g_per_person_per_day,
+  #            `Happiness Score` = happiness_score,
+  #            `Sadness Score` = pct_new_per_pop_disorders
+  #     ) |> 
+  #     select(Country, Year, `Fish Consumption`, `Sugar Consumption`, `Happiness Score`, `Sadness Score`)
+  # })
   
   # add summary & calculations
   output$calculations_html <- renderUI({
-    includeHTML("../calculations.html")  # Include the HTML file
+    includeHTML("../../assets/calculations.html")  # Include the HTML file
   })
   
 }

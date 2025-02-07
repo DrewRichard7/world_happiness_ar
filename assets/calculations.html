@@ -506,10 +506,12 @@ conclude that <code>year</code> is <strong>not</strong> statistically
 significant, <code>fish_consumption</code> is <strong>very</strong>
 statistically significant, and <code>sugar_consumption</code> is
 <strong>highly</strong> statistically significant.</p>
+<p>All of this is well visualized in the plots below which show the
+predicted values and confidence intervals.</p>
 </div>
 </div>
-<div id="model-prediction" class="section level2">
-<h2>Model Prediction</h2>
+<div id="model-visualization" class="section level2">
+<h2>Model Visualization</h2>
 <p>We can visualize using <code>ggplot2</code> and
 <code>ggpredict</code>.</p>
 <pre class="r"><code># Extract predictions while varying one predictor at a time
@@ -695,10 +697,12 @@ much smaller (though again, still statistically significant).</p>
 with happiness score, meaning that as sugar consumption increases, the
 happiness score decreases. Again this is a small effect, and the <span class="math inline">\(t-value\)</span> of <span class="math inline">\(-1.877\)</span> tells us this variable is not
 statistically significant.</p>
+<p>All of this is well visualized in the plots below which show the
+predicted values and confidence intervals.</p>
 </div>
 </div>
-<div id="model-prediction-1" class="section level2">
-<h2>Model Prediction</h2>
+<div id="model-visualization-1" class="section level2">
+<h2>Model Visualization</h2>
 <p>We can visualize using <code>ggplot2</code> and
 <code>ggpredict</code>.</p>
 <pre class="r"><code># Extract predictions while varying one predictor at a time
@@ -744,8 +748,8 @@ plot1 + plot2 + plot3</code></pre>
 </div>
 <div id="random-effects-plot-1" class="section level2">
 <h2>Random effects plot</h2>
-<p>The following plot can be used to visualize baseline happiness by
-country after controlling for our fixed effects.</p>
+<p>The following plot can be used to visualize baseline sadness scores
+by country after controlling for our fixed effects.</p>
 <pre class="r"><code># Get random effects
 ranef_df &lt;- ranef(mixed_model)$country %&gt;%
   as.data.frame() %&gt;%

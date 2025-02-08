@@ -10,5 +10,11 @@ tldr:
 - after accounting for the fixed effects variables (`year`, `fish_consumption`, `sugar_consumption`), 98.87% of the variation in the sadness score can be explained by differences in baseline happiness between countries.
 - while the significance of the fixed effects is very high for the sadness score, the effect they have is very small. 
 
+More than likely, both of these consumables correspond with other variables that have a greater impact on the happiness / sadness scores, and are not as causal as initially expected (although there has been some deeper examination into whether fish consumption can has an impact on risk of depression that is contrary to the results reached in this app's analysis).
 
+**some resources**
+[Fish consumption and risk of depression: a meta-analysis](https://jech.bmj.com/content/70/3/299.long)
+[Fish consumption and risk of depression: Epidemiological evidence from prospective studies](https://pubmed.ncbi.nlm.nih.gov/30238628/)
+[Dietary n-3 PUFA, fish consumption and depression: A systematic review and meta-analysis of observational studies ](https://pubmed.ncbi.nlm.nih.gov/27544316/)
 
+*i did not have access to these papers, but the abstracts indicate their findings*

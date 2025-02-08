@@ -52,6 +52,14 @@ function(input, output, session) {
     }
   })
   
+  output$happy_sad_label <- renderUI({
+    if (identical(happy_sad_y_val(), data$happiness_score)) {
+      renderText("Happiness Score")
+    } else {
+      renderText("Sadness Score")
+    }
+  })
+  
   
   # Render the dynamic sidebar UI based on the active view ----
   output$dynamic_sidebar <- renderUI({

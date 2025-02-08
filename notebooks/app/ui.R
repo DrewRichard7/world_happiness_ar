@@ -94,12 +94,16 @@ page_navbar(
         # Add vertical spacing between elements
         br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
         
+        uiOutput(
+          "happy_sad_label"
+        ),
         actionButton(
           'toggle_happy_sad',
           "Toggle Happy or Sad",
           # icon = icon("toggle-on"),
-          style="color: #fff; background-color: #00CC96; border-color: #00CC96"
+          # style="color: #fff; background-color: #00CC96; border-color: #00CC96"
         ),
+        
         # Custom footer
         tags$footer(
           glue(

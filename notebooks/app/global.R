@@ -1,6 +1,7 @@
 # World Happiness Index - R Shiny app by Andrew Richard
 ## Nashville Software School - DS8
-
+here::i_am("notebooks/app/global.R")
+library(here)
 library(shiny)
 library(tidyverse)
 library(DT)
@@ -13,10 +14,7 @@ library(shinythemes)
 library(htmltools)
 library(rmarkdown)
 
-# DELETE WHEN COMPLETE: 
-# ----
-# setwd("~/Documents/projects/nss/nss_projects/world_happiness_ar/notebooks/world_happiness_ar")
 
-data <- tibble(read_csv('../../data/happy_sad_sugar_fish.csv')) |> 
+data <- tibble(read_csv(here('data/happy_sad_sugar_fish.csv'))) |> 
   arrange(country)
 

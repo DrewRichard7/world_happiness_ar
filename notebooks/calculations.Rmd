@@ -1,7 +1,8 @@
 ---
-title: " Linear Mixed-Effects Model Summary"
+title: "Linear Mixed-Effects Model Summary"
 output:
-  html_document: default
+  html_document:
+    toc: yes
 ---
 
 Let's investigate our data to see what the numbers can tell us about eating fish and eating sugar and how both relate to happiness scores and incidences of anxiety & depressive disorders across many countries around the world.
@@ -12,10 +13,14 @@ Let's investigate our data to see what the numbers can tell us about eating fish
 
 ## Initial imports
 
+*to knit to the correct directory, run the following in the console*: `rmarkdown::render(here("notebooks/calculations.Rmd"), output_dir = here("assets"))`
+
 **First we'll import the libraries we're going to use.**
 
 ```{r}
-shh <- suppressPackageStartupMessages
+shh <- suppressMessages
+shh(here::i_am("notebooks/calculations.Rmd"))
+shh(library(here))
 shh(library(tidyverse))
 shh(library(broom.mixed))
 shh(library(lme4))
@@ -29,16 +34,17 @@ shh(library(plotly))
 *You'll notice that the data has already been cleaned and arranged in a way that makes the following operations straightforward. The original data files are available from their sources (linked on the home page), or in the github repository.*
 
 ```{r}
-data <- tibble(read_csv('data/happy_sad_sugar_fish.csv')) |> 
+data <- tibble(read_csv(here('data/happy_sad_sugar_fish.csv'), show_col_types = FALSE)) |> 
   arrange(country) |> 
   select(country, year, happiness_score, fish_consumption=fish_kg_per_person_per_year, sugar_consumption = sugar_g_per_person_per_day, sadness_score = pct_new_per_pop_disorders)
 data
 ```
 
 # Happiness Score
+
 ------------------------------------------------------------------------
 
-## Modeling the data
+### Modeling the data
 
 Linear mixed effects regression models are used when not all observations are independent incorporating variables that have both fixed effects and random effects.
 
@@ -58,9 +64,9 @@ summary(mixed_model)
 
 ```         
 Random effects:
- Groups   Name        Variance Std.Dev.
- country  (Intercept) 91.97    9.590   
- Residual             14.87    3.856   
+Groups   Name        Variance Std.Dev.
+country  (Intercept) 91.97    9.590   
+Residual             14.87    3.856   
 Number of obs: 1600, groups:  country, 150
 ```
 
@@ -74,7 +80,7 @@ The variance between countries ($91.97$) is much larger than the residual varian
 
 ```         
 Fixed effects:
-                   Estimate Std. Error t value
+Estimate Std. Error t value
 (Intercept)       -0.048114  56.500736  -0.001
 year               0.025223   0.028171   0.895
 sugar_consumption  0.017764   0.004474   3.971
@@ -93,10 +99,12 @@ The $t-values$ (calculated as $t = Estimate / Std. Error$) will tell us what is 
 
 Based on the $t$ values, we conclude that `year` is **not** statistically significant, `fish_consumption` is **very** statistically significant, and `sugar_consumption` is **highly** statistically significant.
 
-All of this is well visualized in the plots below which show the predicted values and confidence intervals. 
+All of this is well visualized in the plots below which show the predicted values and confidence intervals.
 
-## Model Visualization
-We can visualize using `ggplot2` and `ggpredict`. 
+#### Model Visualization
+
+We can visualize using `ggplot2` and `ggpredict`.
+
 ```{r fig.width=12}
 # Extract predictions while varying one predictor at a time
 effects_year  <- ggpredict(mixed_model, terms = "year")  
@@ -121,7 +129,7 @@ plot2 <- ggplot(effects_sugar, aes(x = x, y = predicted)) +
   labs(title = "Effect of Sugar Consumption\non Happiness Score",
        x = "Sugar (g per person/day)",
        y = "Predicted Happiness Score")+
-    scale_y_continuous(limits=c(0,100))+
+  scale_y_continuous(limits=c(0,100))+
   theme(plot.title = element_text(size=11))
 
 plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
@@ -131,7 +139,7 @@ plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
   labs(title = "Effect of Fish Consumption\non Happiness Score",
        x = "Fish (kg per person/year)",
        y = "Predicted Happiness Score") +
-    scale_y_continuous(limits=c(0,100))+
+  scale_y_continuous(limits=c(0,100))+
   theme(plot.title = element_text(size=11))
 
 # Arrange plots in a grid
@@ -140,11 +148,12 @@ plot1 + plot2 + plot3
 
 ```
 
+The year plot shows us a very small increase in predicted happiness over time, with fairly high confidence (small ribbon), though we know this is not statistically significant already. The sugar plot shows us a reasonable increase in predicted happiness with an increase in average sugar consumption and we know with reasonably high confidence that this is statistically significant. Finally the fish plot shows us the largest increase in predicted happiness score with an increase in fish consumption, though the confidence interval is slightly larger than on the sugar plot.
 
-The year plot shows us a very small increase in predicted happiness over time, with fairly high confidence (small ribbon), though we know this is not statistically significant already. The sugar plot shows us a reasonable increase in predicted happiness with an increase in average sugar consumption and we know with reasonably high confidence that this is statistically significant. Finally the fish plot shows us the largest increase in predicted happiness score with an increase in fish consumption, though the confidence interval is slightly larger than on the sugar plot. 
+#### Random effects plot
 
-## Random effects plot
-The following plot can be used to visualize baseline happiness by country after controlling for our fixed effects. 
+The following plot can be used to visualize baseline happiness by country after controlling for our fixed effects.
+
 ```{r fig.width=12, fig.height=15}
 # Get random effects
 ranef_df <- ranef(mixed_model)$country %>%
@@ -162,16 +171,15 @@ ggplot(ranef_df, aes(y = reorder(country, effect), x = effect)) +
        title = "Country Random Effects with 95% CI")+
   annotate("rect", xmin = -20, xmax=20, ymin="Finland", ymax="Denmark", alpha = .4,fill = "#00CC96")+
   annotate("text", x = -9, y = "Switzerland", label = "Happier countries least impacts by fixed effects",
-          fontface = "bold", colour = "darkblue", size = 3)+
+           fontface = "bold", colour = "darkblue", size = 3)+
   annotate("rect", xmin = -20, xmax=20, ymin="Hungary", ymax="Pakistan", alpha = .1,fill = "blue")+
   annotate("text", x = -9, y = "Jamaica", label = "Countries most affected by fixed effects predictors",
-          fontface = "bold", colour = "darkgreen", size = 3)+
-    annotate("rect", xmin = -20, xmax=20, ymin="Togo", ymax="Afghanistan", alpha = .1,fill = "red")+
+           fontface = "bold", colour = "darkgreen", size = 3)+
+  annotate("rect", xmin = -20, xmax=20, ymin="Togo", ymax="Afghanistan", alpha = .1,fill = "red")+
   annotate("text", x = 9, y = "Cambodia", label = "Less happy countries least impacted by fixed effects",
-          fontface = "bold", colour = "darkblue", size = 3)+
+           fontface = "bold", colour = "darkblue", size = 3)+
   theme(axis.text.y = element_text(size = 8))
 ```
-
 
 This is a caterpillar plot or forest plot. It visually represents the estimated random intercepts for each country.
 
@@ -179,12 +187,13 @@ This is a caterpillar plot or forest plot. It visually represents the estimated 
 
 -   **Values to the left of zero (negative values)**: Countries with negative random effect estimates (points to the left of the red dashed line) have a lower intercept than the average intercept. They tend to have a lower baseline happiness score than the average country, even after considering the fixed effects.
 
--   **Values close to zero**: Countries with random effects close to zero have baseline happiness scores that are very close to the average baseline happiness score, after accounting for the fixed effects. ***Their happiness is already well-explained by the fixed predictors in the model, and there's not much country-specific deviation from the average intercept needed.*** These countries are the ones whose variation in happiness score can be better explained by our variables of interest. 
-
+-   **Values close to zero**: Countries with random effects close to zero have baseline happiness scores that are very close to the average baseline happiness score, after accounting for the fixed effects. ***Their happiness is already well-explained by the fixed predictors in the model, and there's not much country-specific deviation from the average intercept needed.*** These countries are the ones whose variation in happiness score can be better explained by our variables of interest.
 
 # Sadness Score
+
 ------------------------------------------------------------------------
-## Modeling the data
+
+### Modeling the data
 
 ```{r}
 mixed_model <- lmer(
@@ -193,40 +202,44 @@ mixed_model <- lmer(
   data = data, REML = TRUE)
 summary(mixed_model)
 ```
+
 #### Random effects
-```
+
+```         
 Random effects:
- Groups   Name        Variance  Std.Dev. 
- country  (Intercept) 1.191e-05 0.0034514
- Residual             1.356e-07 0.0003683
+Groups   Name        Variance  Std.Dev. 
+country  (Intercept) 1.191e-05 0.0034514
+Residual             1.356e-07 0.0003683
 Number of obs: 1600, groups:  country, 150
 ```
 
-We have some very interesting results from this model. 
+We have some very interesting results from this model.
 
--   the variance between countries is very small, and residual variance even smaller. This tells us there is very little variation in country-level baseline sadness score. 
+-   the variance between countries is very small, and residual variance even smaller. This tells us there is very little variation in country-level baseline sadness score.
 
--   we know the scale is significantly smaller with this model due to the way the scores were calculated in comparison to the happiness scores, so we'll need to keep that in mind when interpreting the fixed effects. 
-
+-   we know the scale is significantly smaller with this model due to the way the scores were calculated in comparison to the happiness scores, so we'll need to keep that in mind when interpreting the fixed effects.
 
 #### Fixed Effects
-```
+
+```         
 Fixed effects:
-                    Estimate Std. Error t value
+Estimate Std. Error t value
 (Intercept)       -9.196e-02  5.460e-03 -16.840
 year               5.090e-05  2.723e-06  18.696
 sugar_consumption -8.327e-07  4.436e-07  -1.877
 fish_consumption   2.336e-05  4.745e-06   4.923
 ```
 
-We see a very strongly negative $t-value$ for the `Intercept`, and a very strongly positive $t-value$ for `year`. Both of these are statistically singnificant to a very high degree. While `fish_consumption` is also statistically significant with $t = 4.923$, the much larger $t-values$ for the `Intercept` and `year` mean that the effect that `fish_consumption` has on the `sadness_score` is much smaller (though again, still statistically significant). 
+We see a very strongly negative $t-value$ for the `Intercept`, and a very strongly positive $t-value$ for `year`. Both of these are statistically singnificant to a very high degree. While `fish_consumption` is also statistically significant with $t = 4.923$, the much larger $t-values$ for the `Intercept` and `year` mean that the effect that `fish_consumption` has on the `sadness_score` is much smaller (though again, still statistically significant).
 
-What is interesting is the sign difference between `sugar_consumption` and the other fixed effects. `Sugar_consumption` may have a slightly negative association with happiness score, meaning that as sugar consumption increases, the happiness score decreases. Again this is a small effect, and the $t-value$ of $-1.877$ tells us this variable is not statistically significant. 
+What is interesting is the sign difference between `sugar_consumption` and the other fixed effects. `Sugar_consumption` may have a slightly negative association with happiness score, meaning that as sugar consumption increases, the happiness score decreases. Again this is a small effect, and the $t-value$ of $-1.877$ tells us this variable is not statistically significant.
 
-All of this is well visualized in the plots below which show the predicted values and confidence intervals. 
+All of this is well visualized in the plots below which show the predicted values and confidence intervals.
 
-## Model Visualization
-We can visualize using `ggplot2` and `ggpredict`. 
+#### Model Visualization
+
+We can visualize using `ggplot2` and `ggpredict`.
+
 ```{r fig.width=12}
 # Extract predictions while varying one predictor at a time
 effects_year  <- ggpredict(mixed_model, terms = "year")  
@@ -251,7 +264,7 @@ plot2 <- ggplot(effects_sugar, aes(x = x, y = predicted)) +
   labs(title = "Effect of Sugar Consumption\non Sadness Score",
        x = "Sugar (g per person/day)",
        y = "Predicted Sadness Score")+
-    scale_y_continuous(limits=c(0,.025))+
+  scale_y_continuous(limits=c(0,.025))+
   theme(plot.title = element_text(size=11))
 
 plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
@@ -261,7 +274,7 @@ plot3 <- ggplot(effects_fish, aes(x = x, y = predicted)) +
   labs(title = "Effect of Fish Consumption\non Sadness Score",
        x = "Fish (kg per person/year)",
        y = "Predicted Sadness Score") +
-    scale_y_continuous(limits=c(0,.025))+
+  scale_y_continuous(limits=c(0,.025))+
   theme(plot.title = element_text(size=11))
 
 # Arrange plots in a grid
@@ -270,10 +283,10 @@ plot1 + plot2 + plot3
 
 ```
 
+#### Random effects plot
 
+The following plot can be used to visualize baseline sadness scores by country after controlling for our fixed effects.
 
-## Random effects plot
-The following plot can be used to visualize baseline sadness scores by country after controlling for our fixed effects. 
 ```{r fig.width=12, fig.height=15}
 # Get random effects
 ranef_df <- ranef(mixed_model)$country %>%
@@ -291,20 +304,130 @@ ggplot(ranef_df, aes(y = reorder(country, effect), x = effect)) +
        title = "Country Random Effects with 95% CI")+
   annotate("rect", xmin = -.0075, xmax=.01, ymin="Lebanon", ymax="Greece", alpha = .1,fill = "red")+
   annotate("text", x = -.0035, y = "Tunisia", label = "Sadder countries least affected by fixed effects",
-          fontface = "bold", colour = "darkblue", size = 3)+
+           fontface = "bold", colour = "darkblue", size = 3)+
   annotate("rect", xmin = -.0075, xmax=.01, ymin="Bolivia", ymax="Sudan", alpha = .1,fill = "blue")+
   annotate("text", x = -.0035, y = "Romania", label = "Countries most affected by fixed effects predictors",
-          fontface = "bold", colour = "darkgreen", size = 3)+
-    annotate("rect", xmin = -.0075, xmax=0.01, ymin="Indonesia", ymax="Vietnam", alpha = .4,fill = "#00CC96")+
+           fontface = "bold", colour = "darkgreen", size = 3)+
+  annotate("rect", xmin = -.0075, xmax=0.01, ymin="Indonesia", ymax="Vietnam", alpha = .4,fill = "#00CC96")+
   annotate("text", x = .0035, y = "Mali", label = "Less sad countries least impacted by fixed effects",
-          fontface = "bold", colour = "darkblue", size = 3)+
+           fontface = "bold", colour = "darkblue", size = 3)+
   theme(axis.text.y = element_text(size = 6))
 ```
 
+## Further analysis
 
+Below is some further analysis which will have less explanation, and can be used and interpreted as the reader decides.
 
+```{r}
+# the scale() function works like the function written below
+# z_score <- function(x){
+#   m <- mean(data$happiness_score) # sample mean
+#   sig <- sd(data$happiness_score) # sample standard deviation
+#   z <- (x-m)/sig # calculate z-score
+#   return(z)
+# }
 
+data <- data |> 
+  mutate(happy_z = scale(data$happiness_score),
+         sad_z = scale(data$sadness_score))
+```
 
+```{r fig.width=12}
+fish_z <- data |> 
+  pivot_longer(
+    cols = c(happy_z, sad_z),
+    names_to = "identifier",
+    values_to = "zscore"
+  ) |>
+  ggplot(aes(x=fish_consumption, y= zscore, color = identifier)) +
+  geom_point(alpha = 0.5) +
+  labs(
+    title = "Z-scores against Fish Consumption",
+    x= "Fish Consumption",
+    y="z-score"
+  )+
+  scale_color_manual(
+    values = c(
+      "happy_z" = "#007fff",
+      "sad_z" = "#ff1d58"
+    )) +
+  # geom_smooth(method="lm") +
+  # annotate("text", "linear model w/ 95% C.I.") +
+  theme_minimal()
 
+sugar_z <- data |> 
+  pivot_longer(
+    cols = c(happy_z, sad_z),
+    names_to = "identifier",
+    values_to = "zscore"
+  ) |>
+  ggplot(aes(x=sugar_consumption, y= zscore, color = identifier)) +
+  geom_point(alpha = 0.5) +
+  labs(
+    title = "Z-scores against Sugar Consumption",
+    x= "Sugar Consumption",
+    y="z-score"
+  )+
+  scale_color_manual(
+    values = c(
+      "happy_z" = "#007fff",
+      "sad_z" = "#ff1d58"
+    )) +
+  # geom_smooth(method="lm") +
+  # annotate("text", "linear model w/ 95% C.I.") +
+  theme_minimal()
 
+fish_z + sugar_z
 
+```
+
+```{r fig.height = 12}
+happy_z_dist <- ggplot(data, aes(x=happy_z))+
+  geom_histogram(bins = 40, fill = "#007fff", color = "white") + 
+  labs(
+    title = "Distribution of Happiness Z-scores",
+    x= "Happiness z-score"
+  )
+sad_z_dist <- ggplot(data, aes(x=sad_z))+
+  geom_histogram(bins = 40, fill = "#ff1d58", color = "white") + 
+  labs(
+    title = "Distribution of Sadness Z-scores",
+    x= "Sadness z-score"
+  )
+
+happy_z_dist / sad_z_dist
+```
+
+```{r}
+# happy_fish_anova 
+happy_fish_anova_raw <- summary(aov(happiness_score ~ fish_consumption, data=data))
+happy_fish_anova_z <- summary(aov(happy_z ~ fish_consumption, data=data))
+happy_fish_anova_raw
+happy_fish_anova_z
+```
+
+```{r}
+# sad_fish_anova
+sad_fish_anova_raw <- summary(aov(sadness_score ~ fish_consumption, data=data))
+sad_fish_anova_z <- summary(aov(sad_z ~ fish_consumption, data=data))
+sad_fish_anova_raw
+sad_fish_anova_z
+```
+
+```{r}
+# happy_sugar_anova
+happy_sugar_anova_raw <- summary(aov(happiness_score ~ sugar_consumption, data=data))
+happy_sugar_anova_z <- summary(aov(happy_z ~ sugar_consumption, data=data))
+happy_sugar_anova_raw
+happy_sugar_anova_z
+```
+
+```{r}
+# sad_sugar_anova
+sad_sugar_anova_raw <- summary(aov(sadness_score ~ sugar_consumption, data=data))
+sad_sugar_anova_z <- summary(aov(sad_z ~ sugar_consumption, data=data))
+sad_sugar_anova_raw
+sad_sugar_anova_z
+```
+
+**When converting the target variables to z-scores, we can see that the units don't skew our interpretations very much. There is also no difference in the f-statistic or p-value when running the anova test on the raw data and with z-scores.**

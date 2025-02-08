@@ -199,12 +199,12 @@ function(input, output, session) {
             ),
             xaxis = list(title = "Year"),
             yaxis = list(
-              title = "Fish Consumption",
+              title = "Fish Consumption (kg/person/year)",
               titlefont = list(color = "#007fff"),
               tickfont = list(color = "#007fff")
             ),
             yaxis2 = list(
-              title = "Sugar Consumption",
+              title = "Sugar Consumption (g/person/day)",
               overlaying = "y",
               side = "right",
               titlefont = list(color = "#ff1d58"),
@@ -334,9 +334,12 @@ function(input, output, session) {
             "Sugar Consumed (g/person/day)"),
           y = y_axis_label()
         ) +
-        scale_color_manual(values = color_values, name = "Legend") +  # Custom color scale
-        scale_alpha_identity() +  # Use predefined alpha values from data
-        scale_size_identity() +
+        scale_color_manual(
+          values = color_values,
+          name = "Legend"
+          ) +  # Custom color scale
+        scale_alpha_identity() +  # Use predefined alpha values
+        scale_size_identity() + # use predefined size values
         theme_classic()
       
       ggplotly(p, tooltip = c("text"))
@@ -359,7 +362,7 @@ function(input, output, session) {
                     name = "Fish Consumption (kg/person/year)",
                     yaxis = "y1",
                     type = 'scatter',
-                    mode = 'markers',  # Add this line
+                    mode = 'markers',  
                     marker = list(
                       color = "#007fff",
                       size = 8,

@@ -154,16 +154,12 @@ page_navbar(
       # Panel with simple summary
       nav_panel(
         "Summary",
-        includeMarkdown("../conclusions.md") 
+        includeMarkdown("notebooks/conclusions.md") 
       ),
       nav_panel(
         "Technical Details",
         htmlOutput("calculations_html")
       ),
-      # nav_panel(
-      #   "All Data Table",
-      #   dataTableOutput("calc_table")
-      # )
     )
   )
 )

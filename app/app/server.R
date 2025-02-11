@@ -470,7 +470,7 @@ function(input, output, session) {
   
   # add summary & calculations
   output$calculations_html <- renderUI({
-    includeHTML("../../assets/calculations.html")  # Include the HTML file
+    includeHTML("assets/calculations.html")  # Include the HTML file
   })
   
 }

@@ -47,3 +47,33 @@ Available from https://vizhub.healthdata.org/gbd-results/.
 - many countries are referenced by different names, so sorting and matching may prove difficult. 
 - Plotly is a new library for me in R, so learning the nuances that are different from python may be a challenge
 - the data question is fairly vague, and although interesting, may not have a useful answer. 
+
+
+## Libraries used:
+
+- here
+
+- shiny
+
+- tidyverse
+
+- DT
+
+- glue
+
+- bslib
+
+- plotly
+
+- shinyjs
+
+- ggrepel
+
+- shinythemes
+
+- htmltools
+
+- rmarkdown
+
+
+## 

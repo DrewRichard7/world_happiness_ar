@@ -19,7 +19,7 @@ Let's investigate our data to see what the numbers can tell us about eating fish
 
 ```{r}
 shh <- suppressMessages
-shh(here::i_am("notebooks/calculations.Rmd"))
+# shh(here::i_am("notebooks/calculations.Rmd"))
 shh(library(here))
 shh(library(tidyverse))
 shh(library(broom.mixed))
@@ -34,7 +34,7 @@ shh(library(plotly))
 *You'll notice that the data has already been cleaned and arranged in a way that makes the following operations straightforward. The original data files are available from their sources (linked on the home page), or in the github repository.*
 
 ```{r}
-data <- tibble(read_csv(here('data/happy_sad_sugar_fish.csv'), show_col_types = FALSE)) |> 
+data <- tibble(read_csv('../data/happy_sad_sugar_fish.csv', show_col_types = FALSE)) |> 
   arrange(country) |> 
   select(country, year, happiness_score, fish_consumption=fish_kg_per_person_per_year, sugar_consumption = sugar_g_per_person_per_day, sadness_score = pct_new_per_pop_disorders)
 data

@@ -1,7 +1,6 @@
 # World Happiness Index - R Shiny app by Andrew Richard
 ## Nashville Software School - DS8
-# here::i_am("notebooks/app/global.R")
-# library(here)
+
 library(shiny)
 library(tidyverse)
 library(DT)
@@ -12,6 +11,7 @@ library(shinyjs)
 library(ggrepel)
 library(shinythemes)
 library(htmltools)
+library(markdown)
 library(rmarkdown)
 
 

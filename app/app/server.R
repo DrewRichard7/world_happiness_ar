@@ -286,9 +286,8 @@ function(input, output, session) {
         mutate(
           highlight = ifelse(highlight, country, "Other Countries"),
           alpha_val = ifelse(highlight == "Other Countries", 0.3, 1),
-          size_val = ifelse(highlight == "Other Countries", 1, 1.75)  # More distinct size difference
+          size_val = ifelse(highlight == "Other Countries", 1, 1.75)
         )
-      
       
       # Color mapping with selected country
       color_values <- c("Other Countries" = "#007FFF")
@@ -455,18 +454,6 @@ function(input, output, session) {
       }
     }
   })
-  # # Render selected country table ----
-  # output$calc_table <- renderDataTable({
-  #   data |> 
-  #     rename(Country = country,
-  #            Year = year,
-  #            `Fish Consumption` = fish_kg_per_person_per_year,
-  #            `Sugar Consumption` = sugar_g_per_person_per_day,
-  #            `Happiness Score` = happiness_score,
-  #            `Sadness Score` = pct_new_per_pop_disorders
-  #     ) |> 
-  #     select(Country, Year, `Fish Consumption`, `Sugar Consumption`, `Happiness Score`, `Sadness Score`)
-  # })
   
   # add summary & calculations
   output$calculations_html <- renderUI({

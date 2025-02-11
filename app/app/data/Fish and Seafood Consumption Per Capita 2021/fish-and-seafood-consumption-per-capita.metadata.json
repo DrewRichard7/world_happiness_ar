@@ -1,0 +1,45 @@
+{
+  "chart": {
+    "title": "Fish and seafood consumption per capita",
+    "subtitle": "Data is inclusive of all fish species and major seafood commodities, including crustaceans, cephalopods and other mollusc species.",
+    "note": "Data is based on per capita food supply at the consumer level, but does not account for food waste at the consumer level.",
+    "citation": "Food and Agriculture Organization of the United Nations (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/fish-and-seafood-consumption-per-capita?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Iceland",
+      "Maldives",
+      "Hong Kong",
+      "Portugal",
+      "South Korea",
+      "Japan",
+      "Spain",
+      "China",
+      "Bangladesh",
+      "United Kingdom",
+      "United States",
+      "Greece",
+      "South Africa",
+      "India"
+    ]
+  },
+  "columns": {
+    "Fish and seafood | 00002960 || Food available for consumption | 0645pc || kilograms per year per capita": {
+      "titleShort": "Per capita consumption of fish and seafood",
+      "titleLong": "Per capita consumption of fish and seafood - FAO",
+      "descriptionKey": [],
+      "shortUnit": "kg",
+      "unit": "kilograms per year per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 849547,
+      "shortName": "fish_and_seafood__00002960__food_available_for_consumption__0645pc__kilograms_per_year_per_capita",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data. “Per capita consumption of fish and seafood – FAO” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/849547.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-01-30",
+  "activeFilters": {}
+}

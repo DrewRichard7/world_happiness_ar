@@ -31,15 +31,11 @@ How do the consumption of sugar and consumption of fish & other seafood products
 ## **Data Sources**
 [1] Based on free material from [GAPMINDER.ORG](http://GAPMINDER.ORG), CC-BY LICENSE
 	- **Main Data Page** :https://www.gapminder.org/data/ 
-		*happiness score data* : http://gapm.io/dhapiscore_whr
-		*fish & seafood consumption data* : 
-		*sugar consumption data* : 
 [2] IHME-GBD
 Global Burden of Disease Collaborative Network.
 Global Burden of Disease Study 2021 (GBD 2021) Results.
 Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2022.
 Available from https://vizhub.healthdata.org/gbd-results/.
-	*Depressive & Anxiety disorders data* : 
 
 ## **Known Issues and Challenges**
 
@@ -75,5 +71,6 @@ Available from https://vizhub.healthdata.org/gbd-results/.
 
 - rmarkdown
 
+- markdown
 
 ## 

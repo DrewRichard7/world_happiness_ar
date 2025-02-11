@@ -1,21 +1,6 @@
 # Define UI for World Happinesss Exploration app ----
 # Sidebar layout with input and output definitions ----
 
-# ui <- page_navbar(
-#   title = "My App",
-#   bg = "#2D89C8",
-#   inverse = TRUE,
-#   nav_panel(title = "One", p("First page content.")),
-#   nav_panel(title = "Two", p("Second page content.")),
-#   nav_panel(title = "Three", p("Third page content.")),
-#   nav_spacer(),
-#   nav_menu(
-#     title = "Links",
-#     align = "right",
-#     nav_item(tags$a("Posit", href = "https://posit.co")),
-#     nav_item(tags$a("Shiny", href = "https://shiny.posit.co"))
-#   )
-# )
 page_navbar(
   bg = "#1E2127",
   nav_panel("Home",icon = icon('house'), p(
@@ -23,9 +8,6 @@ page_navbar(
       p(
         h1("Fish and sugar consumption as they relate to 
         feelings of happiness and prevalence of depressive & anxiety disorders"),
-        # style=(
-        #   "text-align:justify;color:white;background-color:navy;padding:15px;border-radius:10px"
-        # )
       ),
       column(
         width=3
@@ -68,6 +50,10 @@ page_navbar(
         p("Some data was sourced from the",em("Global Burden of Disease Collaborative Network"),
           br(),
           a(href="https://vizhub.healthdata.org/gbd-results/", "Global Burden of Disease Collaborative Network",target="_blank"),style="text-align:center;color:black"),
+        br(),
+        p("Project files, resources, and slides can be found on my ",em("Github"),
+          br(),
+          a(href="https://github.com/DrewRichard7/world_happiness_ar.git", "world-happiness-ar",target="_blank"),style="text-align:center;color:black"),
       ),
     ),
   )),
@@ -100,8 +86,6 @@ page_navbar(
         actionButton(
           'toggle_happy_sad',
           "Toggle Happy or Sad",
-          # icon = icon("toggle-on"),
-          # style="color: #fff; background-color: #00CC96; border-color: #00CC96"
         ),
         
         # Custom footer

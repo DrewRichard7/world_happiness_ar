@@ -385,25 +385,24 @@ is no small number</em></p>
 <h2>Initial imports</h2>
 <p><em>to knit to the correct directory, run the following in the
 console</em>:
-<code>rmarkdown::render(here(&quot;notebooks/calculations.Rmd&quot;), output_dir = here(&quot;assets&quot;))</code></p>
+<code>rmarkdown::render(&quot;notebooks/calculations.Rmd&quot;, output_dir = &quot;assets/&quot;)</code></p>
 <p><strong>First we’ll import the libraries we’re going to
 use.</strong></p>
 <pre class="r"><code>shh &lt;- suppressMessages
-shh(here::i_am(&quot;notebooks/calculations.Rmd&quot;))
-shh(library(here))
 shh(library(tidyverse))
 shh(library(broom.mixed))
 shh(library(lme4))
 shh(library(ggeffects))
 shh(library(performance))
-shh(library(plotly))</code></pre>
+shh(library(plotly))
+shh(library(rmarkdown))</code></pre>
 <div id="next-well-import-our-data." class="section level4">
 <h4>Next we’ll import our data.</h4>
 <p><em>You’ll notice that the data has already been cleaned and arranged
 in a way that makes the following operations straightforward. The
 original data files are available from their sources (linked on the home
 page), or in the github repository.</em></p>
-<pre class="r"><code>data &lt;- tibble(read_csv(here(&#39;data/happy_sad_sugar_fish.csv&#39;), show_col_types = FALSE)) |&gt; 
+<pre class="r"><code>data &lt;- tibble(read_csv(&#39;../data/happy_sad_sugar_fish.csv&#39;, show_col_types = FALSE)) |&gt; 
   arrange(country) |&gt; 
   select(country, year, happiness_score, fish_consumption=fish_kg_per_person_per_year, sugar_consumption = sugar_g_per_person_per_day, sadness_score = pct_new_per_pop_disorders)
 data</code></pre>

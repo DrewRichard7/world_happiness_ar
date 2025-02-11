@@ -13,20 +13,19 @@ Let's investigate our data to see what the numbers can tell us about eating fish
 
 ## Initial imports
 
-*to knit to the correct directory, run the following in the console*: `rmarkdown::render(here("notebooks/calculations.Rmd"), output_dir = here("assets"))`
+*to knit to the correct directory, run the following in the console*: `rmarkdown::render("notebooks/calculations.Rmd", output_dir = "assets/")`
 
 **First we'll import the libraries we're going to use.**
 
 ```{r}
 shh <- suppressMessages
-# shh(here::i_am("notebooks/calculations.Rmd"))
-shh(library(here))
 shh(library(tidyverse))
 shh(library(broom.mixed))
 shh(library(lme4))
 shh(library(ggeffects))
 shh(library(performance))
 shh(library(plotly))
+shh(library(rmarkdown))
 ```
 
 #### Next we'll import our data.

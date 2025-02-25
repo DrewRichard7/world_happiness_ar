@@ -77,8 +77,8 @@ page_navbar(
         # Dynamic UI content that will change based on the button clicked
         uiOutput("dynamic_sidebar"),
         
-        # Add vertical spacing between elements
-        br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
+        # Add horizontal rule between elements
+        hr(),
         
         uiOutput(
           "happy_sad_label"
